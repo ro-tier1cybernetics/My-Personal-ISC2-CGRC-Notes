@@ -1,0 +1,2763 @@
+ISC2 CGRC
+
+
+
+Domain 2: Scope of the System
+
+
+
+
+
+
+
+
+
+
+
+
+
+Naming a System and Documenting Scope
+
+
+
+
+
+*before Ro can sees risk or gain authorization to operate his systems, he first needs to clearly name and define each one. system naming and scoping might sound administrative, but in governance, risk, and compliance (GRC), they form the foundation of traceability - helping everyone in the organization understand what a system does, where it begins and ends, and how it interacts with other systems.
+
+
+
+*just like Ro's menu items have unique names to avoid confusion ("The Sole Sandwich" vs. "Heel Meal"), every system in his company needs a clear, standardized name and scope to stay organized and compliant
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+System Naming - Giving Each System an Identity
+
+
+
+
+
+*every system must have a unique, meaningful, and standardized name that reflects its purpose, function, and characteristics. this helps Ro's IT and compliance teams track each system across security plans, audits, and documentation. 
+
+
+
+
+
+
+
+According to ISO/IEC 11179-5:2015, a good system name includes three parts:
+
+
+
+1. system category - what kind of system it is (e.g. application, network, database)
+2. system identifier - the specific name or version that distinguishes it from others
+3. system qualifier - context like the environment, owner, or location
+
+
+
+
+
+for example: <Category>\_<Identifier>\_<Qualifier>
+
+
+
+example for Ro: APP\_ORDSYS\_PROD. APP - its an application. ORDSYS - it handles shoe food orders. PROD - its the production (live) version
+
+
+
+
+
+*this structure prevents confusion and makes it easy to know which environment or function is being discussed - a must for large environments with multiple systems, backups, and testing servers
+
+
+
+
+
+
+Naming Rules:
+
+
+
+* keep it concise and descriptive
+* avoid duplicates or ambiguous terms
+* follow organizational naming conventions
+* ensure consistency between the system's name, documentation, and security plans
+
+
+
+
+
+*for Ro, a clear naming convention ensures the compliance team knows exactly which "Shoe Food Ordering System" is being referenced - instead of guessing between "KitchenAPP", "MainPOS", or "OldPOSv2".
+
+
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+
+
+System Scoping - Defining the Boundaries
+
+
+
+
+
+*once the system has a name, Ro must define its scope - what's inside, what's outside, and how it connects to other systems. this process is part of the NIST Risk Management Framework (RMF) described in NIST SP 800-37 Rev. 2, and it determines how risks and security controls are applied.
+
+
+
+*System scoping helps answer: "what exactly are we protecting, and how far does our responsibility go?"
+
+
+
+
+
+
+
+Key Steps in System Scoping:
+
+
+
+1. Identify the Mission and Objectives - why does this system exist, and what business goal does it serve? Example: the order system exists to process customer food purchases securely and efficiently.
+2. Identify Stakeholders - who owns, uses, maintains, or depends on the system? Example: system owner (Ro), users (cashiers), developers (IT staff), external entities (delivery apps)
+3. Identify Components - include hardware, software, databases, and information that make the system function. Example: POS terminals, customer databases, web server, and payment gateways
+4. Define System Boundaries - what's inside the system and what's outside of it? clarify where the system interfaces with other systems (like the bank or supplier APIs)
+5. Identify the Environment - include operational, technical, and regulatory factors - such as PCI DSS for payments or local food safety rules
+
+
+
+
+
+*once all this is defined, Ro's team documents it in the System Security Plan (SSP) - the master record of how the system is built, secured, and authorized to operate
+
+
+
+
+
+
+
+--------------
+
+
+
+
+
+
+
+
+
+
+
+Why it Matters
+
+
+
+
+
+*clear naming and scoping aren't just about good housekeeping - they're fundamental to:
+
+
+
+* Risk Management: you cant protect what you haven't defined
+* Authorization: every system must have a documented boundary for approval
+* Accountability: helps determine who's responsible for maintaining controls
+* Compliance: require under both NIST and ISO frameworks
+
+
+
+
+
+*without proper naming and scoping, Ro's GRC program would risk duplication, misaligned documentation, and unclear system ownership - all of which can delay audits and authorizations
+
+
+
+
+
+
+
+
+
+
+
+
+
+in short, Ro's Shoe Food names and scopes its systems using standardized frameworks to ensure clarity, consistency, and accountability
+
+
+
+* System Naming: creates a unique identity for every system following ISO 11179-5 (e.g. APP\_ORDSYS\_PROD)
+* System Scoping: defines what's included, where it connects, and who's responsible under NIST RMF
+
+
+
+
+
+*together, these steps make Ro's GRC documentation traceable, secure, and audit ready - proving that even a shoe based restraint can have enterprise level structure and compliance discipline
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Purpose and Functionality
+
+
+
+
+
+*every system in Ro's Shoe Food - from the "Sole Order Management App" to the "Heel Deal Payment Gateway" - exists for a reason. understanding why a system exists (its purpose) and what it does (its functionality) helps Ro and his GRC team design proper controls, identify risks, and maintain compliance with standards like NIST RMF and ISO 27001
+
+
+
+*a well defined system purpose and functionality give clarity to auditors, system owners, and users alike, ensuring everyone knows the value, limits, and expectations of the system
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+System Context - Understanding the Environment
+
+
+
+
+
+*every system operates in an environment shaped by internal and external forces. for Ro's Shoe Food, this system context includes:
+
+
+
+* Stakeholders: Ro (system owner), IT team (developers and maintainers), customers (end users), and regulators (PCI DSS for payments, FDA for safety)
+* Regulations and Standards: NIST RMF for system authorization, HIPAA for health related data, and ISO 27001 for security management
+* Dependencies: supplier databases, bank payment APIs, and third party food delivery apps
+* Assumptions: reliable internet access, employee compliance with policy, and secure vendor systems
+
+
+
+
+
+*by documenting the systems context, Ro ensures that the team understands what external and internal conditions influence the system - helping define both its risks and its role
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+System Objectives - Defining the "Why"
+
+
+
+
+
+*system objectives describe what the system is meant to achieve and how its success will be measured. for Ro's Shoe Food, objectives might include:
+
+
+
+* providing a fast and secure ordering process for customers
+* maintaining real time inventory tracking across all stores
+* ensuring 99.9% uptime to handle peak lunchtime traffic
+* supporting compliance with PCI DSS for payment data
+
+
+
+
+
+*these objectives guide everything from control design to monitoring. if an objective fails (e.g. downtime or data exposure), it directly impacts business performance and customer trust - two major risk factors in GRC
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+System Scope - Defining the Boundaries
+
+
+
+
+
+*the system scope outlines what the system includes (and excludes).
+
+
+
+
+
+
+
+for example:
+
+
+
+* included: customer orders, payment processing, delivery tracking, data storage
+* excluded: HR payroll systems, supplier portal management, or unrelated test environments
+
+
+
+
+
+*scoping ensures that Ro's risk management team doesn't waste resources assessing systems or components outside of the intended boundary. it also keeps documentation like the System Security Plan (SSP) accurate and auditable
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+System Requirements - Defining the "How"
+
+
+
+
+
+*once Ro knows the context, objectives, and scope, he can define requirements - the specific, measurable conditions the system must meet.
+
+
+
+
+
+
+
+These typically fall into two categories:
+
+
+
+* functional requirements, define what the system does. Example: "process 100 customer order per minute" or "generate digital receipts automatically"
+* nonfunctional requirements, define how well the system perform. Example: "99.9\& uptime", "data encrypted in transit and at rest", "system responds within 2 seconds".
+
+
+
+
+
+*security, usability, reliability, and availability requirements are derived from these - ensuring the system not only works, but works safely, efficiently, and compliantly
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+Purpose and Functionality in the RMF
+
+
+
+
+
+*in the NIST Risk Management Framework (RMF), system purpose and functionality determine how the organization:
+
+
+
+* categorizes the systems impact level (low, moderate, high)
+* selects appropriate security and privacy controls
+* identifies potential risks and vulnerabilities
+* justifies authorization to operate (ATO)
+
+
+
+
+
+*for Ro's Shoe Food, this means the "Sole Order Management App" might be categorized as moderate impact due to customer data and financial transactions - triggering a set of NIST SP 800-53 control around Confidentiality, integrity, and Availably
+
+
+
+*by understanding what each system is supposed to do, the risk management process becomes focused, structured, and efficient
+
+
+
+
+
+
+
+
+
+
+
+in short, the purpose and functionality of a system describe why it exists, what it does, and how it operates. these definitions provide the foundation for effective risk management, ensuring that every system aligns with organizational goals and compliance frameworks
+
+
+
+
+
+
+
+for Ro's Shoe Food:
+
+
+
+* system context defines the environment and influences
+* system objectives outline the intended outcomes
+* system scope sets clear boundaries
+* system requirements describe measurable expectations
+
+
+
+
+
+*together, these elements ensure each system is properly documented, controlled, and aligned with Ro's overall GRC strategy - proving that even a restraint built on recycled shoes can operate wihtb enterprise level precision
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ISO and NIST Approaches to Explaining System Purpose and Functionality
+
+
+
+
+
+*when Ro's Shoe Food expanded operations internationally, he realized that different regions follow different risk management frameworks. his U.S. operations needed to align with NIST, while his new European partners expected compliance with ISO standards
+
+
+
+*both approaches aim for the same thing - secure. reliable, and well documented systems - but they use slightly different vocabularies and levels of detail to explain a systems purpose and functionality within a GRC program.
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+ISO's Flexible Approach - Context and Scope
+
+
+
+
+
+*the International Organization for Standardization (ISO), through ISO 31000:2018 and ISO/IEC 27001, takes a broad, principle based approach. it gives organizations the freedom to adapt their risk management process to fit their size, culture, and goals.
+
+
+
+*for Ro's Shoe Food, ISO's flexibility is helpful when working with international vendors and cloud partners that operate under different local regulations.
+
+
+
+
+
+
+
+How ISO Defines System Purpose and Functionality
+
+
+
+*ISO focuses on understanding the big picture:
+
+
+
+* context: what internal and external factors affect the system? (e.g. supplier dependencies, customer privacy laws, market risks)
+* scope: what boundaries, objectives, and stakeholders define the system? (e.g. food ordering, inventory, or logistics systems)
+
+
+
+*this approach encourages Ro's team to tailor the RMF to their environment instead of following a one sized fits all model. Example: when Ro's Shoe Food launches in Germany, ISO 31000 helps the team evaluate EU privacy laws, local vendor contracts, and regional supply chain risks without having to rebuild their entire risk framework from scratch.
+
+
+
+
+
+
+
+Key Takeaways:
+
+
+
+* ISO is flexible and adaptable
+* it focuses on organizational context rather than detailed control lists
+* its well suited for international or commercial enterprises
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+US NIST's Structured Approach - Categorization and Description
+
+
+
+
+
+*the National Institute of Standards and Technology (NIST), through SP 800-37 Rev. 2 and related publications, take a structured and prescriptive approach - perfect for organizations dealing with U.S. federal systems or highly regulated industries.
+
+
+
+*for Ro's U.S. catering division, which handles federal contracts, this precision ensures that every system is consistently defined, categorized, and authorized to operate
+
+
+
+
+
+
+
+How NIST Defines System Purpose and Functionality
+
+
+
+NIST uses two specific steps:
+
+
+
+1. system categorization - assigns a risk impact level (low, moderate, or high) based on the potential loss of Confidentiality, Integrity, or Availability (CIA). Example: Ro's payment system is categorized as "Moderate" because data breaches could cause financial harm and reputational damage.
+2. system description - documents the system's: boundaries and components (serves, databases, and APIs), architecture and interfaces, data flows and security controls, dependencies, users, and environment. 
+
+
+
+
+
+
+
+*together, these define what the system is, what it does, and what risks it poses - allowing the organization to apply proper controls and continuous monitoring. Example: Ro's U.S. catering division defines its "Order Management Platform" as a system with: 
+
+
+
+* a web server, payment gateway, and supplier database (components)
+* links to customer portals and vendor systems (interfaces)
+* moderate risk categorization for data confidentiality
+
+
+
+*this ensures the systems authorization package meets federal RMF standards.
+
+
+
+
+
+
+
+Kay Takeaways:
+
+
+
+* NIST is detailed and prescriptive
+* its best for federal systems or organizations needing strict documentation
+* it prioritizes categorization, control selection, and traceability
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+ISO vs. NIST - Side by Side Comparison
+
+
+
+
+
+* ISO (ISO 31000/27001): Approach Type, flexible and principle based. Terminology, "context" and "scope". Focus Area: organizations environment and strategy. Customization: High - adaptive to industry and culture. Ideal Use Case: international or commercial organizations. System Documentation: context, objectives, and environment.
+* NIST (SP 800-37/39): Approach Type: prescriptive and process driven. Terminology: "system categorization" and "system description". Focus Area: system boundaries and security controls. Customization: lower - structured for standardization. Ideal Use Case: U.S. government and regulated industries. System Documentation: categorization, boundaries, and data flows. 
+
+
+
+
+
+*both frameworks align inn purpose - defining system functionality to support mission objectives, compliance, and risk management - but differ in how they structure and express that understanding.
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+How Ro's Shoe Food Applies Both
+
+
+
+*Ro combines the strengths of both frameworks for a hybrid GRC model:
+
+
+
+* uses ISO's context driven flexibility for global operations (EU, Asia, Africa)
+* uses NIST's structured methodology for U.S. government and healthcare contracts
+
+
+
+*this blended approach allows Ro to keep one unified risk management language while satisfying multiple regulatory requirements across borders.
+
+
+
+
+
+
+
+
+
+
+
+in short, ISO emphasizes adaptability and organizational context. NIST emphasizes standardization and traceability through categorization and description. both ensure systems are well defined, aligned with business objectives, and secured through risk based governance
+
+
+
+
+
+
+
+*for Ro's Shoe Food:
+
+
+
+* ISO helps him adapt to international operations and cultural differences
+* NIST helps him maintain precision, accountability, and documentation for federal contracts. 
+
+
+
+
+
+*together, they form a comprehensive, globally aware GRC strategy that keeps every shoe food system compliant, secure, and audit ready - form Berlin to Washington, D.C.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Classifying Information Types
+
+
+
+
+
+*for Ro's Shoe Food, not all information is created equal. some data - like the secret recipe for Sole Sauce - could cripple the business if leaked, while other information - like public menu prices - is meant for everyone to see.
+
+
+
+*understanding the type of information being handled determines how tightly it must be protected, which laws apply, and what controls should be implemented under the company's GRC framework. data classification is the cornerstone of information security: it tells Ro's team what's valuable, what's sensitive, and what needs the strongest protection
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+Why Information Classification Matters
+
+
+
+
+
+*information is an asset - it drives Ro's business operations, brand reputation, and compliance status. every file, transaction, or message - whether a printed invoice or encrypted database - has a level of risk and impact tied to it. 
+
+
+
+*the more sensitive the data, the greater the protection and compliance requirements. classification helps Ro's GRC team apply the right controls and avoid both under-protecting critical assets and over-spending on low-risk data.
+
+
+
+
+
+
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Four ISO Information Types
+
+
+
+
+
+*according to the ISO 27001 framework, information generally falls into four categories - Personal, Confidential, Sensitive, and Public
+
+
+
+*each category determines how the data should be accessed, handled, and stored within Ro's Shoe Food's systems.
+
+
+
+
+
+* Personal information, data that identifies and individual - such as name, address, contact details, health or financial records. subject to privacy laws (e.g. GPDR, HIPAA). Impact if Compromised: moderate to high. Example: customer allergy lists, employee tax data, or delivery driver license numbers.
+* Confidential Information, internal data that, if disclosed, could cause moderate hard to operations or reputation. Impact if Compromised: moderate. Example: infernal process manuals, vendor contracts, or performance reports
+* Sensitive information, highly critical business data that, if exposed or altered, could cause significant financial or reputational damage. Impact if Compromised: high. Example: proprietary recipes, strategic expansion plans, or intellectual property related to the shoe-food manufacturing process
+* Public Information, approved information meant for public access. disclosure poses little to no risk. Impact if Compromised: low. Example: public menus, press releases, or social media posts
+
+
+
+*each classification determines access controls, encryption needs, and retention requirements across Ro's systems.
+
+
+
+
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+Additional Category: Business Information
+
+
+
+
+
+*while ISO focuses on the four categories above, Ro also include Business Information - the operational backbone of his company. 
+
+
+
+
+
+this includes:
+
+
+
+* business plans and financial statements
+* customer and supplier agreements
+* audit findings and compliance reports
+
+
+
+*business information often overlaps with other categories. for instance, employee payroll data may be both personal and confidential, depending on the context.
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+Applying Classification in Ro's GRC Program
+
+
+
+
+
+*Ro's Shoe Food implements an Information Classification Policy that maps each data type to its protection level. 
+
+
+
+
+
+here's how the policy is applied:
+
+
+
+1. Identification: determine what type of data each system processes (e.g. customer info, payment data)
+2. Labeling and Handling: tag files and databases based on their classification (e.g. Confidential - internal use only)
+3. Access Control: restrict access to authorized personnel based on need to know
+4. Protection Controls: apply encryption, backup, and monitoring measures proportionate to sensitivity
+5. Retention and Disposal: define how long data must be kept and how it should be securely destroyed
+
+
+
+Example: Ro's marketing team handles "Public" social media content and "Confidential" brand strategy documents. the public data can be shared freely, but the confidential files must be stored on secure servers with access logs and encryption
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+Overlaps and Context
+
+
+
+
+
+*information types aren't always mutually exclusive.
+
+
+
+
+
+
+
+a single record might include:
+
+
+
+* personal information (employee name)
+* business information (payroll entry)
+* confidential information (performance review)
+
+
+
+*that's why Ro's team always evaluates data in context - considering ownership, sensitivity, and legal obligations before deciding how to protect it
+
+
+
+
+
+----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How Classification Supports GRC
+
+
+
+
+
+*proper data classification directly supports Ro's GRC program by:
+
+
+
+* enabling compliance with ISO 27001, HIPAA, PCI DSS, and GDPR
+* reducing risk by ensuring protection matches data value
+* improving efficiency by aligning resources with real risk levels
+* supporting audits by clearly demonstrating how data is identified and controlled
+
+
+
+*without classification, Ro's team wouldn't know which data needs encryption, who can access it, or what retention policies apply - creating both security gaps and audit challenges
+
+
+
+
+
+
+
+
+
+
+
+
+
+in short, information classification defines what data needs protection, why it matters, and how it should be handled.
+
+
+
+
+
+
+
+for Ro's Shoe Food:
+
+
+
+* personal data protects individuals
+* confidential data safeguards internal operations
+* sensitive data shields the company's core assets
+* public data promotes transparency and branding
+
+
+
+*together, they form a data protection hierarchy that supports compliance, reduces risk, and strengthens customer trust - ensuring that Ro's Shoe Food stays secure and credible from the kitched to the cloud.
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security and Privacy Requirements Based on Information Type
+
+
+
+
+
+*after classifying data, Ro's Shoe Food must decide what protections apply to each information type - from customer payment data to trade secrets to health related information for allergy tracking. different types of data trigger different security and privacy obligations under various frameworks and laws.
+
+
+
+*to stay compliant, Ro's GRC team aligns every information type with the right commendation of controls, standards, and assessments - ensuring that data is protected according to its value, sensitivity, and legal exposure
+
+
+
+
+
+
+
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Foundation: CIA Triad and Privacy
+
+
+
+
+
+*all information protection starts with the CIA triad:
+
+
+
+* Confidentiality, only authorized users can access data
+* Integrity, data remains accurate, complete, and unaltered
+* Availability, data is accessible and usable when needed
+
+
+
+*however, for personal or regulated data, Ro's team adds a fourth pillar: Privacy - ensuring the collection, use, and sharing of personal data respect individual rights and legal limits.
+
+
+
+*by layering these objectives, Ro's Shoe Food ensures every byte of information - whether its a customers phone number or a suppliers bank details - is appropriately protected and handled
+
+
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+Matching Information Types to Compliance Requirement
+
+
+
+
+
+*not all data is equal, and neither are the rules that govern it. the frameworks below define how each information type must be protected based on its category, context, and region
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+US Federal Information Processing Standards (FIPS)
+
+
+
+
+
+*issued by the National Institute of Standards and Technology (NIST), the FIPS standards are mandatory for U.S. federal agencies and their contractors, but widely adopted as best practice across industries
+
+
+
+*they help Ro's Shoe Food determine the minimum baseline protections for a high sensitivity data. 
+
+
+
+
+
+
+
+Common FIPS Standards:
+
+
+
+* FIPS 199 - Security Categorization: defines impact level (low, moderate, high) for information and systems based on confidentiality, integrity, and availability
+* FIPS 200 - Minimum Security Requirements: lists essential control families to protect categorized data
+* FIPS 140-2/140-3 - Cryptographic Modules: specific encryption and cryptographic standards for protecting sensitive data (used in everything from payment terminals to HR systems)
+
+
+
+Example: Ro's federal catering division encrypts all government order data using FIPS 140-3 validated modules to meet federal compliance standards
+
+
+
+
+
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ISO/IEC Standards (International)
+
+
+
+
+
+*the International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC) define global best practices for managing information security and privacy.
+
+
+
+
+
+
+
+Key Standards:
+
+
+
+* ISO/IEC 27001: sets the requirements for establishing, implementing, maintaining, and improving an Information Security Management System (ISMS)
+* ISO/IEC 27002: provides the "code of practice" for implementing and managing security controls across 14 domains (e.g. access control, asset management, encryption)
+* ISO/IEC 27701: extends 27001 to include privacy information management (PIMS), helping manage personal data in compliance with privacy laws
+
+
+
+Example: Ro's EU partners require proof of ISO/IEC 27001 certification before allowing data exchange between logistics systems. the standard ensures Ro's systems follow internationally recognized security practices
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+EU Data Protection Impact Assessment (DPIA) - DGPR Requirement
+
+
+
+
+
+*under the General Data Protection Regulation (GDPR), organization that process personal data of EU residents must conduct a Data Protection Impact Assessment (DPIA) whenever new systems or technologies could pose high risks to individual privacy
+
+
+
+
+
+
+
+The DPIA Identifies:
+
+
+
+* potential risks to individuals data and rights
+* safeguards or controls to minimize those risks
+* documentation proving compliance and accountability
+
+
+
+Example: when Ro's Shoe Food launches a new AI-powered customer rewards app in Europe, the GRC team performs DPIA to assess how customer behavior data will be collected, stored, and anonymized.
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+Sector-Specific Examples: HIPAA and PCI DSS
+
+
+
+
+
+*certain industries impose stricter requirements due to the nature of the data they handle. 
+
+
+
+* HIPAA (healthcare - US): protects personal health information (PHI) through privacy and security rules. Example: applies to Ro's systems that store allergy or medical data for meal customization
+* PCI DSS (payment card industry): secure cardholder data during payment processing. Example: applies to Ro's payment gateways and POS systems that handle credit card transactions
+
+
+
+Example: the "Sole Swipe" payment system at Ro's kiosks follows PCI DSS v4.0 encryption and network monitoring rules, while allergy tracking tools comply with HIPAA safeguards for data confidentiality and access control
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+Determining Which Requirements Apply
+
+
+
+
+
+*Ro's GRC team follows a three step process to determine which standards apply to each system: 
+
+
+
+1. identify the information type (e.g. personal, confidential, sensitive, public)
+2. determine applicable laws or frameworks (e.g. HIPAA for health data, FIPS/ISO for federal data, GDPR for EU citizens)
+3. apply controls based on risk and legal obligation (e.g. encryption, DPIA, or multifactor authentication)
+
+
+
+*this structured approach ensures every dataset - no matter where it lives - meets its required level of protection and compliance
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+
+Why This Matters to Ro's GRC Program
+
+
+
+
+
+*without proper mapping of information types to their security requirements:
+
+
+
+* systems could fail audits due to control gaps
+* sensitive data could be over - or - under protected
+* the organization could face fines, reputational loss, or contract suspension
+
+
+
+*by integrating FIPS, ISO, DPIA, HIPAA, and PCI DSS standards into a unified framework, Ro's Shoe Food maintains global compliance visibility and ensures each information type is protected according to its true risk profile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+in short, the security and privacy requirements for information depend on what type of data is being handled, where its processed, and who regulates it.
+
+
+
+
+
+for Ro's Shoe Food:
+
+
+
+* FIPS secures federal and high impact systems
+* ISO/IEC aligns global operations with best practices
+* DPIA (GDPR) protects personal data and privacy rights
+* HIPAA \& PCI DSS enforce sector specific data protections
+
+
+
+*together, these frameworks ensure Ro's team applies the right controls to the right data - keeping compliance airtight, audits smooth, and customers confident in every step of the shoe food experience
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security Objectives Based on Information Type
+
+
+
+
+
+*not all data is created equal, and not all data requires the same level of protection. at Ro's Shoe Food, each information type - from public menus to proprietary recipes - has its own security objects based on confidentiality, integrity, and availability (CIA) requirements.
+
+
+
+*by mapping these objectives to standards like FIPS 199, ISO/IEC 27001, and the GDPR, Ro's GRC team ensures every data category receives the right level of protection while maintaining compliance across jurisdictions
+
+
+
+
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+Why Security Objectives Differ by Data Type
+
+
+
+
+
+*information security is not "one size fits all". public information must remain accessible and accurate, while personal or confidential information must stay private and tightly controlled
+
+
+
+
+
+
+
+*establish clear objectives for each information type helps Ro's team: 
+
+
+
+* assign the correct security controls
+* allocate resources efficiently
+* maintain compliance with national and international standards
+* reduce the likelihood of data breaches or loss
+
+
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+Security Objective by Information Types
+
+
+
+
+
+*public information: Primary Security objective, Integrity and Availability. Description, public data includes menus, marketing materials, and press releases. while confidentiality isn't required, accuracy and uptime are essential. Ro's marketing site must stay online and display correct information to avoid reputational harm
+
+internal information: Primary Security objective, Availability and Integrity. Description, internal data such as staff policies, HR guides, and operations manuals must be protected from unauthorized edits or deletion. Ro's employees need timely access to accurate information to maintain consistent service and compliance
+
+confidential information: Primary Security Objective, Confidentiality and Integrity. Description, this includes trade secrets, vendor contracts, and pricing models. only authorized personnel (e.g. executives or finance) can access it. protecting this data preserves Ro's competitive advantage and prevents insider threats.
+
+personal information: Primary Security Objective, Confidentiality, Integrity, and Privacy. Description, customer details, employee records, and allergy notes fall here. these must comply with GDPR and HIPAA requirements, ensuring lawful processing, encryption, and user consent tracking. any unauthorized disclosure could lead to severe fines or brand damage
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+How These Objectives Map to Major Frameworks
+
+
+
+
+
+* FIPS 199: defines low, moderate, or high impact levels for confidentiality, integrity, and availability. Example: Ro's U.S. division uses FIPS categories to classify federal catering contracts and apply the right security controls.
+* ISO/IEC 27001: sets requirements for information security management systems (ISMS). Example: Ro's international operations align data types with ISMS control domains such as access control, incident response, and asset management.
+* GDPR (EU): focuses on protecting personal data and ensuring lawful processing. Example: Ro's EU operations implement Data Protection Impact Assessments (DPIAs) and privacy consent tracking for customer analytics and loyalty programs
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+Detailed Breakdown of Security Objectives
+
+
+
+
+
+1. Public Information: confidentiality is not required. integrity must remain accurate and consistent. availability should be accessible to the intended audience. objective is to maintain accuracy, transparency, and accessibility to build public trust. Example: Ro's public website, social media posts, and nutritional info sheets
+2. Internal Information: confidentiality, low to moderate, internal use only. integrity must remain accurate to guide operations. availability, critical, employees must have access to perform duties. objective is to protect from unauthorized changes or deletion and ensure staff can access content reliably. Example: employee schedules, policy manuals, and training materials
+3. Confidential Information: confidentiality, high, limit access to "need to know". integrity, must be safeguarded to prevent tampering. availability, controlled and logged. objective is to prevent data leaks, insider threats, and unauthorized use. Example: supplier contracts, financial records, strategic plans, and proprietary "Sole Sauce" recipes.
+4. Personal Information: confidentiality, very high, must prevent unauthorized disclosure. integrity, data must remain complete, accurate, and current. availability, controlled but accessible to data subjects under GDPR "right to access". objective is to protect individual privacy rights, ensure lawful data handling, and prevent accidental or unlawful processing. Example: customer order history, health data (allergies), employee payroll info.
+
+
+
+
+
+
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+Applying Security Objectives in Practice
+
+
+
+
+
+*to operationalize these objectives, Ro's GRC program defines:
+
+
+
+1. classification labels - public, internal, confidential, personal
+2. access controls - role based permissions based on need to know
+3. encryption standards - FIPS 140-3 compliant modules for high impact data
+4. monitoring \& auditing - continuous logging of access and modification events
+5. incident response - tailored playbooks depending on information type and severity
+
+
+
+*Example: if a "public" website goes offline, it triggers an availability alert. if "confidential" vendor data is accessed by unauthorized personnel, it triggers a high severity incident and privacy notification workflow
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+Why This Matters
+
+
+
+
+
+*clearly defining security objectives by data type allows Ro's Shoe Food to:
+
+
+
+* implement proportional controls (no overkill, no gaps)
+* align with multiple frameworks simultaneously (FIPS, ISO, GDPR)
+* enhance audit readiness with traceable justifications for each control
+* protect customer trust and brand reputation
+
+
+
+*by prioritizing security objectives according to classification, Ro's team builds an adaptable, framework aligned GRC ecosystem that scales from small internal systems to international partnerships
+
+
+
+
+
+
+
+
+
+
+
+in short, each information type has its own security priorities - and treating them all the same is a recipe for noncompliance
+
+
+
+
+
+*for Ro's Shoe Food:
+
+
+
+* public data needs integrity and availability
+* internal data needs consistency and access control
+* confidential data needs strong confidentiality safeguards
+* personal data needs airtight privacy protection
+
+
+
+*these objectives, grounded in FIPS 199, ISO 27001, and GDPR, ensure every system and process supports the company's broader mission: to serve securely, operate transparently, and protect what matters most - customers, partners, and trust
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Factors and Criteria for Determining Risk Impact Levels
+
+
+
+
+
+*every risk isn't created equal - some are minor inconveniences, while others could shutter operations overnight. at Ro's Shoe Food, determining the risk impact level means evaluating how much hard a given through could cause if it actually happened - whether that's a website outage, a data breach, or the loss of a top secret shoe recipe formula
+
+
+
+*risk impact levels help Ro's GRC team decide which risks to tackle first, which controls to strengthen, and where to allocate resources most effectively
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+Understanding Risk Impact Levels
+
+
+
+
+
+*risk impact level = the potential hard or loss that a threat or vulnerability can cause to a system, asset, or organization. its one of the most important measures in any risk assessment, defining how bad the outcome could be if a control fails.
+
+
+
+
+
+
+
+Impact can be measured:
+
+
+
+* qualitatively - e.g. low, moderate, high, or critical
+* quantitatively - e.g. financial loss in dollars, downtime in hours, or probability in %
+* hybrid - combining both (often used in NIST and ISO frameworks)
+
+
+
+*Ro's GRC team uses hybrid model, blending technical precision with business relevance to make impact ratings meaningful for leadership decisions
+
+
+
+
+
+
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+The GRC Auditor's Role
+
+
+
+
+
+*the governance, risk and compliance (GRC) team at Ro's Shoe Food evaluates five key factors when determining the impact level for each identified risk:
+
+
+
+1. nature of impact
+2. scope of impact
+3. severity of impact
+4. likelihood of impact
+5. duration of impact
+
+
+
+\*each factor gives a different perspective on how a single event might ripple across Ro's systems, customers, and brand
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+Nature of Impact
+
+
+
+
+
+*this defines what king of harm the risk would cause
+
+
+
+* could it be financial, legal, reputational, or operational?
+* would it affect customers, partners, or employees?
+
+
+
+*Example: if Ro's confidential customer allergy data leaks online, its not just a privacy issue - its a legal, reputational, and ethical crisis under HIPAA and GDPR
+
+
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+
+Scope of Impact
+
+
+
+
+
+*this measures how wide the damage spreads
+
+
+
+* does it affect one user, an entire department, or the whole company?
+* are external partners or customers also impacted?
+
+
+
+*Example: a lost delivery tablet affects one driver. but a compromised supplier database affects every location using that vendor - scaling the impact from low to high
+
+
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+Severity of Impact
+
+
+
+
+
+*severity reflects the intensity or magnitude of the consequences
+
+
+
+* minor inconvenience (e.g. temporary shutdown)?
+* or catastrophic event (e.g. system wide shutdown or public recall)?
+
+
+
+*severity often determines whether a control gap becomes a risk acceptance issue or a broad level crisis
+
+
+
+*Example: losing an ingredient order file delays production for a day - low severity. losing all recipe databases for every location - critical severity
+
+
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+Likelihood of Impact
+
+
+
+
+
+*this estimates how likely the event is to occur
+
+
+
+
+
+
+
+*its often expressed as:
+
+
+
+* low (rare or unlikely)
+* moderate (possible or occasional)
+* high (frequent or expected)
+
+
+
+*Example: a ransomware attack might be high likelihood if outdated systems are still in use. a major flood might be low likelihood but high impact for Ro's main warehouse - showing why both metrics matter in risk prioritization
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+
+
+Duration of Impact
+
+
+
+
+
+*duration measures how long the damage lasts
+
+
+
+* temporary (minutes or hours)?
+* long term (weeks, months, or permanent)?
+
+
+
+*Example: losing access to a backup system for two hours is manageable. but permanently exposing customer data online is irreversible, making it a top tier risk
+
+
+
+
+
+--------------
+
+
+
+
+
+
+
+
+
+Multi-Dimensional Risk Impact
+
+
+
+
+
+*Ro's GRC framework evaluates risk impact across several dimensions, ensuring a 360 degree perspective:
+
+
+
+* Technical, Example: system outage, data corruption, malware infection
+* Operational, Example: lost productivity, supply chain disruption
+* legal/regulatory, Example: GDPR or HIPAA fines, contract violations
+* financial, Example: lost revenue, fraud, recovery costs
+* reputational, Example: customer distrust, loss of brand credibility
+
+
+
+*each risk is scored across these dimensions to produce a holistic view - then ranked from low to critical based on total exposure
+
+
+
+
+
+
+
+--------------
+
+
+
+
+
+
+
+
+
+ISO vs. NIST Approaches to Impact Assessment
+
+
+
+
+
+* framework: NIST SP 800-30/ 800-37/ FIPS 199. approach: defines impact levels (low, moderate, high) based on confidentiality, integrity, and availability loss. Example: used for Ro's U.S. operations and federal contracts
+* framework: ISO 3100/ ISO 27005. approach: uses a more flexible, context driven approach emphasizing business objectives and stakeholder perspectives. Example: applied to Ro's international branches and supplier networks
+
+
+
+*Example: for federal catering clients, Ro's uses NIST FIPS 199 to assign numeric impact levels. for European partners, Ro's applies ISO 27005, which allows a broader assessment including ethics and reputation
+
+
+
+
+
+--------------
+
+
+
+
+
+
+
+
+
+Why Impact Levels Matter
+
+
+
+
+
+*understanding and documenting risk impact levels helps Ro's Shoe Food:
+
+
+
+* prioritize remediation efforts and control budgets
+* communicate risk in business terms to executives and investors
+* comply with frameworks like NIST RMF, ISO 27005, and HIPAA Security Rule
+* build a measurable, repeatable risk management culture
+
+
+
+*without defined impact levels, every issue seems equally urgent - making it impossible to separate minor nuisances from existential threats
+
+
+
+
+
+
+
+
+
+
+
+
+
+in short, risk impact levels show how bad a risk can get and how far it can spread. they translate technical failures into business consequences
+
+
+
+*for Ro's Shoe Food:
+
+
+
+* nature shows what king of harm occurs
+* scope shows who or what is affected
+* severity measures how bad the damage is
+* likelihood estimates how often it could happen
+* duration defines how long it lasts
+
+
+
+*by evaluating these factors through NIST and ISO lenses, Ro's GRC team can prioritize controls, justify investments, and communicate risk in a way that leadership - and auditors - understand
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Risk Impact Level Determination (according to ISO)
+
+
+
+
+
+*at Ro's Shoe Food, risk isn't just about numbers - its about understanding how uncertainty might derail business goals. the ISO 31000:2018 framework defines risk as "the effect of uncertainty on objects" and sees risk impact as the nature and extent of that effect
+
+
+
+*in simpler terms, ISO focuses less on rigid scoring and more on understanding how risks behave within the organization unique context - the people, processes, goals, and external environment that shape decision making every day
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+The ISO Way: Principles Over Prescriptions
+
+
+
+
+
+*unlike frameworks that dictate strict formulas, ISO takes a principles based, process oriented approach. it emphasizes adaptability - meaning Ro's Shoe Food can tailor its risk process to fit its size, mission, and market
+
+
+
+
+
+*under ISO 31000, risk determination is:
+
+
+
+* systematic - following a structured method for consistency
+* transparent - results are explainable and defensible
+* contextual - tailored to Ro's internal operations and external industry conditions
+* dynamic - continuously updated as risks evolve
+
+
+
+*this flexibility allows GRC program to evaluate risks not just as technical issues, but as strategic and operational realities that affect supply chains, brand reputation, and customer trust
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+ISO Factors for Determining Risk Impact Levels
+
+
+
+
+
+*Ro's GRC team evaluates every identified risk using seven key ISO based frameworks. together, these define how sever, likely, and complex each risk truly is.
+
+
+
+
+
+1. Sources and Causes of Risk, identifies where the risk originates (e.g. supplier, technology, human error, environment). Example: a contaminated shipment of recycled shoe material from a vendor introduces a health and compliance risk
+2. potential consequences and outcomes, determines what would happen if the risk occurred - the scope and intensity of damage. Example: a contaminated batch could trigger a product recall and negative media coverage, impacting brand trust and sales
+3. likelihood or probability, evaluates how often or how easily the risk might occur. Example: supplier contamination history makes the risk moderate likelihood.
+4. time frame duration of exposure, considers how long the risk lasts and how quickly it could escalate. Example: a production halt might last two days - but reputational recovery could take months
+5. vulnerability and resilience, measures how well the system or organization can withstand or recover from the risk. Example: Ro's backup supplier network and crisis plan improve resilience, reducing the impact level
+6. interdependencies and interactions, looks at how one risk could trigger or amplify others. Example: supplier issues could also delay shipments, affecting logistics and cash flow simultaneously
+7. assumptions and uncertainties, captures what is not yet known - the confidence level of the analysis. Example: testing data may be incomplete, making the true contamination risk uncertain and worth monitoring
+
+
+
+*this multi-factor approach ensures no single aspect of risk (like cost or downtime) dominates the assessment - instead, the full context is considered
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+ISO Methods for Evaluating Risk Impact
+
+
+
+
+
+*Ro's GRC program blends qualitative and quantitative techniques, depending on the complexity of the risk and available data. ISO encourages using multiple lenses to produce a well rounded picture.
+
+
+
+1. qualitative evaluation: Ro's team uses descriptive scales (e.g. low, moderate, high, critical) mapped to specific business criteria:
+
+
+
+* low: minor inconvenience or internal fix
+* moderate: temporary disruption or minor regulatory concern
+* high: significant operational or financial impact
+* critical: severe harm to reputation, compliance, or viability
+
+
+
+*this approach is fast, stakeholder friendly, and effective for early stage risk workshops
+
+
+
+
+
+2. quantitative evaluation: when possible, Ro's team assigns numerical values or scores based on metrics like cost, downtime, or probability (e.g. 0-1 scale or dollar impact)
+
+
+
+*Example: likelihood, 40% chance per year. financial impact, $250,000. risk score: likelihood x impact = 100,000 risk value
+
+
+
+*quantitative models help prioritize top risks objectively and support budget justification for control investments
+
+
+
+
+
+3. stakeholder analysis: ISO highlights the importance of consultation - risk isn't just a technical matter. Ro's team gathers perspectives from:
+
+
+
+* executives (strategic impact)
+* production managers (operational risk)
+* legal counsel (regulatory exposure)
+* marketing (reputational risk)
+* customers or regulations (external perception)
+
+
+
+*this ensures impact levels reflect the real world concerns of everyone affected
+
+
+
+
+
+4. scenario analysis or simulation: when facing complex or uncertain risks, Ro's GRC analysts build what if scenarios based on expert judgement or historical data. 
+
+
+
+*Example: "what if our primary supplier fails a safety inspection right before the holiday season?". simulating this event helps predict cascading effects - from product shortages to financial loss - and plan mitigations before they happen
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+ISO Strength: Flexibility and Context
+
+
+
+
+
+*the ISO model doesn't force Ro's Shoe Food into rigid categories; it balances structure with adaptability. 
+
+
+
+
+
+*it allows Ro's team to:
+
+
+
+* adjust the level of formality based on project size and risk profile
+* combine expert judgment with data derived metrics
+* reflect both business and human impacts (not just technical outcomes)
+* continuously refine assessments as new data emerges
+
+
+
+*this adaptability is especially valuable for Ro's expanding global operations, where risk tolerance, regulatory expectations, and customer trust factors vary across regions
+
+
+
+
+
+
+
+
+
+in short, ISO defines risk impact not just as a number - but as a story about how uncertainty affects objectives. 
+
+
+
+*for Ro's Shoe Food, this means:
+
+
+
+* looking beyond compliance checkboxes to understand real world impacts
+* considering the source, consequence, and duration of every risk
+* combining stakeholder insight with data driven scoring
+* using flexible qualitative and quantitative tools to stay agile
+
+
+
+*by following ISO 31000:2018, Ro's GRC program doesn't just measure risk - it translates uncertainty into informed action.
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Risk Impact Level Determination According to NIST
+
+
+
+
+
+*when it comes to measuring risk, Ro's Shoe Food relies on both structure and science. while ISO allows flexibility, the NIST framework offers a prices, standards based system - perfect for ensuring consistency, especially when federal or regulated data is involved
+
+
+
+*NIST defines risk as "the extent to which an entity is threatened by a potential circumstance or event", and defines risk impact as "the magnitude of harm that could result from the unauthorized disclosure, modification, or destruction of information or information systems". 
+
+
+
+
+
+
+
+in short, NIST turns uncertainty into measurable outcomes
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+The NIST Way: Standards and Structure
+
+
+
+
+
+*the NIST framework is built on standards and repeatable processes, ensuring that every system - whether a payroll server or a supplier management platform - is measured the same way.
+
+
+
+*it follows a practice oriented approach, defined by five familiar core functions from the NIST Cybersecurity Framework (CSF):
+
+
+
+1. identify, understand assets, risks, and data categories
+2. protect, implement safeguards and preventative controls
+3. detect, monitor for anomalies and threats
+4. respond, contain and address incidents quickly
+5. recover, restore operations and strengthen resilience
+
+
+
+*this structure gives Ro's Shoe Food a consistent foundation for decision making, no matter which system or department is being assessed
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+NIST Core Principles for Impact Determination
+
+
+
+
+
+*under NIST SP 800-30 and FIPS Pub 199, risk impact levels are tied directly to the three security objectives of the CIA tried. the impact level for each objective is then rated as low, moderate, or high - depending on how severe the harm would be if confidentiality, integrity, or availability were compromised
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+The NIST Impact-Level Formula
+
+
+
+
+
+*NIST's approach is straightforward but powerful: "the overall impact level of a system equals the highest impact level assigned to any of the three security objectives". 
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information Impact Levels
+
+
+
+
+
+*at Ro's Shoe Food, understanding what kinds of information the company processes, stores, and transmits is the first step toward protecting it effectively. not all data is created equal - some records might just describe daily shoe food inventory, while others contain customer health or financial details that could seriously damage the brand if leaked.  
+
+
+
+*using guidance from both ISO and NIST standards, Ro's GRC team assigns information impact levels to reflect each data types value, sensitivity, and potential risk. these levels ensure that the right controls are applied, resources are prioritized, and compliance obligations are met across all systems.
+
+
+
+
+
+
+
+-----------------
+
+
+
+
+
+
+
+
+
+Purpose of Information Categorization
+
+
+
+
+
+*information categorization allows Ro's Shoe Food to:
+
+
+
+* identify what data exists and where it resides
+* assess how critical each information type is to operations and reputation
+* apply the right level of protection for confidentiality, integrity, and availability
+* support compliance with frameworks like NIST SP 800-60, FIPS 199, and ISO/IEC 27001
+
+
+
+*in short, categorization helps Ro's match its protection strategy to the real world impact of losing or compromising that data
+
+
+
+
+
+----------------
+
+
+
+
+
+
+
+
+
+Key Factors for Determining Impact Levels
+
+
+
+
+
+*when assigning impact levels, Ro's GRC analysis evaluate the following factors:
+
+
+
+* value of information, how critical the data is to operations, decision making, or customer trust. Example: recipe formulas and supplier contracts have high business value
+* potential harm or damage, the level of financial, legal, or reputational loss if data is compromised. Example: leaked allergy data could lead to lawsuits and public backlash
+* legal and regulatory obligations, applicable privacy, health, or trade regulations requiring protection. Example: HIPAA like privacy expectations for sensitive health information
+* operational and reputational risk, how data loss might disrupt services or erode brand credibility. Example: losing sales logs could hurt investor confidence and forecasting
+
+
+
+*by assessing these factors, Ro's ensures every information asset - from supplier invoices to marketing materials - receives an appropriate protection level
+
+
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+NIST Information Impact Levels
+
+
+
+
+
+*according to NIST FIPS 199, information is categorized into three impact levels based on how severe the consequences would be if it were lost, altered, or exposed
+
+
+
+* low impact, loss would have a limited adverse affect on operations, assets, or individuals. Example: a public recipe blog post or marketing announcement
+* moderate impact, loss would have a serious adverse effect on operations, assets, or individuals. Example: internal sales data, supplier invoices, or employee schedules
+* high impact, loss would have a severe or catastrophic adverse effect on operations, assets, or individuals. Example: customer allergy profiles, proprietary recipes, or payment information
+
+
+
+*these impact levels guide Ro's in applying controls that match the data's risk exposure - for example, encryption for high impact information and simpler access control for low impact data
+
+
+
+
+
+
+
+---------------
+
+
+
+
+
+
+
+
+
+
+
+Maintaining and Reviewing Information Categorization
+
+
+
+
+
+*categorization isn't a one time exercise. Ro's GRC program ensures that:
+
+
+
+* documentation is maintained and reviewed periodically to reflect new systems, regulations, or data flows
+* stakeholders across departments (legal, IT, operations, HR, and marketing) are involved in reassessing data value and use
+* information security policies remain aligned with updated impact levels to support both compliance and operational goals.
+
+
+
+*by engaging multiple perspectives, Ro's creates a more accurate and reliable classification process - one that recognizes how data moves through every part of the business
+
+
+
+
+
+
+
+
+
+
+
+in short, information impact levels ensure that every piece of data at Ro's Shoe Food is protected in proportion to its importance and potential risk
+
+
+
+
+
+*by combining NIST's structured categorization and ISO's contextual awareness, Ro's Shoe Food:
+
+
+
+* recognizes which information types matter most
+* assigns realistic impact levels (low, moderate, high)
+* applies the right level of security and privacy controls
+* reviews these levels regularly as the business and threat landscape evolve
+
+
+
+*this approach ensures that whether its a public blog post or a top secret shoe ingredient formula, every byte of data gets the level of care it deserves
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+END NOTES
