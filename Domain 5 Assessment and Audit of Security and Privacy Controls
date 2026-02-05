@@ -1,0 +1,418 @@
+ISC2 Domain 5 Clip Notes
+
+
+
+Establish Stakeholder Roles and Responsibilities
+
+
+
+during assessment or audit preparation, stakeholders are identified along with their respective roles and responsibilities
+
+
+stakeholders in this context include anyone involved in the assessment, anyone affected by the assessment (e.g. operational impacts due to disruptions to normal activities), or anyone who will use the output of the assessment (e.g. board of directors, external customers). stakeholders might not play and active part in the assessment process, yet they could set goals or objectives that need to be achieved.
+
+
+for example, under the NIST RMF, the Authorizing Official (AO) is the primary stakeholder who will use the assessment report to make a risk based decision regarding a system under assessment. the AO is typically a senior official with the authority to formally assume responsibility for operating a system at an acceptable level of risk. this role is critical to ensuring the systems under their purview adhere to required security standards and practices, safeguarding the integrity, confidentiality, and availability of information. within the RMF, the AO is responsible for assigning the assessment team and determining appropriate levels of independence and technical competence for the assessment team. the AO also has the responsibility to review and approve the assessment plan prior to the assessment. ISO and many other frameworks do not explicitly define stakeholder roles, leaving the identification and role responsibilities up to the organization to define.
+
+
+The Assessment Team: one of the most important roles to identify that has significant responsibilities to the assessment is the role of the assessor or auditor. this is the person or team responsible for planning, conducting, and reporting the assessment outcome. during assessor selection, the assessor or assessment team is chosen for the specific organization or system to be assessed. this may involve anything from a single assessor to a large team with varied skills and experience sets depending on the size and complexity of the assessment
+
+
+Technical Expertise: one aspect of choosing the correct assessor is to consider their technical expertise and their knowledge of security risk management, hardware, software, or firmware associated with the assessment. assessment teams may be chosen with the skills needed f0or the scope of the assessment. if an assessment team does not possess the correct skill set and technical expertise for the specific assessment, this can significantly affect the quality of the assessment. for standardized audits, a standing or permanent team is often feasible since the items being audited remain consistent across multiple audits. however, when each assessment may contain completely different technologies or system elements (like with NIST RMF), assessment teams may not need to be assign3ed based on the specific contents of each assessment to ensure appropriate expertise is available for the specific assessment.
+
+
+Independence: the other main factor to consider is the degree of independence the assessor has from the system owner or organization. in this context, independence means there is no conflict of interest for the assessor or audit in the conduct of the assessment or audit, which allows stakeholders to trust the results. if a conflict of interest exists, it can reduce the value of the results. in an ISO certification audit, the auditor is always a third party certification organization, while with RMF assessment there is more leeway in determining the appropriate level of independence of the assessment team. the assessment process can be centrally managed (e.g. through the internal audit department), or the responsibility can be distributed across the organization for the RMF. however, if it is distributed, the appropriate level of independence from conflicts of interest must be maintained. in the NIST RMF, the AO determines the appropriate level of independence required for security control assessment based on organizational policy and guidance.
+
+
+------------------
+
+
+
+Outlining Logistics in a Assessment Plan
+
+
+
+once identified, the assessor or auditor typically develops the assessment plan based on input from other stakeholder. much of the planning involves the logistics required to conduct and assessment that will meet the objectives within the time required.
+
+
+plans developed by assessors are based on Security and Privacy Plans, program management documentation, and common control documentation. for the NIST RMF, these plans are reviewed and approved by the authorizing official to ensure they are consistent with security and privacy objectives and that they employ appropriate procedures, methods, techniques, tools, and automation. appropriate control effectiveness is determined by the plan, which means that not only does the assessment meet to identify that a control is in place but also that it is working effectively to produce the desired results
+
+
+the items below are elements of the preparatory activities and actions required before constructing the assessment plan. these items are used to develop a comprehensive assessment plan. the lists below include examples of typical preparatory activities and typical assessment plan elements, but organizational guidance and the system under assessment will dictate the specific needs for that assessment. 
+
+preparatory activities: developing a general understanding of the organizations mission, business, and operations. providing information system support to the organizations operations. identifying the general structure and components of the system. identifying organizational entities associated with common controls. ensuring common understand of assessment objectives and scope. obtaining necessary documents and artifacts. establishing points of contact needed for the assessment. obtaining previous assessment results. developing detailed security and privacy plans. prioritizing and scheduling assessments. 
+
+the assessment plan: establishes objective and scope assessment. reviews previous recommendations. allocates necessary resources to carry out the assessment. establishes time frames and key milestones of the assessment. identifies documents and artifacts to be collected and provided to the assessor. includes a communication plan to minimize ambiguities and misunderstandings. includes detailed assessment procedures and expected results. is tailored to the specific scope and objectives. lists tools and resources required. specifies locations and logistics. outlines data handling procedures and protection requirements. addresses legal considerations. establishes a post assessment follow up plan. 
+
+
+objectives: the assessment objective is what the organization wants to obtain may have multiple objectives, some of which may be obtained from different stakeholders. in other cases, an assessment may have only a single objective (e.g. compliance audit). the objective is the reason for conducting the assessment and results in value for the organization. 
+
+
+schedule: scheduling ensures resources are available at the time necessary to conduct the assessment and minimizes negative impact to resources used. this impact includes staff being unavailable for their normal duties, disruptions to normal operations, and the use of technologies that may have performance impact or technical impact on operations (e.g. running a test that results in system and network shutdowns).
+
+
+scope: scoping specifically identified what is and is not part of the assessment. assessments may focus on specific systems, and entire organizations security program (e.g. ISO 270001), or elements of a larger organization or technical infrastructure. the assessment scope defines the parts, pieces, components, processes, technology, and staff included. 
+
+
+deliverables: deliverables are defined, and appropriate formats are set before the assessment. deliverables must include the necessary elements to meet the objectives defined for the assessment. formats for deliverables are defined to ensure all stakeholder needs will be met by the output of the assessment. 
+
+
+resources: resources are those, both human and technological, that are available for the assessment. the objectives must be accomplished within the bounds of the available resources and schedule limitations. resource limitations are often driven by the assessment scope, the cost of using the resources, or the operational impact of using the resources.
+
+
+logistics: logistics can be one of the more complex elements of assessment planning. assessment resources and time (scheduling) will always be limited due to numerous factors. if the relevant people and technology are not available and accessible at the right time, the assessment objectives may not be met. logistics ensure that assessors have appropriate access to facilities and that interview subjects are available at the times specified in the schedule.
+
+
+--------------
+
+
+
+Scoping Assets, Methods, and Level of Effort
+
+
+
+inherently, assessments will always be limited by the time and reports available.
+
+
+before conducting an assessment, a detailed plan is developed that identifies specific goals to achieve the overall objectives and assessment procedures. within each objective, one or more assessment objects have one or more assessment methods applied to determine whether the objective has been met. since time and resources are always limited, to some degree, the plan must balance the level of effort available to conduct the assessment and the level of effort required to achieve acceptable levels of assurance that each objective is met. 
+
+
+the figure that follow shows the basic components of assessment plan as define within the NIST documentatio9n. ISO uses a similar approach but slightly different terminology to describe the object and methods. the plan has a set of assessment procedures made up of one or more assessment objectives., each of these objectives include assessment of one or more objects, and the assessments use one or more assessment methods for each selected control enhancement.
+
+
+Object AIMS: 1. activity 2. individual 3. mechanism 4. specification.
+
+
+methods TIE: 1. test 2. interview 3. examine 
+
+
+security control classes MOT: 1. management 2. operations 3. technical
+
+
+findings: 1. satisfied (s) 2. other than satisfied (o)
+ 
+
+
+assessment objectives: the following list is the set of NIST defined assessment objects: 
+
+specifications: document based artifacts including policies, procedures, plans, and system security and privacy requirements
+
+mechanisms: hardware, software, or firmware safeguards and countermeasures
+
+activities: system operations, management, exercises, admini8strastion, and processes
+
+individual: people who apply the specifications, mechanisms, or activities
+
+
+assessment methods: the following list is the seg of NIST defines assessment methods and the types of objects they would be used to assess:
+
+test: exercising assessment objects under specified conditions to compare actual and expected behavior. tests can be applied to mechanisms and activities. 
+
+interview: conductions discussions and asking questions. interviews are applied to individuals or groups of individuals. 
+
+examine: checking, inspecting, reviewing, observing, studying, or analyzing. examination can be applied to specifications, mechanisms, and activities
+
+
+
+assessment depth coverage: assessment activities warrant various levels of effort and completeness based on their impact in assessing control effectiveness. the main factors include depth: depth addresses the rigor and level of detail in the assessment methods (e.g. basic: high level, focused: in-depth. comprehensive: detailed and thorough). coverage: coverage addresses the scope or breadth of the examination process (e.g. basic: a representative sample of asse3sment objectives, focused: a representative sample and other specific assessment objectives), comprehensive: all of a sufficiently large sample of assessment objects.
+
+
+
+-------------
+
+
+
+Auditing Evidence for Demonstration of Compliance
+
+
+during assessment planning, enough information about the organization, systems, and staff must be available to the assessor to create an effective assessment plan.
+
+
+this can include prior assessments, documentation, polices, or organizational structure. any information obtained during assessment preparation can be used to better plan the assessment and identify appropriate methods and objects within the assessment plan
+
+objects can take many forms, from pure documentation to specific staff members
+
+many potential objects can be obtained prior to conducting the assessment that may facilitate assessment planning. for example, the figure show that the audit and accountability policy is a potential object to examine. since this is a policy, it should be obtained as early in planning as possible, as the policy itself may help define the objects and methods that will be included in the assessment. for example, the audit policy likely includes information about tother objects that will require examination, staff roles to interview, and technology to test. 
+
+
+
+AU7: Audit Reduction and Report Generation
+
+assessment objective: determine whether the information system provides an audit reduction and report generation capability that supports: AU7(a)(1) on demand audit review, AU7(a)(2) analysis, AU7(a)(3) reporting requirements, AU7(a)(4) after the fact investigations of security incidents. AU7(b) does not alter the original content or time ordering of audit records
+
+
+while the initial evidence collection may begin during the preparation phase, it typically continues through the end of the audit or assessment. the initial evidence is more typically in the form of prior audits or assessments, documentation, diagrams, policy, and seven organization charts.
+
+this all helps in the assessment preparation and is also used as evidence detailing the state of the audit or assessment in the final report. for example, during preparation, the auditor may obtain a policy or document, which informs planning for interviews and technical tests. when conducting the audit, interview notes and test results are added as additional evidence. later, during report preparation, the results may be compared with the obtained policy to determine not only whether the policy is valid but also that it is followed by individuals and implemented on systems. the total body of evidence collected during preparation and audit can be extensive, depending on the audits scope
+
+
+
+---------------
+
+
+
+
+Finalizing the Assessment/Audit Plan
+
+
+
+in conjunction with appropriate stakeholders, the assessor finalizes the assessment plan.
+
+
+this can include validating the assessment, objectives, scope, resource availability, schedule, deliverables, and any logistics related to conducting the assessment. planning a complex assessment and plan finalization may take several months an is often an involved in process for multiple stakeholder. while the assessor is typically assigned primary responsibility for planning, they must coordinate assessment impacts with appropriate stakeholders to ensure the assessment can be undertaken within the sources and schedule constrains. for example, in the NIST RMF, finalization of the assessment plan does include and explicit approval but the AO (as the primary stakeholder) that the plan is sufficient and will meet the AOs needs to make a risk decision. while an explicit approval may not be require in all assessment frameworks, many do include4 coordination with stakeholders during plan finalization to ensure the assessment will achieve its intended objectives
+
+
+small failures and deviations that might occur during the assessment can easily spiral out of control, resulting in assessment objectives not being met
+
+for example, a complex assessment might be scheduled to be conducted at a particular location over five days with interviews and technical assessments fully scheduled across that time. a small logistical failure where the assessment team is not registered for building access might generate a delay in the start time on day one. this can result in schedule compression for the remainder of the were or cause an extension of the intended schedule. by itself, the delay may be inconsequential, but if compounded by similar issues, it can easily result in objectives going unmet by day five. if the schedule is already completely full, even a small reduction in time available can easily result in a lower quality of assessment or in unplanned items begin dropped for lack of time. preplanning and validation of the plan are essential to ensure a smooth, well executed assessment where all objectives are met. 
+
+
+no assessment plan will be perfect, and all assessment plans should include provisions for addressing issues or roadblocks as they occur. however, due to the complexity in larger assessments, issues will almost certainly occur during the assessment that will affect resources or scheduling
+
+the more accurate the plan is, the less likely the issues are to impact the result. poorly planned assessments are less likely to recover from issues that invariably arise during the assessment.
+
+
+
+---------------
+
+
+
+
+Penetration Testing
+
+
+
+the assessment plan should detail the methods (e.g. test, interview, examine) and objects (e.g. activities, individuals, mechanisms, specification) that will be used during the assessment.
+
+
+there are often multiple methods and objects specified for each assessment objective to ensure the objectives have been met by the system or organization being assessed. GRC professionals can apply various methods to the objects based on the objectives, scope, and schedule for the assessment. these methods must be documented, and the documentation techniques should be appropriate to the objective and purpose of the assessment. most compliance assessments and audits typically focus on non adversarial techniques to determine whether compliance objectives are being met. however, a combination of adversarial and non adversarial techniques can be applied to generate the appropriate level of confidence in the results of the assessment.
+
+
+adversarial techniques simulate or emulate adversarial actions (attacks) and can be used to assess control effectiveness. adversarial techniques are not typically applied during RMF or ISO assessments, but they may be useful to determine control effectiveness from the perspective of a particular threat or attack vector. they can also be used as additional evidence of effectiveness (e.g. in a threat risk assessment). adversarial techniques may include invasive elements. because they can incur the risk of damage to running systems, they require careful planning to prevent system damage or function loss. some adversarial techniques include password cracking and social engineering. password cracking tools and techniques can be used to validate password strength requirements. typical password cracking evaluations attempt to crack passwords by trying many common or simple passwords; identification of low strength passwords within a specified period may indicate a failure. social engineering attempts to trick someone into revealing information or performing an action. although an active social engineering assessment is not typically part of an RMF assessment but rather part of a red teaming exercise, the RMF assessment often includes the evaluation of control intended to prevent social engineering or mitigate its potential effect. many of these controls involve humans and processes, and they may also include some technical elements employed within systems. 
+
+
+penetration testing: penetration testing (also known as "pen testing") is introduced here as it does assist in verifying the effectiveness of security controls; however, it is typically not used during ISO certification or a NIST RMF assessment as the only assessment methodology. it is not effective in assessing the effectiveness of all controls directly; it can provide a viewpoint only of the overall effectiveness across numerous controls at the time of the assessment. vulnerability scanning or more invasive penetration testing might be used to supplement other assessment methodologies in many assessment types. penetration testing is a special type of testing that takes an adversarial approach by mimicking real world attacks. the resting may be overt or covert. in overt tests, the system or network, operators are aware the penetration testing is occurring. in covert tests, the organization is aware of the testing, but the specific system or network operators are not, which allows the test to encompass operator responses. 
+
+
+penetration testing is used top determine how well the system tolerates realistic attacks, the level of sophistication required to successfully compromise the system, and additional countermeasure needed to mitigate threats.
+
+
+in the planning phase, rules are identified, management approval is finalized and documented, and the testing scope, boundaries, and goals are set. the planning phase lays the groundwork for a successful penetration test. no actual testing occurs in this phase. the discovery phase of penetration testing includes two parts. the first part is the start of actual testing and covers information gathering and scanning. network port and service identification is conducted to identify potential targets. the second part of the discovery phase is vulnerability analysis, which involves comparing the services, applications, and operating systems of scanned hosts against vulnerability databases (an automatic process for vulnerability scanners) and the testers own knowledge of vulnerabilities. human testers can use their own databases or public databases such as the National Vulnerability Database (NVD) to identify vulnerabilities manually
+
+
+-------------------
+
+
+
+
+
+Attack Phase Processes and Reporting
+
+
+exploitation an attack is at the heart of any penetration test
+
+
+attack phase process: discovery phase, gaining access, escalating privilege, system browsing, install additional tools
+
+in the event an attack on a specific vulnerability proves impossible, the tester should attempt to exploit another discovered vulnerability, they can install more tools on the target system or network to facilitate the testing process. these tools are used to gain access to additional systems or resources on the network and to obtain access to information about the network or organization. testing and analysis on multiple systems should be conducted during a penetration test to determine the level of access an adversary could gain. this process is represented in the feedback loop between the attack and discovery phase of the penetration test. prior to the attack phase during a penetration test, obtaining explicit approval from the system owner is mandatory. the approval may already be included within the original test authorization but should be validated prior to active attack measures being employed
+
+
+
+reporting: once discovery and attack phases are completed, the penetration tester will develop a report. the report should include all activities conducted by the tester, along with specific notes on what was successful as well as what was attempted but unsuccessful. in some cases, the list of attempted discovery or attack methods that failed can be as important as the ones that did not. obviously, in the case of a successful attack, something needs to be corrected. however, proof of an unsuccessful attack can be used as evidence regarding the potential effectiveness of security controls. this must be carefully considered and done with caution, since penetration tests will not exhaustively test controls, but it can often be useful as added confirmation of a control effectiveness against specific attack vectors.
+
+
+----------------
+
+
+
+
+Compliance Assessments and Audits: Non Adversarial Techniques
+
+
+non adversarial techniques come in many forms, but all involve the cooperation of the assessment team and the organization being assessed.
+
+
+this collaborative approach extends to the discovery and scanning phases, where the team systematically identifies and catalogues system and vulnerabilities with the organizations knowledge and consent. it also includes a control assessment, which evaluates the effectiveness of the organizations security measures in a cooperative manner. some examples of common non adversarial techniques are explores in the following sections.
+
+
+discovery and scanning: scanning techniques are used to observe and report the status of network connected systems sand typically use automated tools. they can include discovery scanning, which attempts to determine the presence of network connected components. network discovery scanning may be combined with port and service identification scanning, which attempts to determine ports, protocols, or services active on network connected systems. vulnerability scanning may also be combined with other scanning techniques; it tests components to identify known vulnerabilities (e.g. missing patch, misconfiguration). various wireless scanning techniques can be applied to detect and evaluate hosts that may have active wireless communications or wireless network connections.
+
+control assessment: control assessment is the most common non adversarial technique applied within many cybersecurity frameworks. defined controls are assessed as either being met, not met, or met to some degree. the following example is from NIST SP 800-53, which is the control catalog that defines the controls, and NIST SP 800-53A, which is the assessment manual that defines how controls are assessed. in NIST SP 800-53A, the assessment procedures break down the original controls from NIST SP 800-53 into granular components that can be assigned to assessment objects (e.g. activities, individuals, mechanisms, specification) and assessed using methods (e.g. test, interview, examine). the following example includes options for all the types of defined assessment objects and assessment methods. not all objects or methods would be used for any given assessment, and part of the plan development includes choosing the most appropriate objects and methods for a particular assessment.
+
+
+a complex assessment may use thousands of individual method and object asse4ssments to determine the state and effectiveness of controls within the scope of the assessment. 
+
+
+assessment may occur as often as practicable within the SDLC. they may be executed in parallel with other development testing or functional testing, and the results of early testing may be reused during authorization (in accordance with organizational guidance). the NIST RMF encourages the use of automation in conducting and documenting assessments. some development methodologies (e.g. agile_ may require interactive assessments where individual increments of capability and associated controls are assessed. common controls are typically not assessed with the system, but assessors may still evaluate control applicability and verify effective inheritance. where feasible and in accordance with organizational policy, a certain level of assessment reuse is encourage for efficiency and cost effectiveness, provided that the organization develops criteria for reusing assessment results. in some cases,. external or independent testing programs may provide the results that can be reused and integrated into the assessment. example of external assessment programs includes common criterial evaluation (ISO 15408), NIST Cryptographic Module Validation Program, Payment Card industry Data Security Standard Assessments, and cloud security alliance (CSA) security, trust and assurance registry (STAR) audits
+
+
+--------------------
+
+
+
+
+Verifying and Validating Evidence
+
+
+
+during assessments. evidence of cp;;ected with the [rop,aru purpose of veruomg and va;odatomg that a [articular;ar state exists or does not exist.
+
+
+in this context, evidence can be any artifact from the application of the various assessment methods against various assessment object s and can take many forms (e.g. test results, interview notes, configuration sightings). the purpose of collecting this evidence is to determine whether controls are in place (verified) and accomplishing the intended goal (validated) 
+
+
+it is possible to achieve verification but fail validation if a control is improperly specified or implemented in a way that meets a specification but fails to achieve a result. some assessments may focus on verification, whereas others focus primarily on validation, but many examine both
+
+
+verification: verification confirms that specified requirements have been fulfilled. verification asks, "was this built correctly?". this concept assesses whether the defined functional security requirements have been met. have the specifications been met for a subcomponent, component, or the entire system? however, this may not always indicate whether the overall security objectives are met if the specifications or granular requirements were not correct
+
+validation. validation confirms that requirements for a specific intended use have been fulfilled. validation asks, "was the right thing built?". this concept assesses whether the security objectives of confidentiality, integrity, and availability were met with the final design and implementation of the system. it is possible the technical requirements associated with security were met, but has or more weaknesses remain (e.g. unpatched vulnerability, misconfiguration). validation ensures the system effectively meets the security objectives and not just technical requirements or specifications.
+
+
+verification and validations are system security engineering processes. however, they overlap heavily with security control assessment, and functional verification or validation can easily be combined with security or privacy verification and validation at many stages of the system life cycle if appropriate provisions are made.
+
+
+integrating these processes not only streamlines the evaluation of a systems security posture but also ensures security and privacy considerations are embedded into the system from the outset. by doing so, organizations can identify potential security vulnerabilities and privacy issues early in the development process, allowing for timely and more cost effective remediation.
+
+
+-----------------
+
+
+
+
+Preparing the Initial Assessment/Audit Report
+
+
+since assessments are completed, the assessor must produce the assessment report, which details what was done, as well as the results based on the agreed upon formats
+
+
+different assessment types may have different specific formats, but most include some or all the following: organizational or information system name, security categorization, sites assessed and assessment dates, assessors name/identification, previous assessment results (if reused), security/privacy control or control enhancement designator, selected assessment methods and objects, depth and coverage attributes values, assessment finding summary (indicating satisfied or other than satisfied), assessor comments (weaknesses or deficiencies noted), assessor recommendations (e.g. priorities, remediation, corrective actions, or improvements).
+
+assessments may evaluate multiple assessment object using multiple assessment methods for each objective. NIST SP 800-53A uses terminology for assessment results that may be different from that of other manuals. individual results are marked "satisfied" or "other than satisfied". assessments may include removal of false positives or duplicate interviews from different assessment methods and may require further analysis if assessment methods obtained different results. analysis of assessment data may occur during the assessment or during the report production. typically, significant amounts of data are valuable to the assessor; this requires time to review and generate an accurate and relevant report. the report must be understandable and relevant, which requires the raw data gathered during the assessment task to be organized, analyzed, and put in context against the system security status. while many findings are significant and impactful, other findings from control elements may have limited to no real impact on the security posture of the system; part of the analysis is to make that determination
+
+
+providing identified risks during the assessment/audit: the organization undergoing assessment recites the initial assessment report for review. this provides an opportunity for clarification and remediation of deficiencies before the final report or certification, but it also gives the assessed organization an opportunity to identify errors or omissions in the report. large, complicated assessment reports contain a significant amount of data, and assessors may not be fully familiar with the organization or system structure. this can result in mistakes, errors, or simple misunderstandings between the assessor and organization being assess making it into the report. working together, the assessor and organization being assessed must identify the places where potential misunderstandings or error in the report may exist and resolve them
+
+
+outlining risk mitigation summaries: depending on the assessment objectives, one or more summaries of the assessment may be included and recommendations from the assessor provided. the content and its level of detail are dependent on the purpose and objectives of the assessment but typically include at least an executive summary and high level recommendations for risk mitigation. for example, the assessor may identify a trend of unpatched systems and provide a high level recommendation that the organization update its patch management policy or technical patching capabilities. the mitigation strategies are not intended to be detailed reengineering of processes, but rather high level recommendations based on the assessors experience that are likely to mitigate the observed risk conditions.
+
+
+following are some examples of mitigation strategies that might be provided as recommendations from the assessor: implement a regular vulnerability scanning schedule to identify and address vulnerabilities before they can be exploited, thereby improving the organizations proactive defense posture. adopt a multifactor authentication (MFA) system across the organization to enhance security controls and reduce the risk of unauthorized access. develop and conduct regular security awareness training for employees to mitigate the risk of social engineering attacks and improve overall security culture. establish an incident response plan that inclui8des clear procedures and roles for responding to security incidents, ensuring that swift action can be taken to minimize damage. review and update access control policies to ensure employees have access to only the resources necessary for their roles, reducing the potential impact of insider threats or compromised accounts
+
+
+recording preliminary findings: the initial report serves precisely as a preliminary overview. however, it should be comprehensive, concise, and include all relevant data and observations from the assessor for the organizations to review. while some elements of the report may be incomplete, the overall report should be substantially complete at this point. everything relevant and within the scope of the assessment should be included. it should include a blend of key observations, identified vulnerabilities, compliance gaps with industry standards, and any areas of effective security measures currently in place. recommendations for addressing vulnerabilities and compliance issues should be practical and prioritized aimed at guiding the organization toward enhancing its security framework. the report should balance technical detail with accessibility, ensuring both technical and nontechnical stakeholders can understand the implications of the findings and the steps needed for improvement. overall, the report offers a foundational understanding, enabling the organization to take immediate and informed actions based on the assessors observations.
+
+
+the format for recording the report should be determined during the assessment planning stages, but it may be adjusted as necessary once the actual assessment has been completed
+
+
+--------------------
+
+
+
+
+Reviewing the Initial Assessment/Audit Report and Planning Risk Response Actions
+
+
+once the assessment is complete and at least the interim report has been provided to the organization or system owner, findings from the assessment that represent significant risk may receive prioritization for remediation
+
+
+some findings may be quickly remediated and reassessed, while others may require long term responses depending on the remediation time frame defined by the organization. in all cases, the original findings are retained, but reports are updated to show correction when they have been reassessed and are no longer deemed as deficiencies. in some cases, addendums that respond to initial assessment reports may be created by the system owner to explain findings or issues; these addendums may also rebut elements of the assessment report if there are disagreements. during remediation activities, system risk assessments may require updates. this process drives initial remediation actions and prioritization as report findings are evaluated for significance and prioritized for action or acceptance. when actions are required, resources are allocated to remediation actions.
+
+
+assigning risk response based on iden5tified vulnerabilities or deficiencies: immediate remediation concerts involve remediation or corrective action taken just after or during assessment. immediate remediation must follow organizational change control and configuration management processes. systemic changes should not be made during as assessment without following the organizational change control policies or processes. additional testing or assessment activities may be required to ensure the previously identified findings has been corrected and no longer remains a deficiency
+
+
+standard risk response is used to identify appropriate remediation. these options include: risk avoidance (e.g. stop an action or turn off system functions), risk mitigation (e.g. apply a patch, change a configuration), risk transferring or sharing (e.g. buy insurance), risk acceptance (e.g. request risk acceptance due to minimal risk likelihood or impact of deficiency)
+
+
+long term or larger remediation needs to go into a long term risk response plan to become follow up activities after the assessment is fully complete.
+
+
+collaborating with Stakeholders on Risk Response: risk responses can result in changes to process, changes to systems, or retraining of staff. all modifications must be done collaboratively with affected stakeholders. organizations with mature configuration and change management processes can leverage them, but organizations without mature change management processes must manage the changes require by risk responses in a way that ensures stakeholders are not adversely affected. for example, in response to a critical risk identified and associated with inadequate access controls in its customer data management system, an organization might decide to implement multifactor authentication and role base access control (RBAC) as mitigative measures. this initiative necessitates a collaborative approach involving various stakeholders, including IT, human resources, and operations departments, to assess the impact on daily operations and to determine training requirements for staff. organizations equipped with mature configuration and change management processes can seamlessly integrate these changes, conduct thorough impact analyses, define clear communication strategies, and schedule the implementation to minimize disruption..
+
+
+reassessing and validation non compliant findings with newly applied corrective actions: after risk responses have been identified and applied, it may be necessary for assessors to reassess controls or determine whether the applied corrective actions accomplished the intended goals. this may include reassessing some or all the controls using the same methods and objects in the original assessment but also may include a truncated reassessment based on the assessors judgement. this ensures appropriate levels of independence are maintained, but since the assessor likely has more knowledge of the organization or systems under assessment, they may be able to reasonably accept different evidence of compliance than in the original assessment. for example, the assessor may feel it is unnecessary to return to a location for reassessment of a system after patches are applied. they may simply request a screenshot, remote scan summary, or report from a vulnerability scanner as proof it is patched. however, there are circumstances when the system remains noncompliant, perhaps because the patches were incorrectly applied or they failed to cover all aspects of the vulnerabilities or compatibility issues that lead to different forms of non compliance. because of this, the assessor must be convinced that the solution is sufficient, otherwise, the final report will reflect that issue is an open finding and unresolved. this may then result in negative impacts such as a denial of authority to operate (DATO) under the NIST RMF or the failure to achieve ISO certification
+
+
+-----------------
+
+
+
+Developing the Final Assessment/Audit Report
+
+
+
+this stage includes the finalization of the assessment or audit reports. once completed, no additional changes will be made, and the assessment activity is complete form the assessors perspective
+
+
+documenting final compliance: depending on the objectives and type of assessment, assessment items (e.g. controls) are assigned a final status either as observed during the assessment or during a reassessment after risk responses applied. the specific terminology used can vary, but the most typical terms for items that are fully met are "met" or "compliant". for anything not met or non compliant, the assessor determines the degree of compliance (if any) and whether the requirement was applicable. for example, a control may specify that certain wifi settings are applied, but if the scope of the assessment did not include technology with wifi, then the control would not be applicable within the scope of the assessment. additionally, a control determined to be "not met" or "noncompliant" may have been assessed as partially met. most report formats would still designate this control as "not met" or "non compliant" but would require the assessor to document the specific degree to which the control was implemented. while some assessment formats may use only absolutes (e.g. compliant, noncompliant), most formats specify a degree of compliance for anything not completely so.
+
+
+documenting recommendations when appropriate: most assessment methodologies require the assessor to provide appropriate levels of recommendations to address the risks identified. as previously noted, this does not mean the assessor should necessarily provide detailed technical reengineering services; rather, they should provide actionable general recommendations and leave the specific implementation up to the organization. overly specific recommendations from an external assessor may not consider the specific needs of the organization, and a detailed solution that might work well for one organization may not be feasible. conversely, overly generic recommendations might not provide any useful guidance to resolve an issue or reduce risk. expectations and practical limits for recommendations should be adequately addressed during assessment preparation. crafting recommendations as an assessor involves striking a delicate balance between being too prescriptive and too vague. effective recommendations are those tailed enough to provide a clear direction for action, yet flexible enough to allow the organization to adapt them to it unique circumstances, capabilities, and resource constraints. this approach acknowledges that while external assessors bring valuable expertise and an objective viewpoint, they may not have an intimate understanding of an organizations internal processes, culture, or technical infrastructure
+
+
+finalizing the assessment report: the assessment report is finalized, and no additional changes are made. this may be a time drive occurrence (due by a certain date) or driven by all stakeholders and the assessors being satisfied with a draft version of the report. the report should be complete, constrain any necessary supporting evidence (often in appendixes), and provide all the necessary information to meet the assessment objectives for all identified stakeholders. the specific contents of the report may vary depending on the objectives of the assessment and framework, but most reports will contain: 
+
+title/identifier: this explicitly identifies this assessment report us9ing title, date, and potentially other unique identifiers
+
+executive summery: the executive summary provides a high level summary of the report contents based on the report objectives. this may include summaries of the major findings if any. 
+
+assessor/auditor name and qualifications: this identifies the assessor or auditor and lists appropriate qualifications to provide confidence that readers of the report competently conducted the assessment. 
+
+findings: this security lists individual findings and the status of any control assessments (e.g. met or not met). for not met items, the assessor will typically detail how the state of the assessed entity did not meet the assessment standard and may include appropriate assessor recommendations for remediation
+
+assessor comments: if appropriate for the assessment type, the assessor may include any general comments that were not covered under the findings section.
+
+organization comments: if appropriate for the assessment type, comments from the organization under assessment may be included. this can include clarifications provided by the organization or not any disagreements with the assessor so that a reviewer of the report sees all perspectives
+
+any other appendices or data appropriate to the assessment: this often includes technical data, automated testing/scanning output, or other artifacts generated during the assessment that could be pertinent for reviewers of the report to access. the specific additional content may vary significantly depending on the assessment framework and purpose of the assessment
+
+
+a final assessment report may be large with detailed data and evidence. it also often contains information that is sensitive in nature if there are unresolved risks identified in the report. the report may need to have restricted access based on the risks identified within. in the case of external certifications (e.g. ISO certifications), the report may include a publicly shareable summary or certification from the assessor that compliance was achieved or specific goals were met
+
+
+----------------
+
+
+
+
+Developing a Risk Response Plan
+
+
+
+for any risks identified in the assessment report that could not be corrected prior to the final report, the assessed organization will often create a risk response plan
+
+
+this may reduce or control risks identified in the assessment (e.g. risk management activities) or ensure deficiencies are corrected on a require time line (e.g. compliance activities). since risks that can be addressed quickly or with minimal resources were likely addressed during the initial risk responses between the initial and final reports, the remaining risk items likely require longer time frames or more resources than are immediately available for permanent correction
+
+
+plan of action and milestone (POA&M): a common term for the long term risk response plan is the plan or action and milestones, which is used by NIST frameworks. other frameworks may simply refer to a generic response plan but contain similar elements to the NIST POA&M. the POA&M describes actions, resource requirements, and milestones to complete tasks associated with remediation. the POA&M is used to monitor progress and provides a record of deficiencies and corrective actions. the organization should maintain a consistent POA&M process that will be used across all departments to help manage organizational risk
+
+
+POA&Ms should include: weaknesses identified (what is wrong), point of contact (who is responsible), resources required to correct, scheduled completion date for correction, milestones with completion dates, changes to milestones (tracks historical state if plan changes occur), method of identification, and status.
+
+
+POA&Ms are an extremely valuable tool for the overall organization and can include anything else the organization tracks. when applied at a detailed level, POA&Ms can be created for individual systems and components that better manage resources and provide for budget justifications and resource allocation prioritization since POA&M items are tied to identified risks
+
+
+detailed POA&Ms should be considered a living record of system status and remediation requirements. 
+
+
+in many cases, the POA&M may be the only easily accessible record that shows organizational leadership, security status, and various weaknesses associated with the organization or specific systems over time.
+
+
+identified residual risks and deficiencies: any risk identified in the assessment report that has not had a risk response applied should be included in the POA&M or risk response plan. while some items may not be immediately addressed, or resources may not be available, they should still be recorded to support future prioritization of effort and resource distribution. the response plan can then be used to help track unresolved risk from the organization level down to individual systems and components, depending on the level of detail in the response plans developed by the organization. integrating advanced risk management tools and technologies can further enhance the effectiveness of the POA&M. these tools automate aspects of risk tracking, provide analytical capabilities to assess the potential impacts of risks, and offer visualization features to communicate risk status and trends to stakeholders. leveraging technology in this way can lead to more efficient and effective risk management practices. ultimately, the goal of including all risks in a POA&M or risk response plan, even those not immediately addressed, is to ensure a structured and strategic approach to risk management. this approach helps organizations to9 not only manage their current risk landscape but also build resilience and adaptability into their risk management practices, thus preparing them to respond effectively to future challenges.
+
+
+prioritizing risk: one of the main values of having a risk response plan is risk prioritization. when used in conjunction with appropriate risk assessments, the response plan includes time lines and resource requirements needed to address risk. this allows the organization to address risk more effectively over time and to better allocate resources. for example, a risk assessment may produce a list of 10 risks with different potential magnitudes based on a risk scoring system. the common vulnerability scoring system (CVSS), for example, produces scores between 1 and 10 for technical risks; other risk frameworks use different risk scoring systems. an organization might use the risk score to rank risks from 1 to 10 based on their importance. that risk ranking can be tied to planned responses that include time lines and resource requirements. the combination of risk assessment and response plan then becomes an important planning tool for the allocation or reallocation of resources to planned responses based on the associated risk
+
+
+identifying resources and time required to mitigate risk: risk responses require some degree of resources to be applied for some period to reduce risk to an acceptable level. while strictly risk based prioritization helped the organization understand which responses provide the most value, risks must also be weighed against the resources required to adequately address them. for instance, an item that posses a relatively low risk but demands considerable resources to manage should not be prioritized for resource allocation until more critical risks have been addressed. however, it might be in the interest of an organization to address many low risk items that collectively require minimal resources. intelligent resource application is a key part of any risk management strategy and is heavily informed by both risk assessment and response planning that includes time lines and resource requirements. the NIST POA&M format explicitly requires the including of resources and planned time lines for risk mitigation, and NIST control require organizations to track POA&M items over time to ensure they are completed on schedule. ISO standards require similar tracking but are less explicit on what specifically is tracked with respect to each risk
+
+
+resources required to adequately respond to risk can take many forms, but most tie back to cost (financial resources), availability of skilled staff to implement responses (personnel resources), and available technologies that enable or permit responses (technical resources)
+
+
+any or all these resource types may be constrained and are rarely in abundance for most organization. the lack of a single critical resource could prevent or delay a risk response even if other resources are available. if an organization has the money (financial) and equipment (technical) to implement a response, but it does not have the personnel to run the equipment, the response may be infeasible
+
