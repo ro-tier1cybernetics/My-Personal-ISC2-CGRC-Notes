@@ -1,0 +1,2468 @@
+ISC2 GRC Domain 7 Clip Notes
+
+
+
+
+
+
+
+
+
+Changes Weigh the Impact to Organizational Risk, Operations, and Compliance Requirements
+
+
+
+
+
+organizations dace various changes to their systems and environment that can affect their risk, operations, and compliance
+
+
+
+
+
+these changes can be internal or external, planned or unplanned, gradual or sudden. examples of such changes are: system upgrades, patches, or configuration changes. new technology, services, and system implementation. new or modified policies, procedures, or standards. changes in business processes, objectives, or strategies. changes in legal, regulatory, or contractual obligations. changes in threat landscape, vulnerabilities, or attack vectors. changes in stakeholder expectations, needs, or preferences. natural disaster, emergencies, or crises.
+
+
+
+
+
+these changes can have positive or negative impacts on the organizations risk, operations, and compliance. for example, a system upgrade can improve performance and functionality but also introduce new vulnerabilities or compatibility issues.
+
+
+
+
+
+a change in policy can enhance governance and accountability but also increase complexity and cost. a change in business strategy can create new opportunities and markets but also exposes the organization to new risks and competitors.
+
+
+
+
+
+to manage these changes effectively, organizations should assess their impact and revise their baselines accordingly. baselines are the reference points that define the expected or desired state of the organizations risk, operations, and compliance. they include metrics, indicators, threshold, targets, and benchmarks that measure and monitor the organizations performance and progress. baselines help the organization to: establish a common understanding and agreement among stakeholders. identify and prioritize gaps, issues, and opportunities for improvement. plan and implement appropriate actions and controls. evaluate and communicate results and outcomes. learn and adapt to changing conditions and expectations.
+
+
+
+
+
+during a systems life cycle, the above events trigger an immediate need to assess and verify the security posture outside the expressed Information Security Continuous Monitoring (ISCM) strategy. these are unplanned, event driven assessments. depending on the impact such an event may have one or more systems or other organizational assets, the need for, and results of, and event driven assessment may prompt one or more system reauthorizations.
+
+
+
+
+
+systems and environments are in a constant state of change with respect to technology, human elements, the physical environment, environmental conditions, and the impact of external providers.
+
+
+
+
+
+all changes must be assessed for security impact, and all configuration and change management processes must be executed to identify and control change. changes can be authorized or unauthorized; both kinds of change must be monitored and controlled. unauthorized changes, which occur without formal approval, represent a significant risk. they must not only be detected through vigilant monitoring systems and processes but also swiftly reviewed to ascertain their impact on the organizations security landscape.
+
+
+
+
+
+changes to system and environment can have various impacts on organizational risk, operations, and compliance. these impacts can be categorized into four types: performance impact; the change affects the efficiency, effectiveness, or quality of the organizations processes, products, or services. risk impact; the change affects the likelihood or consequences of the organizations threats and opportunities. compliance impact; the change affects the organizations adherence to its legal, regulatory, or contractual obligations. stakeholder impact; the change affects the organizations relationship or interactions with internal and external stakeholders
+
+
+
+
+
+the impact of changes can be positive or negative, direct or indirect, immediate or delayed, short term or long term, and certain or uncertain. impact can also vary depending on the scope, scale, and complexity of the change, and the organizations context, culture, and capabilities.
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+ISO Guidance for Compliance Monitoring
+
+
+
+
+
+
+
+ISO 27001 requires monitoring for compliance and periodic recertification and is required for ISO certification.
+
+
+
+
+
+ISO 27001 also requires a monitoring and internal audit program, which includes requirements for audit programs that address the "frequency, methods, responsibilities, and reporting" of the auditing program.
+
+
+
+
+
+system compliance monitoring in ISO 27000 is part of the Check phase of the Plan-Do-Check-Act (PDCA) cycle, which involves monitoring and measuring the performance and effectiveness of the information security management system (ISMS) and its controls. according to ISO 27001, system compliance monitoring should include the following activities: regular review of the ISMS policies and procedures to ensure they are up to date and aligned with organization objectives and legal and regulatory requirements. audits of the ISMS to verify it conforms to the ISO 27001 standard and internal ISMS requirements. technical review of the information system to evaluate its compliance with security baselines and ISMS controls. monitoring of security events and incidents to detect and respond to any breaches or violations of the ISMS policies and procedures. measurement of ISMS performance indicators to assess the effectiveness and efficiency of ISMS processes and activities.
+
+
+
+
+
+the results of the system compliance monitoring activities should be recorded and reported to the relevant stakeholders and used as inputs for the Act phase of the PDCA cycle, which involves taking corrective and preventative actions to improve the ISMS.
+
+
+
+
+
+ISO Guidance for Change Management: change management in ISO 27000 is part of the Do phase of the PDCA cycle, which involves implementing and operating the ISMS and its controls. according to ISO 27001, change management should include the following activities: identification and classificati9on of the changes to determine their scope, impact, and priority. analysis and evaluation of the changes to assess their feasibility, benefits, and risks. approval and authorization of the changes to ensure they are consistent with the ISMS policies and procedures and have the necessary support and resources. implementation and testing of the changes to ensure that they are executed according to the approved plan and meet the expected outcomes. review and closure of the changes to verify they are completed and documented, evaluate their results and feedback.
+
+
+
+
+
+
+
+Change management activities: 1. identification and classification. 2. analysis and evaluation. 3. approval and authorization. 4. implementation and testing. 5. review and closure
+
+
+
+
+
+the change management process should be documented and controlled, and the changes should be communicated and coordinated with the relevant stakeholders. the change management process should also be monitored and reviewed, and the lessons learned used as inputs for the Plan phase of the PDCA cycle, which involves establishing and updating the ISMS objectives and plans.
+
+
+
+
+
+---
+
+
+
+
+
+
+
+Three Phases of Risk Remediation and Tracking
+
+
+
+
+
+
+
+then process of risk remediation and tracking can be divided into three main phases: monitoring, reporting, and reviewing
+
+
+
+
+
+monitor: this phase involves monitoring and measuring the systems performance, availability, integrity, confidentiality, and accountability, as well as the effectiveness and efficiency of the risk treatment and the configuration management and security updates. the monitoring phase also involves identifying and assessing any new or emerging risks, changes, or deviations from the expected risk level and the risk appetite and tolerance.
+
+
+
+report: this phase involves reporting and communicating the results and findings of the monitoring phase, the status and progress of the risk treatment and the configuration management and security updates. the reporting phase also involves providing and receiving feedback and recommendations from stakeholders and escalating and resolving any issues or incidents.
+
+
+
+review: this phase involves reviewing and evaluating the effectiveness and efficiency of the risk analysis and treatment, the configuration management and security updates, and the risk remediation and tracking processes, as well as the systems compliance with relevant standards, regulations, and policies. the reviewing phase also involves identifying and implementing any improvements or adjustments that may be needed to enhance the systems performance, security, and compliance.
+
+
+
+
+
+monitoring phase: integrity, availability, configuration management, risk treatment effectiveness and efficiency, performance, confidentiality, security updates, accountability
+
+
+
+reporting phase: configuration management, incident resolution, issue escalation, feedback loops, risk treatment, security updates, recommendations
+
+
+
+reviewing phase: risk analysis and treatment effectiveness, police, identification/implementation of improvements, compliance with standards, regulations
+
+
+
+
+
+organizational continuous monitoring strategy determines frequency of ongoing control assessments supplemented by system continuous monitoring strategy. ongoing assessment typically includes automated and manual monitoring (e.g. network vulnerability and configuration scans, human review of physical security)
+
+
+
+
+
+the frequency at which terms and conditions stemming from the authorization decision are evaluated and reevaluated is specified by the authorizing official (AO). the degree of independence required for assessors, as set by the AO, aids in the processes of reauthorization and continuous authorization while mitigating potential conflicts of interest. in many cases, ongoing assessment activities may be used to satisfy FISMA security assessment requirements.
+
+
+
+
+
+ongoing assessments may include: formal assessments; generally discrete events with specified goals. informal assessments; assessment or reassessment of controls or system elements done due to a change or modification. configuration scanning; use of automated tools to check system configurations on a recurring basis. vulnerability scanning; use of automated tools to identify outdated or vulnerable software components. review of logs and event data; closely tied to system operations but often provides assurance that controls are operating - or - not operating - as intended. other assessments; performed at the discretion of the AO
+
+
+
+
+
+ongoing risk response is a crucial aspect of the Risk Management Framework (RMF) that neutralizes risks based on continuous monitoring activities, risk assessments, and Plans of Action and Milestones (POA\&Ms)
+
+
+
+
+
+by considering inputs such as security and privacy assessment reports, risk assessment results, and security plans, the organization can make informed decisions regarding risk acceptance or the implementation of mitigation measures. they key outcomes of ongoing risk response involve executing risk response actions and updating security and privacy assessment reports to reflect the progress. this continuous response process ensures the organization maintains a robust security posture and is adaptive to evolving cybersecurity threats and challenges throughout the systems life cycle
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Risk Treatment Documentation
+
+
+
+
+
+
+
+risk treatment is the process of selecting and implementing the appropriate measures to modify the risks that may affect the systems compliance status. it involves choosing the best option to avoid, reduce, transfer, or accept the risks, as well as designing, executing, and testing the risk treatment measures.
+
+
+
+
+
+the documentation that will be reviewed and updated during risk treatment includes:
+
+
+
+risk treatment plan: this document defines the scope, objectives, roles, responsibilities, tools, and procedures for risk treatment. it documents clear roles and responsibilities to individuals and teams across the organization, ensuring that there is no ambiguity regarding accountability for implementing risk treatment measures. it details the tools, techniques, and procedures utilized in the risk treatment process, providing a structured methodology for addressing risks. this includes the identification of appropriate risk treatment options, such as risk avoidance, reduction, transfer, or acceptance, and the selection of specific measures implemented to manage each risk effectively. the risk treatment plan will be reviewed and updated whenever there are changes in the systems risks or their treatment.
+
+
+
+risk treatment report: this document reports the results of the risk treatment, which are the modified risks and their impact on the systems compliance status. it evaluated the resultant impact on the systems ability to meet regulatory and operational requirements. this report offers a transparent view into the effectiveness of the risk treatment process, showcasing how specific risks have been mitigated, reduced, transferred, or accepted, and the implications of these actions for the organizations overall risk profile. it also identifies and documents any risk treatment issues or challenges and their resolution. the risk treatment report will be reviewed and updated after each risk treatment.
+
+
+
+
+
+monitoring activities are documented and reported to the authorizing official (AO) and other organizational officials. organizations define the reports breadth, depth, formality, form, and formats based on organizational needs. the frequency or triggering events for reporting are at the organizations discretion and are frequently set by the AO. reports may include sensitive or controlled information and should be handled appropriately
+
+
+
+
+
+ongoing authorization requires robust organization level and system level continuous monitoring, so the security posture of the system is always well understood and easily identified.
+
+
+
+
+
+ongoing authorization includes continual risk determination and risk acceptance, which may occur based on an time driven interval or be event driven (e.g. whenever an update or status is provided). automated support tools, metrics, and dashboards are recommended to support ongoing authorization so the AO can fully understand system and organizational security posture during ongoing authorization. the utilization of metrics and dashboards is recommended to provide a clear and actionable view of the security posture. these visual tools compile complex data into an accessible format, allowing for easy interpretation and evaluation by the AOs and other stakeholders. dashboards can be customizes to highlight key performance indicators (KPIs), security metrics, and other relevant information, offering a real time snapshot of the systems security status. this aids in identifying trends, measuring the effectiveness of security controls, and tracking progress toward security objectives.
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Vulnerability Scanning
+
+
+
+
+
+
+
+vulnerability scanning is the process of scanning the system for any weaknesses or flaws that may expose the system to cyberattacks or unauthorized access.
+
+
+
+
+
+this process not only detects known vulnerabilities within software, hardware, and network infrastructures but also helps in uncovering configuration errors and security lapses that could be leveraged for cyber intrusion. vulnerability scanning involves using software tools or services that analyze the system configuration, code, or network for any known or potential vulnerabilities. by utilizing a combination of signature based, heuristic, and anomaly detection techniques, these scanning tools offer comprehensive insights into the security posture of the system, enabling IT and security teams to prioritize and remediate identified vulnerabilities based on their severity and potential impact.
+
+
+
+
+
+depending on the target and scope, vulnerability scanning can be performed internally or externally.
+
+
+
+internal scanning: internal scanning is the process of scanning the system form within the systems network or environment. internal scanning is useful for detecting any vulnerabilities that may exist in the systems internal components, such as servers, databases, or applications. internal scanning can also be used for compliance scanning, which is the procedures of scanning the system to ensure that it meets the requirements and standards of the systems policies or regulations. internal scanning may require privilege access to the systems network or environment, but it can provide more comprehensive and detailed information on the systems vulnerabilities.
+
+
+
+external scanning: external scanning is the process of scanning the system from outside the systems network or environment. external scanning serves as a critical line of defense in identifying and mitigating vulnerabilities that could be exploited by external attackers. by mimicking the tactics and techniques of cyber adversaries, external scanning and penetration testing reveal the system external surface vulnerabilities from the perspective of an outsider without internal network privileges. external scanning is useful for detecting any vulnerabilities the may exist in the systems external components, such as public facing web pages, web services, or APIs. external scanning can also be used for penetration testing, which is also the process of scanning the system to simulate a real world cyberattack or exploit. external scanning does not require access to the systems network or environment, but it can provide more realistic and objective information on systems vulnerabilities
+
+
+
+
+
+testing and vulnerability scanning are essential processes for maintaining ongoing system compliance. they help ensure the system is secure, reliable, and efficient, and that it meets the needs and expectations of users and stakeholders
+
+
+
+
+
+testing and vulnerability scanning can be performed in different ways, depending on the type and scope of the test or scan. regular, systematic testing and vulnerability scanning are critical for adapting to the evolving landscape of cyber threats and technology changes. as new vulnerabilities are discovered and as systems undergo updates and expansions, continuous monitoring and assessment ensure that security measures remain effective and compliant with industry standards and regulatory requirements. furthermore, documenting and reporting the results of tests and scans are essential for tracking progress, managing risk, and demonstrating compliance to stakeholders
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Configuration Management Documentation
+
+
+
+
+
+
+
+configuration management ensures the systems configuration is consistent, accurate, and traceable. it also supports the identification and resolution of configuration issues and conflicts
+
+
+
+
+
+by meticulously maintaining records and overseeing changes to the systems configuration, this process supports the proactive identification and swift resolution of any configuration issues and conflicts that may arise. this establishes a solid foundation for system reliability, security, and performance by enabling precise control over and visibility into all configuration items and their interdependencies.
+
+
+
+this systematic approach facilitates detection of unauthorized changes that could compromise the system and enhances the organizations ability to respond to and recover from incidents more effectively.
+
+
+
+
+
+the documentation that will be reviewed and updated during configuration management includes:
+
+
+
+configuration management plan: this document defines the scope, objectives, roles, responsibilities, tools, and procedures for configuration management. it also specifies the configuration items, their attributes, and their relationships. the configuration management plan will be reviewed and updated whenever there are changes in the systems scope, objectives, or requirements. incorporated within the plan are stringent guidelines for the review and approval process of proposed changes, underscoring the commitment to maintaining a controlled and transparent configuration management process. additionally, the plan outlines the strategy for configuration verification and audit, ensuring compliance with the defined configuration management policies and the detection and rectification of any deviations
+
+
+
+configuration baseline: this document records the approved configuration items and their attributes at a given point in time. it serves as a reference for verifying and validating the systems configuration. this critical document serves not merely as a static record but as a foundational benchmark for the rigorous verification and validation of the systems current configuration against its intended state. it encapsulates the authorized versions of software, hardware, network configurations, and associated processes, thereby providing a comprehensive snapshot of the systems approved state that is essential for maintaining operational integrity and stability. the configuration baseline will be reviewed and updated whenever there are changes in the systems configuration items or their attributes
+
+
+
+configuration audit report: this document reports the results of the configuration audits, which are the periodic checks that verify and validate the systems configuration against the configuration baseline. it also identifies and documents any configuration issues or conflicts and their resolution. these audits are critical, systematic examinations designed to ensure that the configuration of the system meticulously aligns with the established configuration baseline. though rigorous verification and validation processes, the audit scrutinizes the adherence of the systems configuration to the authorized specifications, thereby safeguarding the systems integrity, security, and performance. the configuration audit report is reviewed and updated after each configuration audit.
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+NIST Guidance on Incident Response and Contingency Activities
+
+
+
+
+
+
+
+incident response and contingency activities are the actions taken by an organization to respond to and recover from an adverse event that affects its information systems, such as a cyberattack, natural disaster, or human error
+
+
+
+
+
+incident response and contingency activities include preparing for, detecting, analyzing, containing, eradicating, restoring, and reviewing the incident.
+
+
+
+incident response and contingency activities minimize the impact of the incident, restore normal operations as soon as possible, and improve the security posture and resilience of the organization.
+
+
+
+
+
+to further bolster the organizations readiness and resilience, contingency planning extends beyond IT systems to include business continuity planning (BCP) and disaster recovery (DR) strategies. these plans ensure critical business functions can continue or be rapidly restored in the event of a major disruption, minimizing operational, financial, and reputational impacts.
+
+
+
+
+
+incident response and contingency activities are essential for maintain the security and availability of information systems in the even of disruptions, attacks, or disaster. these activities help minimize the impact of incidents, restore normal operations as quickly as possible, and prevent or mitigate future incidents
+
+
+
+
+
+NIST Guidance on Incident Response: NIST SP 800-53 is the standard that provides a catalog of security and privacy controls for federal information systems and organizations. NIST SP 800-61 is the standard that provides guidance on the processes and procedures for conducting incident handling and analysis. the following are some of the incident response and contingency activities performed for system compliance based on NIST standards:
+
+
+
+implement the security and privacy controls related to incident response and contingency planning from NIST SP 800-53, such as IR-1, IR-2, IR-3, IR-4, IR-5, IR-6, IR-7, IR-8, IR-9, IR-10, CP-1, CP-2, CP-3, CP-4, CP-5, CP-6, CP-7, CP-8, CP-9, CP-10, CP-11, CP-12
+
+
+
+follow the incident handling and analysis process form NIST SP 800-61, which consist of four phases: preparation; detection and analysis; containment, eradication, and recovery; and post incident activity
+
+
+
+prepare for incident response by establishing policies, procedures, roles, and responsibilities; creating and training an incident response team; acquiring and maintaining tools and resources; and coordinating with internal and external stakeholders
+
+
+
+detect and analyze incidents by monitoring and reviewing the system and network activities, logs, and alerts; identifying and verifying the incident sources, scope, and impact; and documenting and reporting the incident details and status
+
+
+
+contain, eradicate, and recover from incidents by isolating and removing the affected components, systems, or networks; eliminating the root causes and traces of the incidents; restoring the normal operations and functions; and verifying the system integrity and security.
+
+
+
+conduct post incident activity by analyzing the incident causes, effects, and lessons learned; developing and implementing recommendations and action plans for improvement; and updating the policies, procedures, and controls based on feedback and findings.
+
+
+
+develop and implement a contingency plan that covers the essential elements such as the purpose, scope, objectives, assumptions, roles, and responsibilities, activation, and notification procedures, testing and maintenance procedures, and supporting documents and appendices
+
+
+
+conduct a business impact analysis (BIA) to identify and prioritize the critical system components, functions, and processes and determine the potential risks, impacts, and recovery requirements for each of them.
+
+
+
+develop and implement contingency solutions and strategies, such as data backup and restoration, system and network redundancy and resilience, alternate processing and storage sites, and emergency communications and operations, to ensure the continuity and availability of the system
+
+
+
+
+
+
+
+cyber events may require specific response activities and/or public notice. cyber events during system operations may impact one or more of the RMF monitor step tasks and will often require some form of risk response. cyber events may include data breaches, outages, or any other events that impact the confidentiality, integrity, or availability of an information system. the RMF process is not a security operations process or framework, and cyber events are often handled through security operations. however, there is a close relationship between IT and security operations and the monitor step of the RMF, since many of the monitor step activities are carried out as part of ongoing security operations. security relevant cyber events will often constitute a change to the environment or risk scenario and necessitate ongoing remediation activities under the RMF
+
+
+
+
+
+cyber events may also be drivers for changes to risk response or the overall monitoring strategy for a system or for the entire organization
+
+
+
+
+
+system compliance management provides the baseline for the security and performance of the information systems and guides the development and implementation of the incident response and contingency plans. incident response and contingency activities, on the other hand, test and validate the effectiveness and adequacy of the compliance controls and identify any gaps or weaknesses. therefore, system compliance management and incident response and contingency activities should be aligned and coordinated to ensure the optimal protection and recovery of the information systems. this alignment ensures the security controls and policies not only meet regulatory and standards requirements but are also effective in real world threat scenarios
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+ISO Guidance on Incident Response and Contingency Activities
+
+
+
+
+
+
+
+incident response and contingency activities are the actions taken by an organization to respond to and recover from an adverse event that affects its information systems, such as cyberattack, natural disaster, or human error
+
+
+
+incident response and contingency activities minimize the impact of the incident, restore normal operations as soon as possible, and improve the security posture and resilience of the organization
+
+
+
+
+
+incident response and contingency activities include preparing for, detecting, analyzing, containing, eradicating, restoring, and reviewing the incident
+
+
+
+to further bolster the organizations readiness and resilience, contingency planning extends beyond IT systems to include business continuity planning (BCP) and disaster recovery (DR) strategies. these plans ensure critical business functions can continue or be rapidly restored in the event of a major disruption, minimizing operational, financial, and reputational impacts
+
+
+
+incident response and contingency activities are essential to maintaining the security and availability of information systems in the event of disruptions, attacks, or disasters. these activities help minimize the impact of incidents, restore normal operations as quickly as possible, and prevent or mitigate future incidents
+
+
+
+
+
+ISO Guidance on Incident Response: ISO 27035 is the standard that provides guidance on the principles, processes, and methods for managing information security incidents. the following are some incident response and contingency activities performed for system compliance based on ISO standards:
+
+
+
+establish an incident response policy that defines roles and responsibilities, reporting and escalation mechanisms, communication and coordination channels, and incident classification and prioritization criteria
+
+
+
+create an incident response team (IRT) that consists of qualified and trained personnel from different functions and levels, each assigned with clear authorities and duties
+
+
+
+provide the IRT with the necessary resources, tools, and access to perform their tasks effectively and efficiently.
+
+
+
+conduct regular training and awareness programs for the IRT and other relevant stakeholders on the incident response policy, procedures, best practices, and techniques for incident handling
+
+
+
+implement a process for identifying, reporting, analyzing, containing, eradicating, recovering, and learning from information security incidents, and document the incident response activities and outcomes.
+
+
+
+establish a process for evaluating and improving the incident response capability and performance and implementing corrective and preventative actions based on feedback and lessons learned
+
+
+
+develop and maintain a contingency plan that defines the objectives, scope, assumptions, roles and responsibilities, strategies, and procedures for responding to and recovering from different types of disruptions or disasters that may affect the system
+
+
+
+identify and assess the critical assets, processes, and functions of the system and determine the acceptable levels of risk, impact, and recovery time objectives for each of them
+
+
+
+select and implement appropriate contingency strategies and solutions, such as backups, redundancy, failover, alternate sies, and emergency operations, to ensure the continuity and availability of the system
+
+
+
+test and exerciser the contingency plan regularly to verify its effectiveness and readiness and update it based on the test results and changes in the system or environment
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Monitoring Systems and Assets
+
+
+
+
+
+
+
+system and asset monitoring is a vital process for ensuring the system and its components are compliant with relevant standards, policies, and regulations
+
+
+
+
+
+monitoring entails collecting, analyzing, and reporting the condition, efficiency, and protection of the system and its components. including both physical and digital devices, staff, and change management processes. monitoring helps identify and mitigate any risks, vulnerabilities, or deviations that may affect the systems compliance
+
+
+
+
+
+these various methods and tools for monitoring the system and its assets, depending on the type, scope, and frequency of the monitoring. some of the common methods and tools are:
+
+
+
+physical monitoring: this involves inspecting and auditing the physical assets of the system, such as servers, routers, switches, cables, and power supplies. physical monitoring can help to detect any unauthorized access, tampering, damage, or theft of the assets. physical monitoring can be done manually or using automated tools, such as cameras, sensors, locks, and alarms
+
+
+
+logical monitoring: this involves monitoring the logical assets of the system, such as software, data, network, and configuration. logical monitoring can help to detect any unauthorized changes, errors, malfunctions, or breaches of the assets. logical monitoring can be done using various tools, such as firewalls, antivirus, intrusion detection and prevention systems, log analyzers, and configuration management tools
+
+
+
+personnel monitoring: this involves monitoring the activities and behaviors of the personnel involved in the system, such as administrators, developers, operators, and users. personnel monitoring can help to ensure personnel are following the appropriate policies, procedures, and guidelines for the system and its assets. personnel monitoring can be done using various tools, such as access control, identity management, role based authorization, user behavior analytics, and audit trails
+
+
+
+change control monitoring: this involves monitoring the changes made to the system and its assets, such as updates, patches, upgrades, and modifications. change control monitoring can help ensure changes are authorized, documented, tested, and implemented in a controlled and compliant manner. change control monitoring can be done using various tools, such as change management, version control, and releaser management tools
+
+
+
+
+
+Types of System Monitoring: physical monitoring, change control, personal, and logical
+
+
+
+
+
+the frequency and reporting of monitoring activities depends on the systems nature and complexity and the requirements and expectations of stakeholders such as customers, regulators, and auditors
+
+
+
+
+
+some factors that can influence the frequency and reporting of monitoring are: the level of risk and impact of the system and its assets on the organization and its objectives. the level of compliance and performance of the system and its assets with the applicable standards, policies, and regulations. the level of change and innovation of the system and its assets and the environment in which they operate. the level of feedback and improvement of the system and its assets and the processes that support them.
+
+
+
+
+
+monitoring ensures that the implemented changes function as intended and helps identify potential security vulnerabilities or performance issues that may arise due to them.
+
+
+
+
+
+system and asset monitoring is a critical process for maintaining system compliance and ensuring the reliability, availability, and security of the system and its components. monitoring involves collecting, analyzing, and reporting on the status, performance, and security of the physical and logical assets, personnel, and change control of the system. monitoring helps identify and mitigate any risks, vulnerabilities, or deviations that may affect the systems compliance. monitoring should be done using appropriate methods and tools, and according to the defined frequency and reporting. incorporating system and asset monitoring as a foundational element of an organizations risk management and compliance strategy not only supports the immediate objective of safeguarding assets but also aligns with broader organizational goals of resilience and operational excellence
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Tracking Changes to the System and Enforcing Compliance
+
+
+
+
+
+
+
+changes in systems and applications require processes to be in place for documenting the changes and tracking system compliance with the baseline configuration
+
+
+
+
+
+change management requires a clear vision, effective communication, and stakeholder involvement
+
+
+
+
+
+compliance monitoring verifies that the system conforms to the standards, policies, and regulations that apply to it. it detects and prevents any violations or deviations from the expected behavior and performance of the system. to track the change process effectively, it is essential to measure and monitor the following aspects:
+
+
+
+change readiness: this is the degree to which the organization and stakeholders are prepared and willing to accept and implement the change. change readiness can be assessed by conducting surveys, interviews, focus groups, or workshops to evaluate the current state of the organization, the perceived need of an urgency for the change, and the potential barriers and enablers of the change.
+
+
+
+change process: this is the extent to which the change activities are completed and aligned with the change plan. the change process can be tracked using project management tools such as Gantt charts, milestones, tasks, and deliverables to compare the actual performance with the planned performance. the change process can also be monitored using quality management tools, such as checklists, audits, reviews, and tests to ensure the change outputs meet the desired standards and specifications
+
+
+
+change outcomes: these represent the impact and value of the change on the organization and stakeholders. change outcomes can be measured using performance indicators such as key performance indicators (KPIs), metrics, or scorecards to evaluate the achievement of the change goals and objectives. change outcomes can also be evaluated using feedback mechanisms such as surveys, interviews, focus groups, or workshops to assess the satisfaction and perception of the change among the stakeholders
+
+
+
+
+
+there are various tools and techniques that can be used to track the change process depending on the nature and complexity of the change. some common tools are:
+
+
+
+the change log: this document records and tracks the changes that occur during the change process, such as scope changes, schedule changes, budget changes, or risk changes. the change log helps document the rationale, approval, and impact of each change and communicate the changes to the relevant stakeholders.
+
+
+
+the change dashboard: this visual tools displays the status and progress of the change process using charts, graphs, or tables. the change dashboard provides a quick, easy, overview of the key aspects of the change, such as its vision, goals, benefits, risks, activities, milestones, deliverables, and outcomes
+
+
+
+the change report: this document summarizes and analyzes the results and outcomes of the change process using data, evidence, and feedback. the change report helps to evaluate the success and effectiveness of the change and identify the lessons learned and best practices for future changes
+
+
+
+
+
+once changes have been reviewed, approved, and implemented, the system and environment must be monitored to track and enforce compliance
+
+
+
+
+
+this process is crucial for tracking adherence to regulatory and internal policy compliance, as well as for detecting any deviations from expected performance standards. monitoring ensures that the implemented changes function as intended and helps identify potential security vulnerabilities or performance issues that may arise due to them
+
+
+
+
+
+the compliance monitoring process consist of the following steps:
+
+
+
+compliance identification: this is the process of dwelling the standards, policies, and regulations that apply to the system. it should involve stakeholders who are accountable or affected by the compliance such as the system owner, manager, auditor, and user. it should result in a compliance framework that specifies the compliance objectives, criteria, and indicators
+
+
+
+compliance measurement: this is the process of collecting and analyzing the data that indicates the systems compliance level. it should use the compliance framework as a reference and employ various methods and tools, such as audits, reports, logs, tests, and surveys. it should also include a compliance threshold that defines the acceptable range of compliance
+
+
+
+compliance evaluation: this is the process of comparing the compliance measurement with the threshold and determining the systems compliance status. it should involve the stakeholders responsible for or affected by the compliance, such as the system owner, manager, auditor, and user. the results should be a compliance report that summarizes the findings and recommendations
+
+
+
+compliance improvement: this is the process of implementing recommendations from the compliance evaluation and resolving any compliance issues or gaps. it should follow a predefined plan that specifies the actions, resources, roles, and responsibilities involved in the improvement. it should also include a verification and validation plan that ensures the improvement is effective and sustainable. the compliance improvement should be documented and communicated by the system manager and the system auditor and should result in a updated compliance status of the system
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Risk Analysis Documentation
+
+
+
+
+
+
+
+risk analysis is the process of identifying, estimating, and evaluating the risks that may affect the systems compliance status. it involves determining the sources, causes, consequences, and likelihood of the risks, as well as their impact on the systems objectives and requirements
+
+
+
+
+
+by meticulously analyzing these dimensions, the process seeks to quantify the potential impact of identified risks on the systems strategic objectives, operational requirements, and compliance obligation's
+
+
+
+
+
+risk analysis is instrumental in prioritizing risks based on their severity and likelihood, thereby enabling organizations to allocate resources and implement mitigation strategies more effectively. this proactive approach not only facilities a deeper understanding of the systems vulnerability landscape but also supports the development of a robust risk management framework
+
+
+
+
+
+the documentation that will be reviewed and updated during risk analysis includes:
+
+
+
+risk management plan: this document defines the scope, objectives, roles, responsibilities, tools, and procedures for risk management. it also specifies the risk criteria, risk categories, risk identification methods, risk estimation techniques, and risk evaluation methods. it establishes a structured and systemic approach to managing risk, aligned with the organizations objectives and operational requirements. this plan defines the scope of the risk management process, setting clear boundaries within which risks are to be identified and managed. it outlines the strategic objectives of risk management, ensuring alignment with the broader goals of the organization, and it assigns specific roles and responsibilities, creating a clear accountability framework for risk management activities,. the risk management plan will be reviewed and updated whenever there are changes in the systems scope, objectives, or requirements
+
+
+
+risk register: this document records the identified risks and their attributes, such as source, cause, consequence, likelihood, impact, and priority. it also tracks the status and history of the risks, such as when they were identified, analyzed, evaluated, treated, monitored, and closed. the risk register acts as a critical communication tool, fostering transparency and shared understanding among stakehold4ers regarding the risks faced by the organization and the measures in place to manage them. it facilitates informed decision making by providing stakeholders with access to up to date risk information, supporting the alignment of risk management efforts with the organizations strategic goals and compliance requirements. the risk register will be reviewed and updated whenever there are changes in the systems risks or their attributes
+
+
+
+risk analysis report: this document reports the results of the risk analysis, which are the estimated and evaluated risks and their impact on the systems compliance status. it also identifies and documents any risk issues or gaps and their resolution. in addition, the report enhances transparency and accountability, enabling stakeholders to monitor the effectiveness of the organizations risk management efforts and the progress of implementing risk resolutions. by documenting the rationale behind risk prioritization and response strategies, the risk analysis report fosters a culture of risk awareness and encourages a collaborative approach to managing risk across the organization. the risk analysis report will be reviewed and updated after each risk analysis
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Revisions to Baselines
+
+
+
+
+
+
+
+after performing proper configuration and change management, revisions to the baselines are needed when the impact of changes to systems and environment is significant, material, or critical
+
+
+
+
+
+this means the impact: affects the organizations ability to achieve its mission, vision, and goals. alters the organizations risk profile, appetite, or tolerance. violates the organizations legal, regulatory, or contractual obligations. compromises the organizations reputation, trust, or value
+
+
+
+
+
+baseline revisions are also needed when the im-pact of changes to the systems and environment is persistent, recurrent, or cumulative. this means the impact: does not revert to the original or expected state after a reasonable time. occurs repeatedly or frequently over a period. adds up or accumulates over time.
+
+
+
+the prices for revisions to the baselines consist of the following steps: identify the baselines that need revision based on the impact assessment. analyze the current and desired state of the baselines and the gap between them. define the revised baselines and the criteria for their validation and verification. implement the revised baselines and the actions and controls that support them. monitor and measure the performance and progress of the revised baselines. review and evaluate the results and outcomes of the revised baselines. learn and improve based on the feedback and lessons learned.
+
+
+
+
+
+the process for revisions to the baselines should be aligned with the organizations change management framework and best practices. it should also involves the relevant stakeholders and ensure their participation, communication, and collaboration
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Retaining Documentation of the Decommissioned System and Sharing with Stakeholders
+
+
+
+
+
+
+
+when a system is decommissioned, it is important to retain and share the documentation of the system with relevant stakeholders
+
+
+
+
+
+guidelines from ISO and NIST can help system owners and stakeholders manage the documentation of the decommissioned system. these guidelines emphasize the importance of documentation for ensuring continuity, compliance, and security. they recommend best practices for documenting the rationale for decommissioning, the procedures to follow, data migration processes, and the final disposition of system components
+
+
+
+
+
+the documentation of the decommissioned system can include the following: system design and architecture documents, such as diagrams, models, specifications, and standards. system development and testing documents, such as code, test cases, test results, and bug reports. system operation and maintenance documents, such as manuals, procedures, logs, and reports. system security and compliance documents, such as risk assessments, audits, polciie4s, and controls. system disposal and destruction documents, such as plans, records, and certificates.
+
+
+
+
+
+the documentation of the decommissioned system can provide valuable information for the following purposes: understanding the history and rationale of the system. learning from best practices and lessons learned. reusing or repurposing the components or assets of the system. resolving any legal or contractual issues related to the system. ensuring the security and privacy of the system data and users. providing compliance with legal, regulatory, and industry standards throughout the systems operational period, facilitating audits and investigations. aiding in the training and education of new staff or the transfer of knowledge to other teams
+
+
+
+
+
+the system owner, along with business process owners and data owners, should coordinate the effort of this documentation and include the process and procedures for decommission, disposal, and the purposes above. this documentati9on should be used for proper disposal and to provide proof thereof in any future audits. the documents should be retained using the organizations record retention processes
+
+
+
+
+
+there are several guidelines from ISO and NIST that can help system owners and stakeholders manage the documentation of the decommissioned system. some of the relevant guidelines are:
+
+
+
+ISO/IEC 14764: 2006, information technology - software maintenance. this document provides a framework for the maintenance of software systems, including the documentation of the maintenance activities and outcomes.
+
+
+
+ISO/IEC 27001: 2013, information technology - security techniques - information security management systems - requirements. this document specifies the requirements for establishing, implementing, maintaining, and improving an information security management system, including the documentation of the system policies, procedures, and records
+
+
+
+NIST SP 800-53, Rev. 5 - security and privacy controls for information systems and organizations. this document provides a catalog of security and privacy con5trols for information systems and organizations, including the documentation of the system security plans, risk assessments, and authorization packages.
+
+
+
+NIST SP 800-88, Rev. 1 - guidelines for media sanitization. this document provides guidance for the sanitization of information system media, including the documentation of the system media inventory, sanitization methods, and verification processes
+
+
+
+
+
+system owners and stakeholders should follow these guidelines to ensure the decommissioned system documentation is retained and shared consistently, securely, and compliantly
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Change Request Forms and Approvals
+
+
+
+
+
+
+
+
+
+proposed changes are any requested modifications or enhancements for the system. proposed changes can originate from various sources, such as the customers, the users, the developers, the testers, the managers, or the regulators. proposed changes can affect the systems functionality, performance, design, architecture, or documentation
+
+
+
+
+
+1\. identify and document
+
+2\. analyze and evaluate
+
+3\. submit for approval
+
+4\. implement approved changes
+
+5\. verify and validate
+
+6\. update documentation
+
+7\. communicate to stakeholders
+
+
+
+
+
+
+
+proposed changes should be handled and documented according to the following steps: identify and document the source, scope, rationale, and impact of the proposed change. analyze and evaluate the feasibility, benefits, costs, and risks of the proposed change. submit the proposed change to the appropriate authority for approval (e.g. CCB, TRB). implement the approved change according to the agreed upon plan and schedule. verify and validate the implemented change and its effects on the system. update the system documentation and configuration to reflect the implemented change. communicate the implemented change and its results to the relevant stakeholders.
+
+
+
+ISO and NIST standards have documentation required for proposing, reviewing, and approving changes in systems to ensure every change is evaluated for its impact on the systems security posture. there are different roles and responsibilities of the CCB and the TRB in the change management process.
+
+
+
+
+
+change request form: before implementing any changes in systems, the system owner or developer must submit a change request form that describes the following information; the purpose and scope of the change. resource requirements of the change. security assessment of the change. the expected benefits and risks of the change. the impact analysis of the change on the system and its environment. the testing plan and results for the change. the implementation plan and schedule for change. the post implementation review plan. the rollback plan and contingency plan for the change. the compliance checklist for the change.
+
+
+
+
+
+
+
+the change request for must be accompanied by the relevant documentation that supports the change, such as design specifications, code snippets, test cases, test results, screenshots, and user manuals. the documentation must be clear, concise, and consistent with ISO and NIST standards and guidelines..
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Conducting Personnel Interviews
+
+
+
+
+
+
+
+personnel interviews are an important part of system compliance and security and privacy assessment. they help verify the information provided by the system owners, operators, and users, and identify any potential risks, gaps, or weaknesses in the systems security and privacy posture
+
+
+
+
+
+beyond mere verification, these discussions can shed light on the practical implementation and adherence to policies, procedures, and controls that might not be fully captured through documentation review or automated testing. they offer a unique opportunity to gauge the awareness, training, and competence of personnel in maintaining the organizations security and privacy standards
+
+
+
+
+
+the main objectives of personnel interviews are to: confirm the accuracy and completeness of the system documentation, such as the system security plan, the privacy impact assessment, the risk assessment, and the contingency plan. validate the implementation and effectiveness of the systems security and privacy controls, such as access control, encryption, authentication, audit, backup, and incident response. uncover any unofficial practices, shortcuts, or workarounds adopted by personnel that may not be documented but could affect the systems security and privacy posture. these insights can reveal innovative solutions or potential vulnerabilities that need to be addressed. evaluate the awareness and competence of personnel in performing their security and privacy duties, such as following policies and procedures, reporting incidents, and completing training. evaluate the effectiveness of communication channels and reporting mechanisms for security and privacy concerns within the organization. this includes understanding how personnel report security incidents, breaches, or vulnerabilities and how these reports are managed and escalated. identify any security and privacy issues, concerns, or challenges the personnel face or anticipate in using or managing the system. provide feedback and recommendations to the personnel on how to improve the systems security and privacy performance and compliance status
+
+
+
+
+
+the interview process consists of the following steps: planning, conducting, reporting, and follow up
+
+
+
+planning: the interviewers, who are usually the system compliance and security and privacy assessors, prepare the interview questions, schedule the interviews, and inform the interviewees, who are usually system owners, operators, and users, about the purpose, scope, and expectations of the interviews.
+
+
+
+conducting: the interviewers conduct the interviews, either in person, by phone, or by video conference, and record responses, observations, and findings. the interviewers use open ended, probing, and scenario based questions to elicit relevant and detailed information from interviewees. the interviewers also provide guidance and clarification to the interviewees as needed.
+
+
+
+reporting: the interviewers analyze the interview data, identify any strengths, weaknesses, opportunities, or threats in the systems security and privacy posture, and document the results and recommendations in the interview report. the interviewers share the report with the interviewees and solicit their feedback and comments.
+
+
+
+following up: the interviewers follow up with the interviewees to verify the reports accuracy and validity, address any questions or concerns, and monitor the implementation of the recommendations.
+
+
+
+
+
+interviews provide and opportunity to educate personnel about the systems compliance requirements, security and privacy best practices, and their roles and responsibilities in protecting the system and its data.
+
+
+
+
+
+these sessions can highlight the direct impact individual actions have on the overall security posture, emphasizing that security and privacy are collective responsibilities shared across levels of the organization. furthermore, interviews can be used to introduce new or updated policies, procedures, and technologies, ensuring personnel are not only aware of these changes but also understand their practical applications and implications
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Reviewing Requirements for System Decommissining with Stakeholders
+
+
+
+
+
+
+
+system decommissioning is a prokect and should be planned as such. it must include determining decommissioning requirements and scheduling and resourcing needs to securely decommission and dispose of the system assets.
+
+
+
+
+
+essential to this planning phase is the development of a robust schedule that outlines key milestones and deadline to ensure the project progresses efficiently. equally important is the allocation of appropriate resources, including personnel with the necessary expertise, financial resources to support the activities involved, adn technologogical tools required for the secure deletion or migration of data, as well as the physical disposal or repurposing of hardware assets. there are several scenarios that may require decommissioning a system:
+
+
+
+they sytem has reached the end of its life cycle and is no longer sypportedf by the vendor or the organization
+
+
+
+the system is rreeplaceed by a newer or more efficcirnent system that meets business needs
+
+
+
+they system is damanged beyond repair or poses a security risk the network or the data
+
+
+
+the system is no longert cvompliant with regulatory or legal requirementys
+
+
+
+the system is no longer cost effective to maintain or operate
+
+
+
+
+
+typical decommissioning plans may include requirements for:
+
+
+
+interconnection shut down or switchover to replacement systems
+
+
+
+data retention (legal, statutory, policy requirements), which includes currently loaded data as well as access to historical backups
+
+
+
+hardware/software/firmware retention, repurpose, release to external entities, or sanitization
+
+
+
+configuration retention and system documentation retention, which may be required to track historical system posture or in case the system or system elements must be returned to operation in the future (e.g. to restore a backup to recover data)
+
+
+
+
+
+the system ownert sho8uild review the disposal of systems with business process stakeholders for the appliactions and data owners to plan for proper decommissioning and disposal
+
+
+
+
+
+the plan and schedule must support a controlled shutdown that prevents data or service loss from the system being decommissioned as well as from any other systems connected to it or dependednt on it
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Change Control Board (CCB) and Technical Review Board (TRB) Review of Changes
+
+
+
+
+
+
+
+a key element of a configuration management structure is the CCB, which is made up of two or more individuals with the responsibility and authority to review and approve changes
+
+
+
+
+
+the CCB functions as a gatekeeper for changes and ensures that processes are followed, and changes are properly evaluated and approved prior to implementation. the CCB enforces organizationally defined criteria on the scope, cost, and security impact of the change
+
+
+
+
+
+therefore, CCB membership should include not only those interested in the functionality of, and user satisfaction with, the system, but also key personnel who focus on the security and privacy needs. the formality of the review may vary based on the system impact to organizational mission and business processes anmd whether the change being reviewed is routine or emergency in nature. some CCBs may include (or be called) a TRB, depending on their organization and functions. in addition to the core responsibilities and composition of the CCB, it is essential to highlight the strategic importance of incorporating a diverse set of perspectives within the board to enhance decision making and risk management. this diversity should encompass various departments and expertise areas, including IT, cybersecurity, legal, compliance, and business operations, ensuring a holisitic evaluation of proposed changes. larger CCBs thgat include multidisciplinary and nontechnical staff may delegate technology specific reviews to technical staff either on or adjunct to the board
+
+
+
+
+
+the CCB is responsible for evaluating the business and operational aspect5s of the change, such as the purpose, scope, benefits, risks, impact, schedule, and compliance of the change. the CCB must ensure the change alins with the organizational goals and objectives and that it does not adversely affect the system performance, availability, reliability, security or usability. the TRB is responsible for evaluating the technical and functional aspects of the change, such as the design, code, testing, implementation, and rollback of the change. the TRB must ensure that the change follows the best practices and standards for system development, testing, and deployment, and that it does not introduce any errors, defects, vulnerabilities, or inconsistencies in the system. the CCB and the TRB must review the change request form and the supp;orting documentation and provide feedback, comments, suggestions, or questions to the system owner or developer. the CCB and TRB msuyt also conduict a joint meeting to discuss the change proposal and reach a consensus on the approval or rejection of the change. the CCB and TRB must document the outcome of the review and the meeting and communicate it to the system owner or developer
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+Change Deployment and Rollback Plan
+
+
+
+
+
+after going through the proper change management process, the change can be implemented and deployed.
+
+
+
+
+
+this process involves the correct development, thorough testing, and formal approval of changes for production, ensuring their readiness and appropriateness for deployment to the system and its environment. the following list outlines the steps for testing, development, and approval for production:
+
+
+
+1. planning and preparation: in this phase, the scope, objectives, schedule, and risks of the changes are defined and documented. the deployment team should also identify the depenendencies, resources, roles, and responsibilities for the deployment.
+2. development and testing: changes are implemented, verified, and validated in a controlled environment. the deployment team may also perform quality assurance, security testing, and performance testing to ensure the changes meet the requirements and standards.
+3. approval and release: changes are reviewed and approved by the stakeholders and authorized for deployment. the deployment team should also prepare the release notes, documentation, and training materials for the changes.
+4. deployment and verification: changes are deployed to the target environment and verified for functionality and performance. the deployment team should also monitor the system status, collect feedback, and resolve any issues that arise during or after deployment
+5. evaluation and closure: changes are evaluated for their outcomes, benefits, and impacts. the deployment team should also conduct a post deployment review, document the lessons learned, and close the deployment project
+
+
+
+
+
+rollback plan: when a deployment does not go as planned or an unknown risk appears, a rollback plan defines the steps and procedures for restoring the system environment to its previous state. a rollback plan should be prepared and approved before the deployment of changes. it should include the following elements:
+
+
+
+the criteria and triggers for initiating the rollback
+
+
+
+the responsibilities of the system team and other parties involved in the rollback
+
+
+
+the backup and recovery methods and tools for restoring the system data and configuration
+
+
+
+the testing and verification methods and tools for ensuring the system finctionality and performance
+
+
+
+the communication and notification methods and tools for informing the system users, customers, and stakeholders about the rollback
+
+
+
+
+
+
+
+the key out comes of the deployment of approved changes to the security baseline involve executing risk response actions and updating security and privacy assessment reports to reflect the progress
+
+
+
+this continuosus response process ensures the organization maintains a robust security posture and remains adaptive to evolving cybersecurity threats and challenges throughout the systems life cycle. risk responses are implemented, and any resulting changes are reassessed. responses are tracked in the POA\&M; these include the risk responses of accept, mitigate, transfer, and avoid
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Standards and Guidelines for System Maintenance
+
+
+
+
+
+
+
+the standards and guidelines that can be used to ensure the quality and consistency of the system maintenance process include the following:
+
+
+
+ISO/IEC 20000: this is and international standard that specifies the requiremernts for estrablishing, implementing, maintaining, and improving a service management system that delivers quality IT services to the users and stakeholders
+
+
+
+ISO/IEC 20001: this interanltional standard specifies the requirements for establishing, implementing, maintaining, and continuoally improving and information security management system (ISMS). it includes aspects of system maintenance that impact information security
+
+
+
+ITIL: this is a framework that provides best practices and guidance for managing and delivering IT services throughout their life cycles - from strategy, design, transition, and operation, to continual improvement
+
+
+
+COBIT: this is a framework that provides a comprehensive and integrated set of principles, practices, and processes for governing and managing IT in alignment with the organizational goals and objectives
+
+
+
+NIST SP 800-53: this is a publication that provides a catalog of security and privacy controls for federal information systems and organizations, based on the risk management framework and the cybersecurity framework
+
+
+
+IEEE 14764: this is a standard that defiones the processes and activities for software maintenance, such as the maintenance process model, the maintenance plan, the maintentance process implementation, the maintenance process evaluation, and the maintenance process improvenment.
+
+
+
+
+
+the frequency of such updates is consistent with policy and at the discretion of the system owner, common control provider, or authorizing official
+
+
+
+
+
+the use of automated tools for managing information and updates is encouraged. tools should track changes and maintain documentation history. the package includes sensitive material, making it eassential to maintain accurate version control. this ensures all components of the package remain current and that any evaluator is examining the appropriate version. historical copies are also retained to ensure the system status was as understood at prior points in time. such copies may be leverages on reauthorization or ongoing authorization actions. based on the anticipated outcomes of the task, update could encompass modificaitions to risk treatments, the risk register (risk assessment), and any continuing remediation efforts or entries for Plans of Action and Milestone (POA\&M)
+
+
+
+
+
+---
+
+
+
+
+
+
+
+Information Security Controls Monitoring (ISCM)
+
+
+
+
+
+
+
+today, information security continuous monitoring (ISCM) organizations are dependent on information systems to support most mission critical functions
+
+
+
+
+
+the ability to manage this technology and to assure confidentiality, integrity, and availability of information must be ongoing even after authorization to operate has been granted through the RMF process. the final part of the RMF process begins with leadership defining a comprehensive information security continuous management (ISCM) strategy that includes all the related technology, processes, procedures, operating environments, and people. to operationalize the ISCM strategy effectively, it must be integrated into the organizations overall governance framework. this integration ensures that continuous monitoriung is not an isolated function but a part of the daily operations, influencing decision making processes and strategic planning. it should be supported by a dynamic risk assessment process that can accommodate the rapidly changing threat landscape, thereby enabling proactive adjustments to security controls and strategies
+
+
+
+
+
+the key resource to help the CGRC with planning and executing continuous monitoring is NIST SP 800-137
+
+
+
+this resource states:
+
+
+
+organizations take the following steps to establish, implement, and maintain ISCM: define an ISCM strategy, establish and ISCM program, Implement an ISCM program, analysis data and report findings, respond to findings, review and update the ISCM strategy and program
+
+
+
+
+
+system compliance maintenance and monitoring: during a systems life cycle, events may occur that trigger the immediate need to assess and verify the security posture outside the expressed ISCM strategy. these are unplanned, event driven assessment. depending on the impact such an event may have on one or more systems or other organizational assets, the need for, and results of, an event driven assessment may prompt one or more system reauthorizations.
+
+
+
+task 1: identify compliance requirements
+
+task 2: implement compliance controls
+
+task 3: perform compliance audits
+
+task 4: report findings
+
+task 5: remediate issues
+
+
+
+
+
+system compliance maintenance and monitoring involve the following steps:
+
+
+
+1. identify the compliance requirements and standards that apply to the system, such as legal, regulatory, organizational, or industry specific.
+2. implement compliance controls and measures that ensure the system meets requirements and standards, such as security policies, access controls, audit logs, backup and recovery plans, or encryption methods
+3. perform regular compliance audits and assessments to verify the effectiveness and validity of the compliance controls and measures and to identify gaps or weaknesses to be addressed
+4. report and document the compliance status and findings of the system and communicate them to the relevant stakeholders, such as management, auditors, or regulators
+5. remediate and resolve any detection compliance issues or violations and implement corrective and preventative actions to prevent them from recurring
+
+
+
+
+
+system compliance maintenance and monitoring require the use of various tools and techniques, such as:
+
+
+
+compliance management software that automates and simplifies the compliance tasks and workflows and provides a centralized platform for managing and tracking the compliance activities and records of the system
+
+
+
+compliance monitoring tools that collect and analyze the data and metrics of the system and alert the system administrators of any compliance anomalies or deviations that occur.
+
+
+
+compliance testing tools that simulate and evaluate the compliance scenarios and outcomes of the system and validate the compliance controls and measures implemented
+
+
+
+compliance reporting tools that generate and deliver the compliance reports and documents required or requested by the stakeholders and provide a clear and comprehensive overview of the compliance status and performance of the system
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Perform, Document, and Retain Awareness and Training Programs
+
+
+
+
+
+
+
+system and information compliance requires adhertence to the applicable laws, regualtions, standards, and policies that govern the security and privacy of the system and the information it processes, stores, and transmits
+
+
+
+
+
+compliance is essential for ensuring the confidentiality, integrity, and availability of the system and information and the protection of the rights and interests of system owners, users, and stakeholders. awareness and training educate system owners, users, and stakeholders about the compliance requirements, roles and repsonsisbiltities, risks and threats, and best practices and procedures for ensuring system and information compliance
+
+
+
+
+
+by engaging in regular, targeted training sessions, stakeholders can stay informed about the latest regulatory changes, emerging threats, and innovative security technologies. these programs not only equip individuals with the necessary knowledge to recognize and avoid potential security breaches but also foster a culture of accountability and vigilance across the organization
+
+
+
+
+
+the objectives of the awareness and training program for system and information compliance are: to inform the system owners, users, and stakeholders about the compliance and regulatory requirements and consequences of noncompliance. to explain the role and rsponsiobiltiies of the system owners, users, and stakeholders in 3ensuring system and information compliance. to reaise awareness ofthe srisks and threats to the ssystme and information and the portenital impacts of security and privvacyu breaches. to provide guidance and instructyion on the best practices and procedures for ensuring system and information compliance, such as contingency planning, incident response, and security and privacy policies. to evaluate the effectivess and efficiency of the awareness and training program and thesystem and information compliance performance
+
+
+
+
+
+the methods of the awareness and training program for system and information compliance include:
+
+
+
+developing and disseminating awareness and training materials, such as brochures, posters, newsletters, videos, webinars, and online courses. conducting awareness and traiing sessions, such as workshops, seminars, lectures, and exercises, for system owners, users, and stakeholders. assessing the awareness and training needs and preferences of the system owners, users, and stakeholders and tailoring the awareness and training program accordingly. monitoring and reviewing the awareness and training activities and the feedback from the system owners, users, and stakeholders. updating and improving the awareness and training program based on the changing compliance requirements, the emerging risks and threats, feedback from participants and the best practices and lessons learned
+
+
+
+
+
+the outcomes of the awareness and training program for system and information compliance are: increased knowledge and understating of the compliance and regulatory requirements and the roles and responsibiltiies of the system owners, users, and stakeholders. enhanced awareness and sensitivity of the risks and threats to the system and the information and the importance of security and privacy protection. improved skills and competencies of the system owners, users, and stakeholders in ensuring system and information compliance, sucha s contingency planning, incident response, and security and privacy policies. reduced incidents and violations of system and information compliance and increased detection and reporting of security and privacy breaches. improved system and information compliance performance and satisfication of system owners, users, and stakeholders. an established culture of security within th eorganization, where every employee feels responsible for maintaining the confidentiality, integrity, and availabitlity of the data, which results in meeting compliance requirements. regular training that keeps employees updated on the latest threats and compliance requirements, fostering continual improvement in the organizaitons security and compliance efforts.
+
+
+
+
+
+awareness and training are key componenets of system and information compliance. awareness and training will foster a culture of compliance and accountability within the organization and among the system users and stakeholders.
+
+
+
+
+
+by fostering a cultrute of compliance and accountability, organizations can significantlyu enhance their resilience against cyber threats and reduce the likelihood of compliance violations. this cultural shift ensures compliance and security considersaions are embedded in daily operations, decision making processes, and strategic planning
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Revising Monitoring Strategies
+
+
+
+
+
+
+
+monitoring is the process of collecting, analyzing, and reporting data on the performance, quality, and compliance of a system, service, or process. monitoring strategies are the plans and methods that define what, how, when, and why to monitor.
+
+
+
+
+
+monitoring strategies must be revised periodically to ensure they align with the current and future needs and expectations of stakeholders, such as customers, regulators, suppliers, security and privacy experts, and internal management
+
+
+
+
+
+updates the legal, regulatory, supplier, security, and privacy requirements can significantly impact an organziations monitoring strategies. for example, new laws or regulations may introduce new onligations, restictions, penalties, or reporting requirements for the organization. similarly, changes in supplier contracts or agreements may affect the service level agreements, quality standards, or data sharing policies of the organization. moreover, changes in security and privacy threats, risks, or best practices may require the organization to adopt new measures, controls, or safeguards to protect its data and systems. furthermore, these updates necessitate continuous vigilance and adaptabilitiy from organizations to ensure compliance and safeguard their interests.
+
+
+
+
+
+therefore, it is essential to revise monitoring strategies based on updates to requirements to ensure the organization is c0omplaint, accountable, and rexzilitient. the following steps can help in revising monitoring strategies based on updates to requirements:
+
+
+
+1. iderntify the sources and types of updates to trewquiire,ents. for example, moinitor the relevant laws, rewfgualtions, stansdars, guidelines, contracts, agreements, polcies, and procedures that applu to the organizations domain, industry, or sector.
+2. analysze the impact and implicaitons of the up\[dates ro requiementents on the organizations objectives, processes, systems services, and data. for example, assess how the updates to requirements affect the organizaitons performance, quality, compliance, security, and privacy goals and indicators.
+3. review and update the monitoring objectives, scope, criteria, and indicators. for example, revise the monitoring objkectives to reflect the new or changed requirements, define the scope of monitoring to cover the relevant aspects of the organizations operations, establish the criteria to evaluate the compliance effectriveness oif the orgnainzaitons processes, systems, services, and data, and select the indicators to measure and report the progress and results of monitoring.
+4. review an dupdate the omitring methods, tools, and resources, for example, choose th esappropraite methods and toolls to collect, analyze, and report the data that is relevant, reliable, and avaid for the monitoring objectives, criteria, and indicators and allocate the necessary resources, such as staff, time, budget, and infrastructure, to support the revised monitoring activities.
+5. review and update the monitoikng rooles, responsiblitieis, and procedures. for example, assign the roles and responsibilities for planning, conducting, reviewing, and improving the monitoring activities, and define the procedures for documenting, communcaating, and escalating the monitoring findings, issues, and recommendations
+6. implenment, test, and validate the revidse monitoring strategies. for example, execute the monitoring activities according to the revised plans, methods, and procedures, and verify that the monitoring data, reports, and feedback are accurate, complete, and timely
+7. evaluate and improve the revised monitoring strategies. for example, measure the effectiveness, efficiency, and satisfaction of the monitoring activities, identify the strengths, weaknesses, opportunities, and threats of the monitoring strategies, and implement the necessary improvements or corerective actions
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Four Phases of Risk Analysis and Treatment
+
+
+
+
+
+
+
+risk analysis and treatment are essential steps to ensure a system complies with relevant standards, regulations, and policies
+
+
+
+
+
+risk analysis involves identifying, assessing, and prioritizing potential threats and vulnerabilities that oculd affect the systems performance, availabiltity, integfrity, confidentialilty, or accountability. risk treatment involves selecting and implementing appropriate controls and measures to reduce, transfer, avoid, or accept risks depending on the risk appetite adn a cost benefit analysis
+
+
+
+the process of risk analysis and treatment can be divided into four main phases: planning, identification, assessment, and treatment. the following is a brief recap of each phase and the activities involved.
+
+
+
+planning: this phase involves defninhig th scope, objkectives, criteria, anmd methodology of the risk analysis adn treatment process, aas well as the roles and responsibilities of the stakeholders. the planning phaswe also involves establishsing the risk appetite, which is the level of risk that organization is willing to accept, and the risk tolerance, which is the deviation fromt he risk appetitie that the organzaiton can tolerate.
+
+
+
+idnetififcaiton: this phase involves identifying and docmeunting th potential sourtcvers, cauyses, and consequences of risks, as well as the existing controls and measures in place to mitigate them the identification phase can use various techniques, such as brainstorming, interviews, surverys, checklists, audits, reviews, or analysis of historical data, to collect and record relevant information. this process can also incorportate advanced analytical approaches like SWOT analysis (i.e. strengths, weaknesses, opportunities, and threats), scenario planning, or root cause analysis.
+
+
+
+assessment: this phase involves analyzing and evaluating the likelihood and impact of each risk, as well asa the effectiveness and efficiency of the existing controls and measures. the assessment phase can use various methods, such as qualitative, quantitative, or hybrid, to measure and rank the risks according to their severity and priority. by accurately analyzing and evaluating risks, organizations can prioritize their risk mitigation efforts, allocate resources efficiently, and enhance their overall risk posture
+
+
+
+treatment: this phase involves selecting and implementing the most appropriate option for dealing with each risk, based on the risk appretite, tolerance, cost benefit analysis, and potential impact on business objectives. the treatment phase involves selecting and implementing the most appropriate option for dealing with each risk, based on the risk appetite, tolerance, cost benefit analysis, adn potential impact on business objectives. the treatment phase can use various strategies, such as reducing, transferring, avoiding, or accepting the risks, to modify the risk level and align it with organizational goals and objectives
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+ISO/NIST Comparison: Managing Security and Compliance Frameworks
+
+
+
+
+
+
+
+both ISO 270001 adn NIST 800-37 framworks provide comprehensive and systematic approaches for managing the security and compliance of information systems
+
+
+
+
+
+however, there are some notable differences between the two frameworks, which can be summarized as follow:
+
+
+
+* ISO 27001: scope; generic and flexible, applicable to any type of organization and information system. approach; based on the PDCA cycle, a continuous improvement model for managing processes and activities. emphasis; establishing, implementing, maintaining, and continuously improving an ISMS within the context of the organziations overall business risks. certification; requires certification of the ISMS by an accreditsed third party auditor to demonstrate conformity with ISO 270001 standard and internal ISMS requirements.
+* NIST 800-37: scope; specific and prescriptive, designed for federal information systems. approach; based on the RMF, a risk management process for managing security and privacy risks. emphasis; security and privacy controls, technical and administrative measures for protecting the information system and its data. certification; requires authorization of the information system by a senior official to demonstrate acceptance of risk and authorization to operate
+
+
+
+
+
+despote these differences, both frameworks share common principles and practices, such as:
+
+
+
+* the adoptuion of a risk based approach that involves identifying, assessing, and treating the security and copml;iance risks of the information system and its environment
+* the implementation of a continuous monitoring process that involves tracking and reporting the security and compliance status of the information system and its environment
+* the establishment of a change management process that involves controlling and documenting the changes to the information system and its environment
+* the involvement and engagement of the stakeholders that involves communicating and coordinating with the internal and external parties that have an interest or responsibility in the security and compliance of the information system
+
+
+
+
+
+while NIST SP 800-37 is primarily aimed at U.S. federal entities, and ISO 27000 is deisned for a global audience, both frameworks are flexible enough to be applied to any organization, regardless of its size, type, or industry. they provide guidelines that can be adapted to fit the specifi needs and context of different organizations
+
+
+
+
+
+system compliance monitoring and change management are important aspects of information security management system (ISMS), which are frameworks for managing the security and compliance of information systems. ISO 27000 and NIST 800-37 have different approaches and methodologies for handling system compliance monitoring and change management, but they share the goal of managing compliance and decreasing risk to systems and information within changing environments
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Standard and Guidelines that Influence Monitoring Strategies
+
+
+
+
+
+
+
+monitoring strategies are influenced by various guidelines and standards that provide the principles, frameworks, and best practices for monitoring, ensuring organizations adopt a structured approach to oversight that aligns with global best practices and regulatory expectations.
+
+
+
+
+
+these standards serve as a cornerstone for developing effective monitoring systems that are robust, scalable, and capable of addressing the dynamic nature or risk, security, and compliance requirements across industries. some of the common guidelines and standards that influence monitoring strategies are:
+
+
+
+* ISO 9001: quality management systems - requirements. this standard specifies the requirements for esatablishing, implementing, maintaining, and improving a quality management system that enhances customer satisfaction, meets statutory and regulatory requirements, and achieves continual improvement
+* ISO 19011: guidelines for auditing management systems; this standard provides the guidance for conducting internal or external audits of management systems, such as quality, environmental, or occupational health and safety management systems.
+* ISO 31000: risk management - guidelines; this standard provides the principle, framework, and process for managing risks that affect the achievement of objectives
+* ISO/IEC 27005: information security risk management; this standard provides the guidelines for establishing and maintaining and information security risk management process that identifies, analyzes, evaluates, treats, monitors, and review the information security risks
+* ISO/IEC 29100: privacy framework; this standard provides the framework for managing the privacy of personal information, including the privacy principles, the privacy governance, and the privacy controls
+* ISO/IEC 38500: governance of information and technology; this standard provides the principles, model, and guidance for effective, efficient, and acceptable use of information technology by the organization
+* COBIT: control objectives for information and related technologies; is a framework that provides best practices for the goveranance and management of information and related technologies, including processes goals, practices, and metrics
+* ITIL: information technology infrastructure library; is a framework that provides best practices for delivery and support of information technology services, including service strategy, service design, service transition, service operation, and continual service improvement
+
+
+
+
+
+documentation should be updated to reflect revisions in monitoring strategies due to changes in legal, regulatory, supplier, security, and privacy requirements. additionally, its essential to consider the various guidelines and standards that shape monitoring strategies. these guidelines and standards are intended for managers, engineers, analysts, and auditors involved in designing, implementing, reviewing, and improving monitoring strategies
+
+
+
+
+
+as standards and guidelines change, organizational risk and monitoring strategies may change or need to be adjusted. this ongoing process ensures organizations remain resilient against emerging threats and compliant with new regulatory demands. furthermore, engaging with these guidielines fosters a culture of contuiinours improvement and awareness among stakeholdrs, enhancing the overall effectivess and responsiveness of monitoring strategies in a rapidly changing environment
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Documentation Updated and Communcation to Stakeholders During System Maintenance
+
+
+
+
+
+
+
+the documentation updated during the system maintenance process includes the following:
+
+
+
+* service level agreements: these documents define the level of service and support that the system or components provide to the users and stakeholders, such as the availability, reliability, perofmance, and quality standards and metrics, and the roles and responsibilitities of the service provider and the service recipient
+* third party contracts: these documents specify the terms and conditions of the relationship and collaboration between the system or components and third party entities, such as vendors, suppliers, contractors, or partners, and the roles and responsibilities of each party
+* policies: these documents state the principles and rules that govern the system or components operation, management, and maintenance, such as the security, privacy, backup, recover, or audit policies
+* procedures: these documents describe the steps and actions that must be followed to perform the system or components operation, management, and maintenance, such as the system maintenance plan, preparation, execution, verification, documentation, and submission/communication procedures
+* logs: these records document the system or compenets events and activities, such as the system maintenance logs, system performance logs, system security logs, or system error logs
+* reports: these documents summarize the system or components status and performance, such as the system maintenance reports, system performance reports, system security reports, or system error reports
+* manuals: these documents provide instructions and guidance for the system or components use and maintenance, such as the user manual, administrator manual, or technical manual
+
+
+
+
+
+these submission/communication to stakeholders during the system maintenance process includes the following:
+
+
+
+* auditors: these are the ntities that verify and validate the system or components compliance with the applicable standards, regulations, and policies, such as the internal or external auditors, or the quality assurance or quality control teams. the system maintenance are submitted to the auditors for review and evaluation
+* regulators: these are the entities that enforce and monitor the system or components compliance with the applicable laws, rules, and directives, such as government entities, industry associations, or professional bodies. the system maintenance evidence and documentation are submitted to the regulators for approval and authorization
+* managers: these are the entities that oversee and coordinate the system or components operation, management, and maintenance, such as the project managers, system managers, or service managers. the system maintenance evidence and docuemtnation are submitted to the managers for decision making and improvement
+* users: these are the entities who use and benefit from the system or components functionality and service, such as customers, employees, or clients. the results of the system maintenance and feedback are communicated to the users for their information and satisfaction
+* stakeholders: these are the entities with an interest or stake in the system or components functionality and service, such as the oweners, investors, or partners. the results of the system maintenance and feedback are communicated to the stakeholders for their involvement and support
+
+
+
+
+
+
+
+the frequency of such updates is consistent with policy and at the discretion of the system owner, common control provider, or authorizing official
+
+
+
+the use of automated tools for managing information updates is encouraged. tools should track changes and maintain documentation history
+
+
+
+
+
+the package includes sensitive material, making it essential to maintain accurate version control. this ensures all components of the package remain current and that any evaluator is examining the appropriate version. historical copies are also retained to ensure the system status was understood at prior points in time. such copies may be leverages on reauthorization or ongoing authorization actions. based on the anticipated outcomes of the task, updates could encompass modifications to risk treatments, the risk register (risk assessment), and any continuing remediation efforts or entriees for Plans of Action and Milestones (POA\&Ms)
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+The System Maintenance Process
+
+
+
+
+
+
+
+system maintenance is the process of keeping a computer system or network in good working condition by performing regular updates, repairs, backups, and security checks
+
+
+
+system maintenance is essential for ensuring the reliablitiy, availability, and performance of the system and its components. system maintenance also involves collecting evidence of the activites performed, testing the system functionality and security, updating the relevant documentation, and communicating the results to stakeholders
+
+
+
+1. planning
+2. preparation
+3. execution
+4. verification
+5. documentation
+6. submission/communication
+
+
+
+
+
+the system maintenance process consists of the following steps:
+
+
+
+1. planning: this step involves identifying the scope, objectives, and schedule of the system maintenance activities, as well as the resources, roles, and responsibitlieis required. it also involves assessing the risks and impact of the system maintenance activities on th system and its users, creating procedures for the maintenance activities, and developing contingency plans to mitigate risk
+2. preparation: this step involves preparing the system and its componenets for the system maintenance activities, sucha s backin up data and configuration files, shutting down or isolating the system or components, and notifying the users and stakeholders of the system maintenance schedule and expected downtime
+3. execution: this step involves performing system maintenance activities, such as installing updates, patches, or new software, repairing or replacing faulty hardware, restoring or recovering data configuration files, and configuring or optimizing the system or components
+4. verification: this step involves verifying th system functionality and security after the system maintenance activities, such as testing the system or components for errors, bugs, or vulnerabilities, and ensuring that the system or components meet the performance and quality standards and requirements
+5. documentation: this step involves updating the relevant documentation to reflect the system maintenance activities and their outcomes, such as service level agreements, third party contracts, policies, procedures, logs, reports, or manuals
+6. submission/communication: this step involves submitting the evidence of th system maintenance activities and their outcomes to the appropriate authorities, such as auditors, regulators, or managers, and communicating the results and feedback to the users and stakeholders, such as customers, employees, or partners
+
+
+
+
+
+the frequency of such ipdates is consistent with policy and at the discretion of the system owner, common control provider, or authorizing official. the use of automated tools for managing information and updates is encouraged. tools should track changes and maintain documentation history. the package includes sensitive material, making it essential to maintain accurate version control. this ensures all components of th epackage remain current and that any evaluator is examining the appropriate version. historical copies are also retained to ensure the system status was understood at prior points in time. such copies may be leveraged on reauthorization or ongoing authorization actions
+
+
+
+based on the anticipated outcomes of th etask, updates could encompass modifications to risk treatments, the risk register (risk assessment), and any continuing remediation efforts or entries for Plans of Action and Milestones (POA\&Ms)
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Evidence Collection During System Maintenance
+
+
+
+
+
+
+
+
+
+the evidence collected during the system maintenance process includes the following:
+
+
+
+* system maintenance plan: this document outlines the scope, objectives, and schedule of the system maintenance activities and the resources, roles, and responsibilities required. it also includes the risk and impact assessment and the contingency plans for the system maintenance activities
+* system maintenance logs: these records document system maintenance activities performed, such as the date, time, duration, and description of the activities, the system or compentents involved, the personnel involved, and the outcomes and issues encountered
+* system maintenance reports: these documents summarize system maintenance activities performed and their outcomes, such as the system functionality and security status, the performance and quality metrics and indicators, and the feedback and recommendations for improvement
+* system maintenance tests: these documents describe the tests performed to verify system functionality and security after the system maintenance activities, such as the test objecitves, methods, procedures, tools, data, results, and analysis
+* system maintenance documentation: these documents include the updated service level agreements, third party contracts, policies, procedures, logs, reports, or manuals that reflect the system maintenance activities and their outcomes
+
+
+
+
+
+the testing performed durin the system maintenance process includes the following:
+
+
+
+* functional testing: this type of testing verifies that the system or components perform the expected functions and meet the functional requirements and specifications after system maintenance activities
+* performance testing: this type of testing measures the system or components speed, scalabilitiy, reliability, and resource consumption after system maintenance activities
+* security testing: this type of testing evaluates the system or components vulnerability to unauthorized access, misuse, or attack after system maintenance activities
+* usablitity testing: this type of testing accesses the system or components ease of use, user experience, satisfaction, and user feedback after system maintenance activities
+* regression testing: this type of testing ensures that the system or components existing functionality and quality are not affected by system maintenance activities
+* acceptance testing: this type of testing confirms that the system or components meet the user and stakeholder expectations and requirements after the system maintenance activities
+
+
+
+
+
+the frequency of such updates is consistent with policy and at the discretion of the system owner, common control provider, or authorizing official. the use of automated tools for managing information and updates is encouraged. tools should track changes and maintain documentation history. the package includes sensitive material, making it essential to maintain accurate version control. this ensures all components of the package remain current and that any evaluator is examining the appropriate version. historical copies are also retained to ensure the system status was understood at prior points in time. such copies may be leveraged on reauthorization or ongoing authorization actions
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+NIST 800-37 and ISO 2700 Guidelines for the Frequency of Compliance Activities Review: Comparison
+
+
+
+
+
+
+
+the following table summarizes the main differences and similarities between ISO 27000 and NIST 800-37 guidelines for the frequency of compliance activities review:
+
+
+
+* ISO 27000: scope; covers the entire ISMS, which includes the information security polciies, procedures, processes, and controls. focus; focuses on the conformity, effectiveness, and improvement of the ISMS. processes; relies on three main processes (internal audit, management review, and continual improvement). frequency; depends on the audit program, the review inputs, and the improvement actions, which are established by the organization according to its context, objectives, and obligations. stakeholders; involves various stakeholders, such as the top management, the ISMS team, the internal auditors, the external auditors, the customers, the regulators, and the partners.
+* NIST 800-37: scope; covers the individual information system, which includes the system components, interfaces, data, and users. focus; focuses on the implementation, operation, and authorization of the security controls. processes; relies on three main activites (monitoring, assessment, and authorization). frequency; depends on th emointoing strategy, the assessment plan, and the authorization package, which are developed by the organization based on the risk assessment, the security plan, and the authorization decision. stakeholders; involes specific stakeholders, such as the system owner, the information owner, the authorizing official, the security officer, the assessor, and the monitor
+
+
+
+
+
+the frequency of compliance activities review is important to ensuring the compliance of an organization with the relevant requirements and for managing the risks to its information security. the frequency of compliance activities reviews varies depending on regulatory requirements and the standards and frameworks the organization follows
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Removing the System from Operations and Decommission
+
+
+
+
+
+
+
+to determine data retention requirements and strategy, the system owner must identify data elements that require retention, which may include system documentation or configuration information. they must identify retention requirements for system backups or historical data and have a plan to recover old backups or data if required by the retention policy
+
+
+
+
+
+legacy hardware or proprietary formats may require that retention mechanisms transform data into a new format for long term retention. this often occurs when proprietary file formats are transitioned to generic or open formats (e.g. XML), existing backups need to be transitioned to a recoverable format, or existing backup media need to be updated or transitioned to ensure the organization is capable of future restoration or records recovery
+
+
+
+
+
+before decommissioning a system, the following tasks should be completed:
+
+
+
+* notify the relevant stakeholders, such as the system owner, the users, the IT department, and the security team about the decommissioning plan and schedule
+* identify and document the system components, such as hardware, software, data, and configuration settings
+* back up any data that needs to be retained or transferred to another system
+* secure the backup to prevent unintended modification affecting its integrity
+* uninstall any software that is licensed or proprietary
+* disconnect the system from the network and any external devices
+
+
+
+
+
+
+
+once removed from operation, system components or media associated with the system may require sanitization. the GRC professional should be familiar with the following actions:
+
+
+
+* sanitize: to sanitize is to render access to target data on the media infeasible, impractical, or impossible for a given level of effort. clear, purge, and destroy are actions that can be taken to sanitize media
+* clear: to clear is to remove data from user addressable storage locations for protection against simple, noninvasive data recovery techniques. techniques employed in clearing often involve overwriting the storage space with nonsensical data or patterns specifically designed to obliterate any remnants of the original data
+* purge: to purge is to remove data using physical or logical techniques that make recovery infeasible using state of the art laboratory techniques. purging can include degaussing, where powerful magnets are used to disrupt the magnetic domains on the storage medium, effectively eliminating the data, or sophisticated overwriting techniques that ensure no trace of the original data can be recovered. this level of data sanitization is recommended when the storage media may leave the organizations control, such as during disposal or when equipment is being repurposed for use outside of the secure environment
+* destroy: to destroy is to render data recovery infeasible using state of the art laboratory techniques. this results in subsequent inability to use the media or device. destruction can be achieved through shredding, incinerating, melting, crushing, or pulverizing the media. this method is irreversible and ensures the highest level of data protection. it is typically reserved for situations where the information stored on the media is of such sensitivity that any risk of data recovery is unacceptable, including when devices are being decommissioned or disposed of permanently
+
+
+
+
+
+any residual hardware, software, or firmware may require sanitization. the specific methods used to sanitize components may vary significantly based on the technologies employed and the sensitivity of data stored on the component
+
+
+
+
+
+any media used in system operations may require sanitization as well. for any component or media type, one or more of the sanitization mechanisms applied appropriately to the component may be required. given the complexity and variability of these components, the methods selected for sanitization must be carefully aligned with the specific characteristics and vulnerabilities of each element, as well as the nature of the data it has handled. in some cases, this can be a simple problem to solve; in others it can be a complex endeavor. NIST 800-88 includes details on sanitization for various media and component types, but as technology changes, the mechanisms for sanitization must change with it
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cryptographic Erase
+
+
+
+
+
+
+
+one method for low impact sanitization is to use cryptographic erase (CE), which may be designed into systems to simplify sanitization
+
+
+
+
+
+the core concept for CE is that all information ever stored within a component or piece of media is always encrypted with an approved encryption method. if this is the case, then destruction of encryption keys results in encrypted data being impossible to access or retrieve. this applies to data encrypted with destroyed keys only. for this to be effective, key destruction must be complete and ensured using testing and approved methods
+
+
+
+
+
+those acquainted with secure communications may recognize the term "zeroize" in relation to cryptographic devices. CE is the same concept but applied more generically to different device types. many modern devices or components may include mechanisms to securely destroy encryption keys that are also stored in specialized storage models to ensure the keys are not improperly accessed or lost. these mechanisms are crucial for maintaining the integrity and confidentiality of sensitive information. in addition to destroying encryption keys, these system often employ sophisticated encryption algorithms to safeguard the keys during their life cycle. furthermore, they might include failsafe procedures that automatically initiate the zeroization process in response to unauthorized access attempts or when specific security policies are violated. this proactive approach ensures that even in the event of a security breach, the encryption keys are rendered inaccessible, thereby protecting the underlying data from compromise
+
+
+
+
+
+
+
+cryptographic erase:
+
+
+
+1. erase this
+2. secure cryptographic key store
+3. hardware encryption/interface/storage (spinning disk, non volatile RAM, etc.) data is always encrypted
+4. and this is permanently inaccessible
+
+
+
+
+
+
+
+the SED in the example includes a hardware based encryption module, a secure cryptographic key store, and a block of storage. the hardware allows data to be copied to the storage only by passing it through the encryption module, which can use keys only from the secure keys store. in this model, we have assurance that only encrypted data can be stored in the storage element, and by securely erasing the key store module, we can be assured the data in the storage module is permanently inaccessible. this has speed and performance advantages over more time consuming clearing and purging actions that may overwrite the storage multiple times. similarly, it has advantages over destruction methods that would render the device permanently unusable. secure purging of the key store may be a built in function that can be implemented quickly and efficiently.
+
+
+
+
+
+the CE is an example of disposal technology that can be built into a system that simplifies and reduces the costs of disposal later in the system life cycle. note that in the example, the cryptographic schema in the SED described above does not protect confidentiality of the data; it only facilitates secure sanitization. in most practical applications, the secure key store would require an unlock key or code from the device during initialization or power on to unlock the key storage. alternatively, the key store itself might be stored off the device. adding those elements to the example would provide data at rest protection and facilitate sanitization
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Change Approval
+
+
+
+
+
+
+
+after submitting the change request form and the supporting documentation, the system owner or developer must present the change proposal to the CCB and TRB for review and approval
+
+
+
+
+
+depending on the type and complexity of the change, different levels of approval may be required from the authorized personnel within the orgaizaiton. the following table summarizes the examples of approval levels and the authorized personnel for different types of changes:
+
+
+
+* minor change: approval level; low. authorized personnel; system owner or developer
+* normal change: approval level; medium. authorized personnel; CCB and TRB members
+* major change: approval level; high. authorized personnel; senior management or executive
+
+
+
+
+
+a minor change has minimal or no ipact on the system or its environment, such as a cosmetic change, a bug fix, or a configuration change. a normal change has moderate or significant inpact on the system or its environment, such as a feature enhancement, performance important, or a security update. a major change has critical or extreme impact on the system or its environment, such as a system upgrade, a system migration, or a system replacement
+
+
+
+
+
+propsed changes are approved by authorized personnel with the responsibility and authority to decide whether the proposed changes should be implemented or not. authorized personnel can include the system owner, the project manager, the system architect, the quality assurance manger, the customer representative, or the regulatory representative, or the regulatory representative. authorized personnel can form a committee or a board (e.g. CCB, TRB) to review and approve proposed changes. proposed changes are approved by authorized personnel according to the following example criteria:
+
+
+
+* the proposed change is aligned with the business and systems objectives, requirements, and standards
+* the proposed change is feasible, beneficial, and cost effective
+* the proposed change does not introduce any adverse effects or risks to the system or its stakeholders
+* the proposed change is supported by sufficient evidence and documentation
+* the proposed change is consistent with the systems design, architecture, and documentation
+* the proposed change is compliant with the applicable laws, regulations, and policies
+
+
+
+
+
+the system owner or developer must obtain the appropriate approval from the authorized personnel before implementing the change in the system. within the NIST Risk Mangement Framework, this is known as the authorizing official
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+The Change Mangement Process
+
+
+
+
+
+
+
+submitting a proper change request through the change management process will provide the proper approvals for configuration changes of the system baseline
+
+
+
+
+
+system owners should adherte to the following steps within the change deployment:
+
+
+
+1. request a change: the change initiator submits a change request form that describes the change, the reason for it, the expected benefits and outcomes, the impact and risks, the resources and dependencies required, and the proposed schedule and timeline for the change
+2. review and approve the change: the change manager reviews the change request and assesses its feasibility, urgency, priority, and alignment with business goals and objectives. the change manger also consults with the Change Advisory Board (CAB), which is a group of representatives from different departments and functions that provides input and feedback on the change request. the change manager approves, rejects, or modifies the change request based on the CABs recommendations and change criteria
+3. plan and schedule the change: the change manger assigns a change owner and a change team to execute the change. the change owner and change team create a detailed plan that outlines the tasts, roles, responsibilities, and timelines for the change. the change maanger also schedules the change for a suitable time slot, considering the system and environments availability, the potential impact on users and customers, and the dependencies and conflicts with other changes
+4. implement and test the change: the change owner and change team implement the change according to the change plan. the change team also performs testing and verification to ensure the change works as expected and does not cause any errors or issues. the change ream documents the results and outcomes of the testing and verification and reports any problems or deviations to the change manager.
+5. close and evaluate the change: the change manager reviews the change implementation and testing results and determines whether the change is successful. the change manager also evaluates the changes performance, benefits, and outcomes, and compares them with the original change objectives and expectations. the change manager closes the change request and updates the change log and the configuration management database (CMDB) with the change details and status. the change manger also conducts a post implementation review (PIR) to identify the lessons learned and the best practices for future changes
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Change Approval Documentation
+
+
+
+
+
+
+
+the system owner or developer must also document the approval and the evidence of the approval, such as an email, a signature, or a stamp
+
+
+
+
+
+documents included are typically the following:
+
+
+
+* configuration management policy and procedures: configuration management policy and procedures must exist for the organization that define the organizational CM structure, requirements, and processes. the policy and procedures provide the core structure for configuration management and change manangement. these documents articulate the organizations commitment to maintaining the integrirty, reliabllity, and security of its information systems through meticulous configuration control
+* configuration management plan (CMP): systems and the organization may have a CMP that includes the details of configuration and change management implementation within the plans scope. it may be a single document, or it may be written as a compilation of documets and appendicies that servers as a blueprint guiding the management of system configuration throughout their life cycles. systems may incorporate an organizational CMP or, if the organization allows it, create a system level plan that is specific to the needs of the system but conforms with overall overganizational guidance
+* component inventory: another part of the CMP is how to manage and keep the official component inventory. the component inventory includes all components in the organization (for system) and acts as the foundational pillar for effective configuration management, providing a clear and accurate representation of the organizations assets. the level of granularity is determined by the organization based on what information the organization deems relevant adn what is practical to keep current among the organizational components
+
+
+
+key elements of the component inventory include:
+
+
+
+* each compoentn is associated with only one system and one system owner
+* every componenet falls within an authorization boundary of a single system
+
+
+
+
+
+configuration items (CI): configuration items are the basic compoennts of a CMP. a CI can be a singular system component or a set of components that are collectively treated as a single entity for the purposes of configuration management. a CI will often correspond to the systems, buit it may be a single componenet or group of componenets within a system. CIs are always version controlled, and any changes to CIs require approval through the CCB. CIs may include hardware or software components or other items that are important to system functioning (e.g. the rule set of a firewall may be considered a CI). while the specific process may vary from organization to organization, it will typically contain some combination of the above elements. change control boards (CCBs) will often include multiple paths that address urgency concerns for emergency or time critical changes. this ensures the process is adaptable and time sensitive. for example, a standard organizational change process might include an initial proposal and justification and a review by the CCB, followed by preimplementation testing to ensure the change will not have adverse impacts, implementation of the change, and psost implementation testing to ensure iut was saapplied correctly. the smae organization may have an emergency change process that preauthorizes certain types of emergency changes for immediate implementation (e.g. break fix activities) but still requires the change to be documented, tested, and submitted for review after implementation. this ensures potential security impacts but does not restrict emergency activities
+
+
+
+
+
+changes to configuration items: change control is a documented process for managing and controlling changes to CIs. the process typically includes:
+
+
+
+* request the change: a request for change is originated
+* record the request: the change request is formally entered into the change control process
+* determine the type of change and whether it requires configuration control: some changes may be preapproved (e.g. a recurring, routine change such as adding approved software to a loptop). some changes may require emergency response and follow a shortened process for emergence changes
+* analyze the proposed change: conduct a security impact analysis (SIA)
+* test tyhe proposed change: test for functional and security impacts
+* approve the change: approval is typically granted by the CCB
+* implement the change: this is done only after the change is approved
+* verify the change was implemented correctly: conduct post implementation testing and scanning
+* close the change request
+
+
+
+
+
+while the specific process may vary from organization to organization, it will typically contain some combination of the above elements. CCBs will often include multiple paths that address urgency concerns for emergency or time critical changes. this ensures that the process is adaptable and time sensitive. for example, a standard organizational change process might include an initial proposal adn justification, a review by the CCB, followed by preimplementation testing to ensure the change will not adverse impacts, the implementation of the change, and post implemenbtatio testing to ensure it was a-pplied correctly. the same organization may have an emergency change process that preauthorizes certain types of emergency changes for immediate implementation (e.g. break fix activities) but still requires the change to be deocumented, tested, and submitted for review after implementation. this ensure the CCB can still evaluate potential security impacts but does not restrict emergency activities correctly. the same organization may have an emergency change process that preauthorizes certain types of emergency changes for immediate implementation (e.g. break fix activities) but still requires the change to be documented, tested, and submitted for review after implementation. this ensures the CCB can still evaluate potential security impacts but does not restrict emergency activities
+
+
+
+
+
+change control applies to any component changes, configuration chages, or changes to remediate flaws of any nature within an organizztions IT environment. it still applies to emergency or unschedules changes, buit it may have a different and expedited process or workflow to deal with time sensitive or emergency changes
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+NIST Guidance for Establishing Frequency of Review
+
+
+
+
+
+
+
+compliance activities are the actions taken by an organization to ensure it meets the requirements of relevant laws, regulations, standards, and policies
+
+
+
+
+
+compliance activities include identifying, assessing, monitoring, reporting, and mitigating the risks associated with noncompliance. compliance activities are essential for maintaining the trust and confidentce of stakeholders, such as customers, regulators, partners, and investors. to further delineate the scop and importance of compliance activities, it is crucial to acknowledge that theyu also involve the development and implementation of comprehensive compliuance programs tailored to the organiztions specific operational and regulators landscape. however, compliance activities are not static or one time events. they must be reviewed and update regularly to reflect the changes in the organizations internal and external environment. the frequency of compliance activities review depends on various factors, such as the complexity, size, adn nature of the organization, the level of risk exposure, the maturity of the compliance program, expectations of the stakeholders, and the regulatory requirement. therefore, it is important for an organization to establish a clear and consistent frequency for compliance actibvvities review that aligns with its objectives, resources, and obligations
+
+
+
+
+
+NIST guidance for establishin frequency of review: according to NIST 800-37, an organization should implement an RMF that enables it to manage risks to its information systems and comply with the applicable requirements. the RMF consists of six steps: prepare, categorize, select, implement, assess, and authorize. each step involves tasks and activities performed by the organization to establish the context, scope, objectives, and controls of the risk management process
+
+
+
+
+
+the RMF is deisned not only to protect information systems but also to help organizations make informed decisions regarding the acceptance of risks, compliance with regulatory requirements, and the allocation of resources to safeguard assets. the frequency of compliance activities review in NIST 800-37 is detertmined by the following activities:
+
+
+
+* monitoring: monitonring is a continuous activity that tracks the security status of the information system and its environment of operation and evaluates the effectiveness of the security controls. monitoring should be conducted according to the monitoring strategy, which is established by the organization based on the risk assessment, the security plan, the security assessment report, and the authorization decision. the mointroing strategy should define the monitoring objectives, scope, frequency, methods, roles, and responsibilities of the monitoring process.
+* assessment: assessment is a periodic and discrete activity that verifies the implementation and operation of the security controls and determines the extent to which they meet the security requirements. assessment should be conducted according to the assessment plan, which is developed by the organization based on the security plan, the security assessment report, and the authroizaqtion decision. the assessment plan should specify the assessment objectives, scope, frequency, methods, roles, and responsibilities of the assessment process
+* authorization: authorization is a formal and official activity that grants or denies permission to operate the information system based on the risk assessment, the security plan, the security assessment report, and the authorization decision. authorization should be conducted according to the authorization package, which is prepared by thye organization based on the security plan, the security assessment report, and the authorization decision. the authorization package should include the authorization statement, the authorization boundary, the authorization conditions, and the authorization expiriation date
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+ISO Guidance for Establish Frequency Review
+
+
+
+
+
+
+
+compliance activities are the actions taken by an organization to ensure it meets the requirements of relevant laws, regulations, standards, and policies
+
+
+
+
+
+compliance activities include identifying, assessing, monitoring, reporting, and mitigating the risks associated with noncompliance. compliance activities are essential for maintaining the trust and confidence of stakeholders, such as customers, regulators, partners, and investors
+
+
+
+
+
+to further delineate the scope and importance of compliance activities, it is crucial to acknowledge that they also involve the development and implementqation of comprehensive compliance programs tailored to the organiztions specific operational and regulatory landscape. however, compliance activities are not static or one time events. they must be reviewed and updated regularly to reflect the changes in the organiztions internal and external environment. the frequency of compliance activities review depends on various factors, such as the complexity, size, and nature of the organization, the level of risk exposure, the maturity of the compliance program, expectations of the stakeholders, and the regulatory requirement. therefore, it is important for an organization to establish a clear and consistent frequency for compliance activities review that aligns with its objectives, resources, and obligations
+
+
+
+
+
+
+
+ISO guidance for establishing frequency review: according to ISO 27000, an organization should establish, implement, maintina, and conbtiunoually improve an information secfuirty management system (ISMS) that enables it to achieve its security objectives and comply with the applicable requirements. the ISMS consists of policies, procedures, processes, and controls designed, operated, monitored, reviewed, adn improved by the organization.
+
+
+
+the frequency of compliance activites review in ISO 27000 is determined by the following processes:
+
+
+
+* internal audit: an internal audit is a systematic and independent examination of the ISMS to determine whether it conforms to the planned arrangements, is effectively implemented and maintained, and meets the expected outcomes. an internal audit should be conducted at planned intervals based on the audit program, which is established by the organization according to the criteria, scope, frequency, and methods of the audit. the internal audit process typically involves a thorough review of the organizations information security, policies, procedures, controls, and operations. auditors, who should be impartial and not involve in the audtired activities to ensure objectivity, collect and evaluate evidence to determine the ISMSs effectiveness in managing and protecting sensitive information against security threats. the audit program should consider the importance of the processes and areas to be audited, the results of previous audits, and the changes in the ISMS and the organization.
+* management review: a management review is a formal and periodic evaluation of the ISMS by the top management of the organization to ensure its continuing adequacy and effectiveness and identify opportunities for improvement. a management review should be conducted at planned intervals based on the review inputs, which include the statuis and results of the internal audits, feedback from stakeholders, the performance and efgfectiveness of the ISMS, changes in the internal and external context of the organization, and the risks and opportunities for the ISMS. the review process should result in actionable insights and decisions, including allocating recoureces, adjusting the ISMS scope, and setting objectives for improvement projects
+* continual improvement: continual improverment is a recurring process of enhancing the ISMS to achieve the infroamtion security objectives and increase stakeholders satisfaction. continual improvement should be based on the results of internal audits, management reviews, corrective actions, and preventative actions. continual improvement is not solely reactive; it proactively seeks out opportunities to enhance information security practices, processes, and outcome. this involves not only addressing the findings from internal audits, management reviews, and corrective and preventative actions, but also anticipating future challenges and requirements that could impact the ISMS. continual improvement should also consider the changes in the ISMS and the ortganiztion, the new or revised requirements, and the best practices and benchmarks
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+Performing Required Testing
+
+
+
+
+
+
+
+system compliance is adherence to the standard and regulation that govern the systems operation and maintenance. system compliance ensures the system is secure, reliable, and efficient, and that it meets the needs expectations of the users and stakeholders. system compliance requires regular testing and vulnerability scanning to identify and mitigate any potential risks or issues that mau compromise the systems perofmance or integrity
+
+
+
+
+
+testing: testin is the proicess of verifying and validating the functionality and quality of the system. testing involves checking the systems components, feature, and interfaces for erros, defects, or inconsistencies. beyond identifying errors, defects, or inconsistencies in components, features and interfaces, testing assesses the systems performance under various conditions, its security vulnerabiltieis, and its abiltiity to recover from failures or crashes. testing also evaluates the systems usability, accessibility, and compatibility with other systems or platforms
+
+
+
+
+
+depending on the scope, testing can be manual or automated:
+
+
+
+* manual testing: manual system testing is performed by human testers who follow a predefined test plan or script. manual testing is useful for testing complex or subjective aspects of the system, such as user interface, user experience, or business logic. manual testing can also be used for exploratory testing, which is the process of testing the system without a predefined plan or script, but rather based on the testers intuition, curiosulty, or creativity. manual testing requires more time and resources than automated testing, but it can provide more insight and feedback on the systems behavior and performance. however, manual testing comes with several drawbacks including that it is time consuming, prone to human errors, resource intensive, and limited in scope.
+* automated testing: audoitmated system testing is accomplished by using software tools or scipts that execute predefined test cases or scenarios. automated testing is useful for testing simple or objective aspects of the system, such as functionality, performance, or security. automated testing can also be used for regression testing, which is the process of testing the sytem after any changes or updates to ensure that the system still works as expected. automated testing requires less time and fewer resources than manual testing, but it can provide more accuracy and consistency in the test results. automated testing can easily scale to handle large amounts of data, complex system architectures, and high user loads, which would be impractical with manual testing
