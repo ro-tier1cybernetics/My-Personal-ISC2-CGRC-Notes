@@ -1,0 +1,225 @@
+ISC2 Domain 4 Clip notes
+
+
+
+
+Aligning Control Implementation with Organizational Expectations, National or International Requirements, and Compliance
+
+
+
+controls are the policies, procedures, standards, guidelines, and technologies that are implemented to protect an organizations information assets and ensure compliance with internal and external requirements
+
+
+control implementation and alignment is the process of selecting, applying, testing, and monitoring security and privacy controls that are appropriate for the organizations objectives, risk appetite, and compliance obligations. control implementation and alignment is important because it helps the organization to achieve its goals, reduce its exposure to threats and vulnerabilities, and demonstrate its adherence to relevant laws, regulations, and standards. control implementation and alignment enables the organization to communicate its security and privacy posture to its stakeholders, customers, and partners, and build trust and reputation. 
+
+
+task 1: identify the organizations purpose, scope, and risk profile. task 2: identify the organizations policies, procedures, and strategic plans. task 3: identify the implemented controls that support the organizations purpose, scope, and risk profile. task 4: document the implemented controls. task 5: review and periodically update the documentation of implemented controls
+
+
+----------
+
+
+
+control implementation
+
+
+
+the process of aligning control implementation with organizational expectations, national or international requirements, and compliance involves the following steps: 1. identify and assess the organizations security and privacy objectives, risks, and obligations. this includes defining the scope, boundaries, and roles of the information systems and assets, analyzing threats and vulnerabilities, and determining legal, regulatory, and contractual requirements. 2. select and implement the security and privacy controls that are suitable for the organizations context, needs, and capabilities. this includes choosing the controls from recognized frameworks or standards, such as ISO/IEC 27001, NIST SP 800-53, or GDPR, and applying them in a consistent and effective manner. 3. test, monitor, and evaluate the performance and effectiveness of the security and privacy controls. this includes measuring the indicators and outcomes of the controls, conducting audits and reviews, and reporting and documenting results. 4. review and update the security and privacy controls as needed. this includes identifying and addressing any gaps, weaknesses, or changes in the organizations environment, risk profile, or compliance status, and ensuring the continuous improvement of the controls. 
+
+
+both ISO and NIST provide guidance and best practices for selecting and implementing security and privacy controls. selecting and implementing security and privacy controls requires following the standards and frameworks that are relevant and applicable to the organizations context. ISO/IEC 27001 specifies the requirements for establishing, implementing, maintaining, and improving and information security management system (ISMS). an ISMS is a systematic approach to managing the security and privacy of information assets. ISO/IEC 27001 is a widely recognized standard that defines the requirements for an information security management system (ISMS), which convers the security and privacy of all types of information assets. NIST SP 800-53 provides a catalog of security and privacy controls for federal information systems and organizations. the controls are organized into families, such as access control, audit and accountability, or identification and authentication. organizations can use these controls to protect their information systems from various threats and comply with different laws and regulations. NIST SP 800-53 is a comprehensive catalog of security and privacy controls for federal information systems and organizations, which helps them meet their legal and regulatory obligations.
+
+
+by using these standards and frameworks, organizations can ensure they adopt consistent and effective measures to protect their information assets and comply with their security and privacy policies. this compliance strategy helps to better manage the organizations risk when implementing security and privacy controls
+
+
+------------
+
+
+
+Management, Technical, and Operational Controls
+
+
+
+controls can be classified into three main types: management, technical, and operational. additionally, a common control is a subset of these main control types.
+
+
+each type of control has a different purpose, scope, and responsibility in maintaining a secure and compliant environment. these controls are further defined in the following sections. 
+
+
+Management Controls: management controls are the administrative and organizational controls established by senior management to shape the security culture and governance structure within an organization and provide strategic direction, oversight, and accountability for security compliance. examples of management controls include the security and compliance policies that define goals, objectives, roles, and responsibilities of the organization. the risk management process that identities, assess, and prioritizes, and mitigates the risks to the organizations information assets. the security and compliance audits that evaluate the effectiveness and efficiency of the controls and identify any gaps of weaknesses. the security and compliance training awareness programs that educate the staff and stakeholders on the policies, procedures, standards, and guidelines of the organization
+
+management controls are essential for establishing the security and compliance culture and governance of the organization. they provide high level vision, direction, and support for the implementation and maintenance of the other types of controls. through these controls, senior management can communicate the importance of information security and compliance, setting the tone for culture that values and protects information assets. management controls enable the organization to systematically assess and adjust its security strategies in response to ongoing monitoring and review processes, ensuring the security posture remains robust and proactive in addressing new challenges and threats. 
+
+
+
+Technical Controls: technical controls are the technological controls (e.g. hardware, software, etc.) implemented to protect the confidentiality, integrity, and availability of information assets. they provide the technical means and mechanisms for enforcing the security and compliance policies and standards of the organization. examples of technical controls include: the encryption and decryption of data in transit and at rest. the authentication and authorization of users and devices. the firewall and antivirus software that prevent and detect unauthorized access and malicious attacks. the backup and recovery systems that ensure the availability and resilience of data. 
+
+technical controls are crucial for delivering the security and compliance capabilities of information systems. they offer foundational protection, detection, and response mechanisms for information assets. these controls facilitate the safeguarding of data systems at a granular level, ensuring the confidentiality, integrity and availability of organizational resources. by implementing technical controls, organizations can enforce their security policies and compliance requirements directly through their IT infrastructure, providing a robust defense against threats and vulnerabilities
+
+
+
+Operational Controls: operational controls are specific to a particular information system or domain within an organization. they provide customized security and compliance requirements and standards that are tailored to the unique characteristics and needs of the information systems and include procedures and measures that help maintain the secure functioning of these systems. by focusing on the specific requirements and characteristics of each information asset or system, operational controls ensure security measures are appropriately applied and managed. examples of operational controls include: granting and revoking permissions and privileges to the information asset. labeling and handling the information asset according to its sensitivity and criticality. data retention and disposal of the information asset according to its life cycle and legal obligations. data quality, integrity, and completeness of the information asset. 
+
+operational controls are essential for providing the security and compliance specificity and effectives of the information asset. they provide fin grained and tailored protection, detection, and response to information assets. 
+
+
+
+Common Controls: common controls are shared by multiple information systems or domains within an organization. these controls may fall under the category of management, technical, or operational. they are inherited from other systems or are third party vendor controls that can be implemented. they provide the baseline security and compliance requirements and standard applicable to all or most of the information assets. the use of common controls allows for a more integrated and coherent security strategy, facilitating easier management, monitoring, and reporting of security and compliance across the organization. examples of common control include: enterprise wide security policies, governance frameworks, and risk assessment methodologies. centralized authentication mechanisms and network security measures. the physical security of the premises and facilities house the information assets. the network security of the infrastructure and devices that connect the information assts. the configuration management of the hardware and software components of the information assets. incident management of the reporting and handling of security and compliance events and incidents. 
+
+common controls are essential for providing security and compliance, consistency, and efficiency throughout the organization. they provide centralized, cross cutting, and shared protection, detection, and response for the information assets.
+
+
+controls are the key elements of security and compliance in an organization. by understanding and applying the different types of controls, the GRC professional can achieve a comprehensive and balanced security and compliance posture. this holistic approach to security and compliance, integrating various types of controls, ensures that an organization can protect its assets, data, and systems from multiple angles, thereby achieving a robust, comprehensive, and balanced security and compliance posture. this integrated security framework not only mitigates risks but also enhances the organizations ability to respond to and recover from security incidents, ensuring business continuity and the protection of critical assets.
+
+
+
+operational controls are the most specific and effective for protecting information assets because they define the handling, access, and usage of these assets.
+
+
+
+---------------
+
+
+
+
+Establishing Frequency for Compliance Documentation Reviews and Training
+
+
+
+compliance documentation reviews and training are essential activities for ensuring an organization meets the security standards and regulations that apply to its industry and operations. compliance documentation reviews involve verifying that the security policies, procedures, and controls are accurate, complete, and up to date. compliance training involves educating the staff about the security requirements and best practices they need to follow. the frequency of compliance documentation reviews and training depends on several factors, such as the size and complexity of the organization, the nature and scope of the security risks, changes in the security environment, feedback from audits and assessments, and regulatory requirements. however, a general rule of thumb is to conduct compliance documentation reviews and training at least once a year, or more often if there are significant changes or incidents that affect the security posture.
+
+
+some examples of events that may trigger a need for compliance documentation review and training are: the introduction of new technologies, systems, or applications that create new security risks or vulnerabilities, or that require new security policies, procedures, or controls. the adoption of new security standards or regulations that impose new security requirements or obligations on the organization, or that modify r revoke existing ones. the occurrence of security breaches, incidents, or events that compromise the confidentiality, integrity, or availability of the organizations data, assets, or operations, or that expose the organization to legal, reputational, or financial damages. the reorganization, expansion, or downsizing of the organization that affects the roles, responsibilities, or access rights of the staff, or that changes the security scope or boundaries of the organization.
+
+
+benefits of establish a frequency for compliance reviews: ensuring alignment, evolving security measures, addressing gaps, enhancing awareness, demonstrating commitment, reducing risks
+
+
+
+establishing a frequency for compliance documentation reviews and training has several benefits for maintaining a robust security posture, such as: it ensures that the security policies, procedures, and controls are aligned with current security standards and regulations, and that they reflect the actual security practices and processes of the organization. it enhances the security awareness and competence of the staff and ensures that they understand and comply with the security requirements and best practices. frequent reviews and updates of security documentation ensure that the organizations security measures evolve in tandem with the changing threat landscape. this proactive stance helps in anticipating and mitigating new risks before they can impact the organization. it demonstrates the commitment and accountability of the organization to the security stakeholders, such as the customers, regulators, auditors, and partners. it identifies and addresses any gaps, weaknesses, or inconsistencies in security documentation and implementation, and updates them accordingly. it reduces the likelihood and impact of security breaches, incidents, and violations, and improves the security performance and reputation of the organization.
+
+
+compliance documentation reviews and training play a vital part in ensuring an organization meets the security standards and regulations that apply to its industry and operations. the frequency of compliance documentation reviews and training should be determined by the organization, but they should be held at least once a year, or more often if there are significant changes or incidents that affect the security posture. establishing a frequency for compliance documentation reviews and training has several benefits for maintaining a robust security posture, such as ensuring alignment, identifying addressing gaps, enhancing awareness and competence, demonstrating commitment and accountability, and reducing risks and costs.
+
+
+
+----------------
+
+
+
+
+Control Implementation Consistent with Compliance Requirements
+
+
+
+control implementation is the process of applying security controls to an information system or network to protect its confidentiality, integrity, and availability. security controls are technical or procedural measures that reduce the risk of unauthorized access, modification, disclosure, or destruction of information. control implementation can be done at different stages of the system development life cycle, such as planning, design, development, testing, deployment, operation, and maintenance.
+
+control implementation is important for compliance because it ensures that the information system or network meets the requirements and standards of relevant laws, regulations, policies, and best practices. compliance requirements may vary depending on the type, nature, and sensitivity of the information, as well as the industry, sector, or domain of the system or network
+
+
+
+for example, some compliance frameworks are the Payment Card Industry Data Security Standard (PCI DSS), the Health Insurance Portability and Accountability Act (HIPAA), the Federal Information Security Management Act (FISMA), and the General Data Protection Regulation (GDPR). by implementing controls that are consistent with compliance requirements, the system or network can demonstrate its adherence to the rules and regulations, avoid penalties or sanctions, and enhance its reputation and trustworthiness. it is important to recognize that compliance does not equate to complete security. compliance provides a baseline of minimum security standards that an organization must meet, but these standards may not cover all potential security threats or vulnerabilities. to truly safeguard information assets, organizations need to adopt a proactive and comprehensive approach to security that goes beyond compliance.
+
+
+the following is a general overview of the control implementation process, which can be adapted to the specific needs and circumstances of each organization, system, or data type. assessment: the first step of the control implementation process is to assess the current state of the system, network, or application, and identify the risks, threats, and vulnerabilities that affect it. the assessment should also consider the compliance requirements that apply to the system, network, or application, and the security objectives that the organization wants and needs to achieve. the assessment should result in a risk analysis and a gap analysis, which can help prioritize the security needs and determine the appropriate security controls. 2. selection: the second step of the control implementation process is to select the security controls that best suit the system, network, or application, based on the assessment results, the compliance requirements, and the security objectives. the selection should also consider the cost, complexity, and feasibility of the security controls, and the potential impact on the functionality and performance of the system, network, or application. the selection should result in a security plan and a security policy that can guide the implementation and management of the security controls. 3. implementation: the third step of the control implementation process is to implement the security controls that have been selected, according to the security plan and the security policy. the implementation should follow the best practices and standards that apply to security controls, and the system, network, or application. the implementation should also involve testing, verification, and validation of the security controls, to ensure that they are working as intended and meeting the security objectives. 4. evaluation: the fourth step of the control implementation process is to evaluate the effectiveness and efficiency of the security controls implemented, based on the security objectives and the compliance requirements. the evaluation should also involve measuring, monitoring, and reporting on the security performance and the security incidents that occur on the system, network, or application. the evaluation should result in a security review and a security audit, which can provide feedback and improvement suggestions for the security controls. 5. maintenance: the fifth and final step of the control implementation process is to maintain the security controls that have been implemented, according to the security policy and security review. the maintenance should also involve updating, upgrading, and patching the security controls, to address the changes, issues, or vulnerabilities that may arise on the system, network, or application. maintenance should include that of devices and systems interacting with security controls. it should also include continues training, awareness, and education of users to ensure they comply with security policy and best practices.
+
+
+configuration compliance is the state of alignment between the actual configuration of the system or network and the approved configuration baseline. configuration management is the process of identifying, tracking, controlling, and auditing the configuration items of the system or network, such as hardware, software, data, documentation. 
+
+
+configuration management helps to maintain configuration compliance by ensuring that the configuration its are consistent, accurate, and complete, and that any changes to them are authorized, documented, and communicated. configuration management can be done using tools, techniques, and procedures that support the following activities: configuration identification: defining and labeling the configuration items and their attributes, such as name, version, status, and dependencies. configuration control: establishing and enforcing the rules and processes for requesting, approving, implementing, and verifying changes to the configuration items. configuration status accounting: recording and reporting the current and historical information about the configuration items and their changes, such as date, time, author, reason, and impact. configuration audit: comparing and verifying the actual configuration of the system or network with the approved configuration baseline and identifying and resolving any discrepancies or deviations. 
+
+
+when implementing controls, it is important to maintain configuration control and change management policies and procedures for all systems. these policies and procedures will reduce complexity and provide consistency to the management and monitoring of the enterprise architecture, individual systems, environment of operation, and information assets. these practices enable organizations to adapt more effectively to evolving business needs and technological advancements while maintaining security and compliance.
+
+
+the purpose of configuration control is to maintain consistency and integrity within configuration items by establishing a standardized process for requesting, approving, implementing, and verifying changes. while recording and reporting historical information, comparing configurations, and identifying discrepancies are important aspect of configuration control, they serve to support the primary goal of ensuring the stability and reliability of configuration items through controlled change management processes.
+
+
+-------------
+
+
+
+
+Implementing Compensating or Alternate Security Controls
+
+
+
+compensating or alternate security controls are security measures implemented when the recommended or baseline security controls are not feasible, cost effective, or compatible with the system or environment. compensating or alternate security controls provide equivalent or comparable protection to the baseline security controls, but they may differ in terms of functionality, implementation, or assurance level.
+
+
+compensating or alternate security controls are also known as compensatory, alternative, or substitute controls. for example, if an organization cannot implement a particular security measure due to technical limitations or other constraints, it might implement a compensating control that achieves the same secu4rity objective in a different way. by doing so, the organization reduces the risk associate with the original vulnerability to an acceptable level.
+
+
+compensating or alternate security controls are needed for various reasons, such as: technical limitations: the system or environment may not support the baseline security controls due to hardware, software, or network constraints. operational requirements: the system or environment may have specific operational needs that conflict with the baseline security controls, such as performance, availability, or usability. business constraints: the system or environment may have budgetary, legal, regulatory, or contractual limitations that prevent the implementation of the baseline security controls. risk acceptance: the system or environment may have a low risk level or a high risk tolerance that justify the use of less stringent or more flexible security controls.
+
+
+compensating or alternate security controls can vary depending on the system or environment, the baseline security controls, and the security objectives. 
+
+
+some example of compensating or alternate security controls are: encryption: if the baseline security control is to physically secure the storage media, a compensating or alternate security control could be to encrypt the data on the storage media. segmentation: if the baseline security control is to isolate the system or environment from the network, a compensating or alternate security control could be to segment the network and apply firewall rules to restrict access to the system or environment. authentication: if the baseline security control is to use multifactor authentication, a compensating or alternate security control could be strong passwords and enforcement of password policies. audit: if the baseline security control is to implement access control mechanisms, a compensating or alternate security control could be to audit and log the access activities and review them regularly. training: if the baseline security control is to install antivirus software, a compensating or alternated security control could be to train users on how to avoid malware infections and report suspicious incidents. 
+
+
+compensating or alternate security controls are implemented through a systematic process that involves the following steps: 1. identify the baseline security controls that are not feasible, cost effective, or compatible with the system or environment. 2. analyze the security objectives, risks, and impacts of now implementing the baseline security controls. 3. select the compensating or alternate security controls that provide equivalent or comparable protecting to the baseline security controls. 4. document the rationale, justification, and approval for using compensating or alternate security controls. 5. implement, test, monitor, and evaluate the effectiveness of the compensating or alternate security controls. 6. review and update the compensating or alternate security controls as needed. 
+
+
+compensating security controls provide additional capabilities to mitigate risk and decrease the likelihood and impact of potential incidents. they create an alternate option when the recommended and selected controls may not be available or do not meet the specified requirements within the security plan for implementation. compensating controls are generally considered controls replacing the originals. in some cases, a supplemental control may be available to avoid fully replacing the selected control but to enhance risk mitigation and meet baseline requirements within the security plan. these supplemental controls are layered with the selected controls.
+
+
+the baseline security control for strong authentication is multifactor authentication (MFA), which requires users to provide two or more authentication factors to verify their identity. while strong passwords and password policies contribute to overall security, they do not inherently provide strong authentication on their own. similarly, access control mechanism are essential for security but do not specifically address the requirement of strong authentication.
+
+
+
+----------------
+
+
+
+
+Documenting Residual Security Risk or Planned Implementations
+
+
+residual security risk is what remains after implementing security controls and mitigating actions.
+
+
+it is inevitable that some residual risk will always exist, as no system or organization can be completely secure. however, residual risk should be identified, assessed, treated, and documented, so that it can be monitored and managed effectively. planned implementations are the security controls or actions planned to be implemented in the future but have to be completed or verified. they may be part of a security plan, a project plan, or a remediation plan. planned implementations should also be documented, so that they can be tracked and reported on.
+
+
+a Plan of Action and Milestones (POA&M) typically includes the following information for each issue or weakness: description: this is a summary of the issue or weakness, and its impact on security. source: this is the source of the issue or weakness, such as an audit, an assessment, or a test. responsible party: this is the person or team responsible for implementing the action. estimated completion date: this is the date by which the action is expected to be finished. status: this is the status of the action, such as not started, in progress, completed, or verified. residual risk: this is the level of risk that remains after the action is completed, such as low, medium, or high.
+
+
+a POA&M is a useful tool for documenting planned implementations, as it helps to track the progress and completion of security actions, and to measure the reduction of risk. a POA&M should be updated regularly and reviewed by the security manager or the senior management. 
+
+
+a risk register is a document listing the risks identified in a system or organization and the controls or actions that have been implemented or planned to mitigate them. it serves as a central repository for all risk related information, documenting the details of each identified risk, including its nature, the likelihood of occurrence, the impact it would have on the organization or project, and the measures that are in place or planned to mitigate or manage the risk. a risk register typically includes the following information for each risk: description: this is a summary of the risk, and its source and cause. impact: this is the potential impact of the risk on the system or organization, such as financial, operational, reputational, or legal. likelihood: this is the probability of the risk occurring, such as rare, unlikely, possible, likely, or almost certain. risk level: this is the combination of impact and likelihood, such as low, medium, or high. controls: theses are the existing controls in place to prevent or reduce the risk, such as policies, procedures, or technologies. actions: these are additional controls or actions to be implemented to further mitigate the risk, such as training, monitoring, or testing. owner: this is the person or team that is responsible for managing the risk.
+
+
+a risk register is a useful tool for documenting residual security risk, as it helps to identify, assess, and prioritize the risks, and to monitor and manage controls and actions. a risk register should be updated regularly and reviewed by the risk manager or the senior management. 
+
+
+documenting residual security risk or planned implementation is an important part of security management, as it ensures that security issues and actions are addressed in a timely and effective manner, and that the security posture of the system or organization is improved. this document identifies the risks that persist and need continuous monitoring or further action. it ensures that all levels of the organization are informed about the existing risks and the steps necessary to mitigate them, facilitating better coordination and prioritization of security efforts. the POA&M and risk register tools can facilitate this process by providing a structured and consistent way of organizing, prioritizing, and communicating security information.
+
+
+-----------------
+
+
+
+Documenting Implemented Controls Consistent with the Organizations Purpose, Scope, and Risk Profile
+
+
+
+implemented controls are the actions, activities, or mechanisms that an organization uses to manage its risks and achieve its objectives
+
+
+implemented controls can be preventative, detective, or corrective, and can be applied at different levels of the organization, such as strategic, operational, or tactical. implemented controls can also be classified as technical, administrative, or physical, depending on the nature and source of the control. 
+
+
+documenting implemented controls involves describing the following key elements: the control objective: this is the specific risk or outcome that the control is intended to address or achieve. the control type: this is the category or classification of the control, such as preventative, detective, corrective, technical, administrative, or physical. the control level: this is the organizational level or layer where the control is applied, such as strategic, operational, or tactical. the control owner: this is the person or entity with the authority and accountability for the design, implementation, and maintenance of the control. the control operator: this is the person or entity performing the control activities or tasks on a regular or ad hoc basis. the control activities or tasks: these are the specific actions or mechanisms that constitute the control, such as policies, procedures, processes, systems, tools, devices, or personnel. the control frequency: this is the time interval or occurrence rate at which the control activities or tasks are performed, such as daily, weekly, monthly, quarterly, annually, or as needed. the control evidence: this is the documentation or records that demonstrate the performance and results of the control activities or tasks, such as logs, reports, audits, reviews, or tests. the control performance indicators: these are the metrics or measures that evaluate the effectiveness and efficiency of the control, such as compliance rate, error rate, cost, time, or quality. the control improvement actions: these are the recommendations or plans to enhance or modify the control, based on the feedback or findings from the control monitoring or evaluation. 
+
+
+
+to ensure that the documentation of implemented controls is consistent with the organizations purpose, scope, and risk profile, the following steps are recommended: 1. identify the organizations purpose scope, and risk profile. the purpose is the reason for the existence and operation of the organizations, the scope is the range and extent of the organizations activities and outputs, and the risk profile is the summary and analysis of the organizations risks and opportunities. 2. identify the organizations policies, procedures, and strategic plans. the policies are the principles and rules that guide the organizations decisions and actions, the procedures are the methods and steps that implement the policies, and the strategic plans are the long term goals and objectives that direct the organizations future. 3. identify the implemented controls supporting the organizations risks and opportunities and contribute to the achievement of the organizations goals and objectives. 4. document the implemented controls using the key elements described above. the documentation should provide clear and complete description of the implemented controls and should highlight how they align with the organizations purpose, scope, and risk profile. 5. periodically review and update the documentation of implemented controls. the documentation should be reviewed and updated regularly, or whenever there are significant changes in the organizations purpose, scope, risk profile, policies, procedures, or strategic plans. 
+
+
+documenting implemented controls is an essential part of the risk management process, as it provides evidence of the effectiveness and efficiency of the controls, as well as their alignment with the organizations purpose, scope, and risk profile. documenting implemented controls also helps communicate the roles and responsibilities of the control owners and operators and facilitate the monitoring, evaluation, and improvement of the controls. documenting implemented controls can also support the organizations compliance with internal and external requirements, such as policies, procedures, standards, laws, and regulations.
+
