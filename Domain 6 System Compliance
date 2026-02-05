@@ -1,0 +1,323 @@
+ISC2 Domain 6 Clip Notes
+
+
+
+security and privacy documentation for the system is vital to assessing and determining risk
+
+
+the security and privacy plans are the basis for establishing the requirements, categorization of data, controls, and procedures that will protect the system and its data. 
+
+
+planning documents define the security and privacy objectives, scope, boundaries, roles, responsibilities, and controls for the system. implementation documents describe how the security and privacy controls are implemented, tested, monitored, and maintained for the system
+
+
+within the NIST 800-37 risk management framework (RMF), the system security and privacy plan (SSP) is used as both the planning and implementation documentation
+
+this document is used to plan and implement security and privacy controls; then, it is updates with the procedures and guidelines used to verify implementation. ISO 270001 has a similar document containing the requirement for the statement of applicability (SoA). these documents are key to evaluating system compliance. there are both similarities and differences in the system compliance authorization process between ISO 27001 and NIST 800-37. the following table provides a summary of the scope, approach, documents, roles, and benefits of each
+
+
+ISO 27001: scope; covers the entire ISMS of the organization, which may include multiple information systems and processes. focuses on certification, offering a formal recognition of compliance. approach; based on the plan, do, check, act (PDCA) cycle, which is a continuous improvement model. takes a broader approach to information security management, requiring organizations to identify and treat risks in line with their own context and objectives. documents; requires eight types of documents for the ISMS, which are mainly focused on the risk assessment and treatment process and the security controls selection and implementation. roles; involves the top management, the ISMS team, and internal auditors, and the external certification body. benefits; provides a comprehensive and holistic framework for managing the security and privacy of the organizations information assets and demonstrates the organizations commitment and compliance to the international standard. catered to organizations seeking a broad and flexible information security management system. 
+
+NIST SP 800-37: scope; covers a single information system or a group of interconnected information systems within the organization. focuses on compliance within the context of U.S. federal requirements without a certification process. approach; based on the risk management framework (RMF), which is a risk management model. provides a step by step risk management framework more closely tier to the system development process. documents; requires seven types of documents for the RMF, which are mainly focused on the security and privacy control assessment and authorization process and the continuous monitoring strategy. roles; involves the system owner, the system security officer, the security and privacy control assessor, and the authorizing official. benefits; provides a structured and consistent framework for managing the security and privacy risk of the organizations information systems and supports the organizations decision making and accountability to the federal guidelines. catered to organizations seeking a structured, technology focused framework
+
+
+------------------
+
+
+
+
+Types of System Compliance Documentation
+
+
+regardless of which framework the organization uses, the documentation provided must include the level of detail necessary for a thorough review and analysis of how security and privacy controls align with the organizations risk management strategy and risk appetite
+
+
+if the controls are not found to be satisfactory, the authorization package must have a plan of action and milestones (POA&M) document with a timeline for corrective and preventative activities for treatment of risk
+
+
+some common types of system compliance documentation are: 
+
+system security plan: this document describes the systems security objectives, controls, and procedures
+
+system configuration guide: this document provides instructions on how to configure the systems hardware, software, and network settings
+
+system test plan: this document outlines the testing methods, criteria, and results for verifying the systems functionality and compliance
+
+system audit report: this document summarizes the findings and recommendations of an audit conducted on the system
+
+system risk assessment: this document identifies and evaluates the potential threats and vulnerabilities that may affect the system
+
+system contingency plan: this document defines the actions and resources needed to restore the systems operations in case of a disruption or disaster
+
+system registry: this document provides an inventory of all systems within the enterprise architecture and a documented level of system compliance for these systems
+
+compliance certification documents: independently evaluated and meets the requirements of a specific standard (e.g. ISO 27001, SOC 2). when a system undergoes certification against a specific standard, the resulting certification documents serve as proof of compliance.
+
+plan of action and milestones (POA&M): this document outline the action plan for addressing any deficiencies in the systems security posture identified during security assessments or audits. it includes details about the vulnerability, proposed remedial actions, responsible individuals, and timelines for resolution. it is a dynamic document that track gross toward mitigating identified risks. 
+
+training records: these documents describe security and compliance training programs and log the participation of employees. training records demonstrate that staff are aware of and understand their roles and responsibilities in maintaining system security and compliance
+
+incident response and breach notification records: these documents outline how security incidents and data breaches are handled and reported for the system, including incident response plans, reports of incident investigations, and records of any breach notification sent to affected parties or regulatory bodies. these records are essential for compliance with regulations that require incident reporting and management
+
+
+------------------
+
+
+
+
+System Risk Acceptance Criteria
+
+
+
+reviewing the system security posture requires and understanding of the system risk acceptance criteria. the system risk acceptance criteria provide the acceptable level of risk to the organization
+
+
+the risk acceptance criteria are tied directly to the organizational risk management strategy and the organizations defined risk appetite. reviewing a system for compliance within the risk acceptance criteria includes analyzing the likelihood and impact of risk events on the system and information. this risk can be evaluated utilizing qualitative and quantitative risk analysis methods
+
+each security and privacy control may have a different risk acceptance criterion. a GRC professional determines the acceptable level of risk by comparing it to the organizational risk tolerance. this tolerance has different context, objectives, and requirements depending on how the system and information are categorized
+
+
+NIST 800-37 and ISO 27001 provide guidance to risk management but have different approaches to measuring risk
+
+ISO utilizes a systematic approach within the information security and management system (ISMS) to ensure protection of information assets. 
+
+NIST 800-37 uses the authorization phase of the risk management framework (RMF) to assess and analyze risk based on the authorization package submitted by the system owner. this authorization package is analyzed against risk assessment documentation and the organizational risk management strategy.
+
+
+within both ISO and NIST, risk analysis and risk acceptance criteria are handled with the following steps: identify system risk sources, events, scenarios, and factors that can affect the system and its objective. analyses system risk in terms of the likelihood and impact of system risk events and the effectiveness and efficiency of system risk controls. evaluate system risk and compare it with the system risk acceptance criteria to determine the risk level and need for treatment. treat system risk by selecting and implementing appropriate system risk controls to mitigate, avoid, transfer, or accept system risk. monitor and review system risk and system risk controls regularly to ensure their adequacy, relevancy, suitability, and performance in the face of evolving threats, technological advancement and changing business environments. communicate and consult with relevant stakeholders throughout the system risk management process to ensure their awareness, involvement, and support.
+
+
+---------------
+
+
+
+
+Risk Treatment According to Risk Acceptance Criteria
+
+
+the level of risk determined by the organization will guide the system risk acceptance criteria and the handling of each risk individually
+
+
+from these criteria, a risk treatment will be applied. these treatments are the following:
+
+accept: accepting risk means acknowledging the existence of the risk and its potential consequences without taking any action to reduce or eliminate it. this type of risk treatment is suitable when the risk is low, the cost of treatment is high, or the benefits of taking the risk outweigh the costs. for example, a company may accept the risk of losing some customers due to a new product launch of the overall expected profit from the new product is higher than the potential loss.
+
+avoid: avoiding risk means eliminating the source of the risk or changing the plan or activity that causes the risk. this type of risk treatment is suitable when the risk is high, the cost of treatment is high, or the benefits of taking the risk are negligible. for example, a company may avoid the risk of a lawsuit by complying with the relevant laws and regulations or by canceling a project that violates them
+
+transfer: transferring risk means shifting the responsibility or burden of the risk to another party, such as an insurer, contractor, or partner. this type of risk treatment is suitable when the risk is moderate, the cost of treatment is affordable, or the benefits of taking the risk are shared. for example, a company may transfer the risk of damage to its property by purchasing insurance or transfer the risk of delays in a project by outsourcing some tasks to a third part. 
+
+mitigate: mitigating risk means reducing the likelihood or impact of the risk by implementing some actions or controls. this type of risk is high, the cost of treatment is reasonable, or the benefits of reducing the risk are outweighed by the potential losses. for example, a company may mitigate the risk of cyberattacks by installing antivirus software encrypting data, or training its employees on security practices.
+
+
+risk assessment: low; accept risk. acknowledge the existence of the risk without taking action. moderate; transfer the risk. shift the burden or responsibility of the risk to another party. high; avoid the risk. eliminate the source of the risk or change the plan to avoid it. mitigate the risk; implement actions or controls to reduce the likelihood or impact
+
+
+once a GRC professional has applied a risk treatment, they will evaluate for any residual risk, which is the risk that remains after applying the risk treatment. if the residual risk is below the organizations risk tolerance level, then that residual risk is accepted based on its level of likelihood and impact
+
+
+-----------------
+
+
+
+
+Residual Risk Determination
+
+
+
+to determine the compliance of a system and the level to which the information is protected, the implemented security and privacy controls should have verified and validated evidence.
+
+
+the security and privacy plans, along with implementation guidelines and procedures, provide a level of verification and validation. when going through a structured risk management framework, the security and privacy assessments will provide documentation that verifies the requirements. assessments also validate that the controls sufficiently and appropriately address the risk and compliance. during system compliance evaluation, the security and privacy assessments will be analyzed against the organizational and system risk assessments. this analysis will review the evidence that validates the controls against compliance to the organizations risk management strategy. the validated control will then determine the residual risk and the level of likelihood and impact that remains to the organization
+
+
+task 1: test and verify controls
+
+task 2: analyze residual likelihood and impact
+
+task 3: compare residual risk with stakeholder risk tolerance
+
+task 4: create risk acceptance decision
+
+task 5: document and communicate residual risk
+
+
+evaluating the residual risk of the system is crucial for determining the system risk acceptance and monitoring.
+
+
+system risk acceptance is the process of deciding whether to accept, reject, or transfer the residual risk based on the risk tolerance and appetite of the system stakeholders. system risk monitoring is the process of measuring and reporting the performance and status of the controls and the changes in the system risk posture
+
+
+to evaluate the residual risk of the system, the GRC professional should perform the following activities: test and verify the implementation and operation of the controls. analyze the residual likelihood and residual imp[act of the threats on the system assets, operations, and stakeholders. compare the residual risk with the risk tolerance and appetite of the system stakeholders. decide whether to accept, avoid, or transfer the residual risk. document and communicate the residual risk and the risk acceptance decision
+
+
+the alignment of organizational risk tolerance toward the risk treatment and residual risk becomes the basis with which to determine system compliance. once all risk to the system and information has been handled within the parameters of the organizational risk management strategy, the system can be authorized to operate and move to production. this determination should be documented and communicated within the system registry, which provides an inventory of all systems and their statuses in the enterprise architecture
+
+
+----------------
+
+
+
+
+Stakeholder Concurrence for Risk Treatment Options
+
+
+
+stakeholder concurrence is the level of agreement and alignment that stakeholders of the system have on the objectives, requirements, and risks of the system.
+
+
+these stakeholders include individuals and groups that influence the system and the information on that system (e.g. users, data owners, system owners, developers, managers). stakeholders can also include the customers and regulators who interact with and enforce regulatory compliance, respectively
+
+maintaining and understand the perspective of these stakeholders provides accuracy in the level of risk associated with systems. understanding the risks associated with these stakeholders ensures system compliance is acceptable and manageable to these risks
+
+
+this involves obtaining agreement from all relevant stakeholder on the chosen methods to address identified risks, ensuring that risk treatment plans are not only technically sound but also aligned with organizational objectives, stakeholder expectations, and available resources. stakeholders have influence on the risk treatment as well. here are some ways that stakeholder concurrence may influence risk treatment:
+
+stakeholder concurrence helps identify and prioritize the risks that must be treated based on the potential impact of the risk to the organization. stakeholder concurrence helps select and implement the most appropriate and feasible risk treatment options based on the stakeholders input and feedback. stakeholder concurrence helps monitor and evaluate the effectiveness and outcomes of the risk treatment options based on the stakeholders expectations and satisfaction.
+
+its important to consider the various stakeholder and their influence on system risk and compliance. customers, as external stakeholders, can also influence the organizational strategy toward risk. regulators and auditors who influence penalties and fines also influence the treatment of risk by the organization. the organizational risk management strategy and risk tolerance is the primary guide for treatment of risk and overall system compliance. once the risk treatment of the system and information on the system are determined to be compliant and acceptable within the organizations risk tolerance and appetite, that system can be authorized to operate in production.
+
+
+1. define risk appetite
+
+2. establish risk criteria
+
+3. identify stakeholder roles
+
+4. allocate resources
+
+5. set guiding principles
+
+6. stakeholder concurrence
+
+7. risk management strategy implementation
+
+8. compliance and authorization
+
+
+----------------
+
+
+
+
+Risk Documentation Elements to Define Residual Risk
+
+
+
+residual risk is important in risk management because it reflects the actual level of risk exposure an organization faces even after taking actions to address the risk
+
+
+risk documentation should include the following elements to define residual risk: 
+
+risk identification and analysis describes the sources, causes, and consequences of the risk, its likelihood, and its impact. the risk treatment outlines the implemented risk controls, mitigation strategies, or plans to reduce the risk. the residual risk rating assigns a value to the residual risk based on its likelihood and impact after treatment. the residual risk acceptance states whether the residual risk is within the risk appetite or tolerance of the organization or further treatment is required. the residual risk monitoring and review specifies how the residual risk will be tracked, measures, and reported over time, and how the risk treatment will be evaluated for its effectiveness and efficiency. 
+
+residual risk helps determine whether the treatment is adequate or that additional measures are needed to further reduce the risk. understanding residual risk will also help GRC professionals make decisions, allocate resources, and communicate the risk status and performance to stakeholders. residual risk can indicate the potential opportunities or benefits that may arise from accepting a certain level of risk. once the residual risk has been addressed and determined to be at an acceptable risk tolerance level within the organizations risk appetite, the risk determination should be formally documented and communicated as part of the system compliance documentation.
+
+
+-----------------
+
+
+
+
+Formal Notification of Compliance Decision
+
+
+
+creating and maintain system compliance documentation is a continuous and collaborative process that involves system administrators, auditors, regulators, customers, and other stakeholders
+
+
+system compliance documentation provides formal guidance to the handling of risk within the system and information
+
+system authorization is the formal notification and approval of a systems compliance status by and authorized official to the system owner. system authorization can also be called accreditation, certification, or validation. system authorization can provide assurance that a system is operating within acceptable boundaries of the organizations risk tolerance, supporting the organizations mission
+
+
+
+NIST and ISO have requirements to document system compliance. NIST 800-37 defines four types of authorization decisions that can be made by an authorizing official: authorize; the system is authorized to operate with an acceptable level of risk. authorize with conditions; the system is authorized to operate with a specified set of conditions or limitations that must be addressed or mitigated. deny; the system is not authorized to operate due to unacceptable risks or deficiencies. revoke; the systems authorization is withdrawn due to a significant change in the system or environment. 
+
+
+ISO 270001 specifies the requirements and best practices for establishing, implementing, maintaining, and improving an ISMS. ISO 270001 can help organizations protect their information assets, comply with legal and regulatory obligations, and enhance their reputation trust. the authorization and determination of system compliance is governed within the ISMS requirements for continuous monitoring of systems. 
+
+
+system compliance documentation can differentiate risks identified during assessments or audits in each context. documentation of system compliance should answer the following questions: what are the types of system compliance documentation? what are the type of risks that can be identified during assessments or audits? how can system compliance documentation help differentiate risks in each context? what are the best practices for creating and maintaining system compliance documentation?
+
+
+system compliance documentation can vary depending on the types and scope of the regulation, policy, or framework with which the system needs to comply. however, some common types of system compliance documentation are: system security plan, system configuration guide, system test plan, system audit report, system risk assessment, system contingency plan, system registry, compliance certification documents, plan of action and milestones (POA&M), training records, incident response and breach notification records.
+
+many of these documents are created and updated throughout a risk management framework process and used during final analysis of risk for system compliance
+
+
+----------------
+
+
+
+Formal Notification Shared with Stakeholders
+
+
+
+formal notification ensures the system complies with relevant standards and regulations and communicates its compliance status to relevant authorities and stakeholders
+
+
+once the formal documentation is complete and the system compliance decision is determined, GRC professional must formally notify stakeholders regarding system compliance, significant updates, or critical decisions. this ensures all relevant parties are continually informed about the status, changes, or decisions that may impact the operation, security, or compliance of a system or organization. system compliance is essential for maintaining the security, reliability, and performance of the system and protecting the data and privacy of users and stakeholders. therefore, these stakeholders should be informed of any new systems authorized to operate within the organization
+
+
+ISO 270001 and NIST 800-37 require formal notification of the system compliance status to the relevant stakeholders, such as the system owners, managers, auditors, regulators, and customers
+
+
+an organization that implements an ISMS can obtain an ISO 270001 certification, which demonstrates that the organization has met the requirements of the standard and established a continuous improvement process. the certification process involves an external audit by and accredited certification body, which verifies the conformity and effectiveness of the ISMS
+
+
+the formal notification criteria for system compliance within ISO 270001 are as follows: the organization must inform the certification body of any signification changes or events that may affect the ISMS, such as changes in the scope, objects, processes, risks, incidents, or legal obligations. the organization must provide the certification body with access to the ISMS documentation, records, and evidence, as well as the personnel and facilities involved in the ISMS, for purpose of conducting surveillance audits and recertification audits. the organization must communicate the results of the audits, including any nonconformities, corrective actions, and opportunities for improvement, to the relevant stakeholders, such as top management, the ISMS team, and the interested parties. the organization must display the ISO 270001 certificate and logo in a truthful and accurate manner and must not imply that the certification applies to activities or locations outside the scope of the ISMS. 
+
+the formal notification criteria for system compliance within NIST 800-37 are as follows: the system owner must inform the authorizing official and the security team of any changes or events that may affect the systems security and risk posture, such as changes in functionality, architecture, environment, threats, vulnerabilities, or incidents. the system owner must provide the authorizing official and the security documentation, records, and evidence, as well as the system and the environment, for the purpose of conducting security assessments and audits. the system owner must communicate the results of the security assessments and audits, including any findings, recommendations, and remediation actions, to the relevant stakeholders, such as top management, system users, and oversight authorities. the system owner must transparently display the system authorization status and the implemented security control and must not imply that the system is authorized or compliant for activities or purposes that are outside the scope of the system and the information.
+
+
+formal notification is important and beneficial for maintaining consistency of system compliance throughout the organization and stakeholders
+
+
+---------------
+
+
+
+
+
+Residual Risks Defined in Formal Documentation
+
+
+
+residual risk is the risk remaining after treatment measures have been applied. it is important to understand that no risk can be eliminated completely. 
+
+
+the goal of risk treatment is to decrease the risk to the organization to an acceptable level, which is determined based on the organizations risk management strategy and risk appetite. 
+
+
+task 1: identifying residual risk
+
+task 2: analyzing residual risk
+
+task 3: evaluating residual risk
+
+task 4: treating residual risk
+
+task 5: documenting residual risk
+
+
+
+residual risks are defined and assessed by following a systematic and structured process of risk identification, analysis, evaluation, and treatment, as prescribed by various formal documentation and standards, such as ISO 270001, NIST 800-37, and others. these documents provide guidelines and frameworks for establishing the context, scope, objectives, criteria, and methods for managing residual risks. 
+
+below are some of the key steps and activities involved in defining and assessing residual risks: identifying the sources, causes, events, and consequences of residual risks. analyzing the likelihood and impact of residual risks using qualitative or quantitative methods. evaluating the residual risks against the risk criteria, such as risk appetite, tolerance, thresholds, or levels. treating the residual risks by selecting and implementing appropriate risk treatment options, such as acceptance, mitigation, transference, or avoidance. documenting and reporting the residual risks and their treatment, using risk registers, matrices, or reports. monitoring and reviewing the residual risks and their treatment, using indicators, audits, or reviews
+
+
+documentation is a key component of risk management as it provides evidence of the risk assessment process, the risk treatment decisions, and the residual risk evaluation. 
+
+documenting residual risk can also help to identify any gaps or weaknesses in the risk mitigation plan, and to resolve it accordingly. documentation includes many different types, such as risk registers, risk reports, risk matrices, risk profiles, or risk dashboards.
+
+
+a risk register is a comprehensive document that lists all the identified risks, their sources, causes, impacts, likelihood, and mitigation strategies. a risk register also assigns a risk owner and a risk rating to each risk. a risk rating is a numerical or qualitative measure of the risk level, based on the impact and likelihood of the risk. a risk register can be used to document residual risk by updating the risk rating after applying the mitigation strategies, and by indicating the status of the risk (e.g. open, closed, monitored). a risk register can help to track the progress and effectiveness of the risk mitigation plan and prioritize the risks that need more attention or resources
+
+a risk report is a summary document that highlights the key risks, their impacts, and their mitigation actions. a risk report can be used to document residual risk by providing a snapshot of the current risk situation and comparing it to the previous or expected risk situation. a risk report can help communicate residual risk to stakeholders and inform them of any changes or issues that affect the risk level. a risk report can also include recommendations or action items for improving the risk mitigation plan or reducing the residual risk. 
+
+a risk matrix is a graphical tool that plots the risks on a grid based on their impact and likelihood. a risk matrix can be used to document residual risk by showing the distribution and severity of the risks and using different colors or symbols to indicate the risk rating or status. a risk matrix can help in visualizing residual risk and identifying the risks that are most critical or urgent. a risk matrix can also facilitate the risk analysis and evaluation and the risk response planning.
+
+a risk profile is a graphical tool that shows the risk exposure of a project, program, or organization, based on the risk categories, sources, or impacts. a risk profile can be used to document residual risk by showing the proportion and composition of the risks and using different sizes or shapes to indicate the risk rating or status. a risk profile can help in understanding residual risk and comparing it to the risk appetite or tolerance. a risk profile can also support the risk identification and assessment and the risk allocation and transfer.
+
+a risk dashboard is a graphical tool that displays the key risk indicators, metrics, or trends, using charts, graphs, tables, or gauges. a risk dashboard can be used to document residual risk by showing the performance and progress of the risk management process and using different colors or signals to indicate the risk rating or status. a risk dashboard can help in monitoring residual risk and alerting stakeholders of any deviations or anomalies that affect the risk level. a risk dashboard can also enhance the risk reporting and communications and the risk control review.
+
