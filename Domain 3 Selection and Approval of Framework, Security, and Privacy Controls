@@ -1,0 +1,364 @@
+ISC2 Domain 3 clip nots
+
+
+
+mtbf meantime between failures 
+
+
+
+in cloud environments the data is replicated in several ways.
+
+
+
+PIPL personal information protection law
+
+
+synchronous (real time)
+
+asynchronous (scheduled intervals)
+
+
+
+
+
+the system owner is responsible for setting the maximum tolerable downtime (MTD) for a system
+
+
+
+since the security plans directly affect the protection of PII, it is often helpful to develop the Security Plan and Privacy Plan as a single consolidated entity
+
+
+
+
+NIST 800-160 identifies 30 principles for trustworthy secure design. many of these are well established practices used in a variety of disciplines. designing a system around these principles inevitably involves trade off in performance, operations, or support
+
+
+NIST 800-160 identifies 30 specific processes arranged in four process groups that are performed during the system life cycle to achieve trustworthy systems
+
+
+
+
+Technical Processes: business or mission analysis (BA), stakeholder needs and requirements definition (SN), system requirements definition (SR), system architecture definition (SA), design definition (DE), system analysis (SA), implementation (IP), integration (IN), verification (VE), transition (TR), validation (VA), operation (OP), maintenance (MA), disposal (DS)
+
+Technical Management Process: project planning (PL), project assessment control (PA), decision management (DM), risk management (RM), configuration management (CM), information management (IM), measurement (MS), quality assurance (QA)
+
+Organizational Project Enabling Process: life cycle model management (LC), infrastructure management (IM), portfolio management (PM), human resource management (HR), quality management (QM), knowledge management (KM)
+
+Agreement Process: acquisition (AQ), supply (SP)
+
+
+
+
+
+the vulnerability scanning processes should establish a baseline of vulnerabilities across the range of systems identified in the strategic scope. the initial results will be compared against organizational beelines to determine whether there is divergence in implementation from the documented configuration of the systems. these results should be logged, typically in a central repository, so the information they contain can be integrated into the agreed upon reporting process. the results of the assessment activities will be communicated to system owners in the manner agreed upon in the VM plan. this would typically identify the classification and the overall vulnerability classification of the system. summarized reporting based on the vulnerability classification scale would also be provided to the organizations senior leadership consistent with the performance metrics set for the program. 
+
+
+conducting scans in a shared responsibility environment will usually require additional controls and communication with the various entities involved in providing the service. with cloud provider, there may be contractual limits on the conduct of scanning activities. in many cases, the service provider does not allow external scans of their environment. this puts more responsibility on the customer to ensure the vulnerability program of the vendor is addressed in the contract through service level agreements and information sharing practices.
+
+
+when new systems are introduced into the environment, the vulnerability assessment tools, practices, and resources should be available to the development/deployment teams to ensure they know exactly how the system will be evaluated once deployed. many times, systems have been created in the development environment only to find that they fail to meet the current vulnerability standards in the production environment. the VM team needs to be informed of development activities early in the development cycle, ensuring that the appropriate controls are integrated into the Systems Security Plans and that unique vulnerability management requirements are identified. despite the expertise the VM brings to the development effort, it remains the responsibility of the system owner to ensure that newly deployed systems conform to the organizations VM program. 
+
+
+the following figure shows the components of a vulnerability management plan. pen testing, code review, code scanner, automated vulnerability scanner, vendor disclosure, online databases, other sources
+
+
+while organizational practices may differ, system owners are generally responsible for establishing remediation plans to address system vulnerabilities. in some cases, changes to common or hybrid controls may be necessary to compensate for an inability to remediate a systems vulnerabilities. the remediation plan should also include a timeline for each phase of the remediation process, detailing key milestones and deadlines. it is crucial to establish metrics for success to evaluate the effectiveness of the implemented remedies.
+
+
+many organizations vulnerability classification systems require reporting of vulnerabilities at a certain level beyond the system owner. the sensitive nature of these communications must also be respected. accurate reporting is essential to maintain trust in the vulnerability management program
+
+
+a vulnerability may be identified that cannot be exploited by a malicious actor. these "false positive" can skey the reporting of vulnerabilities, consuming effort to identify and document the error in the assessment tool, resulting in decreased confidence in the VM program as system owners expend resources addressing nonexistent problems
+
+
+similarly, the VM tools may not identify a weakness (e.g. a software logic flaw). these "false negatives" may be due to a configuration issue with the tool or other technical problem, or they may be due to a zero day weakness that is not known when the scan is performed. regardless, the weakness exists, and once discovered by a bad actor exploiting the weakness or by someone reading about it in the press, the VM scanning process is unfairly accused of failing to identify a weakness. the fault lies not with the scanning tool but with the VM programs failure to adequately account for the risk of "unknown unknowns"
+
+
+as with all processes, the VM program will benefit from continuous process improvement practices. based on the organizations VM strategy for continuous improvement, periodic reviews of the performance of the vulnerability scanning processes, remediation efforts and communication activities should be undertaken. changes to these programs should follow other data driven decision making practices embraced by the organization
+
+
+it is essential to communicate transparently with stakeholders about the programs success and failures, while carefully handling the sensitive nature of the programs information 
+
+
+------------
+
+
+
+
+common security controls might apply to all organizational information systems or specific groups of systems either at specific locations or that use common methods, subsystems, or infrastructures. these common controls may be used within a single baseline or shared across multiple controls baselines. these common security controls are often identified in the organizations information security plans or as part of its information architecture and are included in the common security controls after working with authorizing officials, information systems owners, information system security officers, and other stakeholders.
+
+
+these common security controls exhibit similar characteristics. the development, implementation, and assessment of common security controls can be assigned to specific responsible agency officials or organizational elements (other than the information system owners who systems will implement or use the common security controls), and the results from the assessment of the common security controls can be used to support the security authorization process for information systems where those controls have been applied
+
+
+many of the management and operational controls (e.g. contingency planning, incident response, security awareness and training, personnel security, and physical security) needed to protect an information system may be excellent candidates for common security control status. the objective is to reduce security costs by centrally managing the development, implementation, and assessment of the common security controls designated by the organization. subsequently, sharing the assessment results with the owners of information systems where those common security controls are applied reduces the effort needed to authorize additional systems that rely on that control.
+
+
+security controls not designat4ed as common controls are considered system specific controls, and it is the responsibility of the information system owner to implemented for their use. to prevent confusion, the organization should have clear architectural standards defining the common controls, so individual system security plans can identify which security controls have been designated as common security controls and which controls have been designated as system specific controls
+
+
+for efficiency in developing system security plans, common security controls should be documented once and then inserted or imported into each system security plan for the information system within the agency, and the common control owner should be listed in the security plan. other factors that effectively maximize the application of common controls in the system security planning process include the following: developing, documenting, and communicating specific guidance identifying common security controls to system and control owners, developers, project managers, and others responsible for systems development, operation, or maintenance. assigning responsibility to an appropriate individual for coordinating common security control identification and review, along with processes for designating and managing common controls. establishing clear organizational practices for the selection and use of common controls, minimizing exceptions to their use, and identifying the system security planning process, which includes the use of common controls. properly resourcing and maintaining the common controls, including identifying organization experts in the common control areas to provide expertise to the users of common controls.
+
+
+it is not unusual for a system to implement a system specific control and have subsequent system development efforts identify that control ass appropriate for the new system. in such cases, system owners should be consulted before the control is selected for use in the new system. if the control is determined to be applicable to the new system without degrading the operation of the existing system, then the control should be elevated to common control status and have a control owner assigned. all systems that rely on that control should have their systems security plans updated to reflect the new control. 
+
+
+an agency may also assign a hybrid status to security controls. in these situations, part of the control is deemed to be a common control, while another part of the control is deemed to be system specific. for example, an agency may view the Incident Response Policy and Procedures security control as a hybrid control. the policy portion of the control is deemed a common control, and the procedures portion is deemed system specific
+
+
+hybrid security controls may also serve as templates for further control refinement
+
+
+an agency may choose, for example, to implement its Contingency Plan security control as a master template for a generalized contingency plan for all agency information systems. individual systems owners are responsible for tailoring the plan, where appropriate, to meet system specific issues.
+
+
+assigned control owners are responsible for the development and implementation of the designated common security controls. they ensure that the required controls are assessed, and the assessment results are shared with the appropriate information systems owners. too often, organization designate common co9ntrols and then ignore their long term maintenance and support. for example, the domain name system (DNS) is a classic common control that virtually every TCP/IP network in the world uses. unfortunately, the adoption of secure DNSs by many organizations has lagged despite the well defined weaknesses of legacy DNS services. proper stewardship of those controls by a designated owner would, in many cases, speed up the adoption of more secure services.
+
+
+partitioning security controls into common security controls and system specific security controls can result in significant savings for the agency in control development and implementation costs.
+
+
+it can also result in a more consistent application of the security controls across the agency at large. moreover, equally significant savings can be realized in the security controls in every information system, the certification process draws on any applicable results from the most current assessment of the common security controls performed at the agency level. an agency wide approach to reuse and sharing of assessment results can greatly enhance the efficiency of the security certifications and accreditations being conducted by an agency and significantly reduce security program costs.
+
+
+
+----------------
+
+
+
+system specific controls are the information systems owners responsibility to identify, implement, assess, operate, and sustain. however, the responsibility for these activities may be unclear without delineation.
+
+
+an organizations common controls are designated to multiple systems. an individual is selected as the common control provider, responsible for the design, implementation, security assessment, operation, and maintenance of the control. depending on the control, the common provider may be responsible for deploying the control within the individual systems, but generally the system owner is responsible for integrating the common controls functions.
+
+
+a common control is a security control inherited by one or more organizational information systems. this might be the organizations information security policies, which all the organization uses.
+
+
+although many controls necessitate centralized coordination, the implementation of these controls is often the responsibility of the individual system owner
+
+
+these are hybrid controls. for example, identity and access management services are typically offered as hybrid controls. the IAM system owner designs the IAM environment, selecting the services to be offered and the tools to be used.
+
+
+a typical IAM deployment might include an X.500 compliant directory service, configured for sufficient redundancy and capacity to meet the projected needs of the organization. the IAM system owner defines the way that clients access the directory store, the hierarchical structure of the directory store, the data store schema, and the attributes to be populated. they are responsible for testing the directory service, deploying it in the production environment, monitoring the overall performance to ensure it meets specifications, and communicating the expected performance characteristics of the system with other system owners.
+
+
+the other system owners are then responsible for implementing the X.500 clients for their systems, populating the directory with the relevant identities. the system owner then tests the operation of their clients and identities with their system to ensure they are properly presented and that assigned privileges operate as expected. both the IAM system owner and individual system owner who relies on it have responsibilities to the control, and both are responsible for resourcing, maintaining, and operating their part of the control
+
+
+in short, the type of control - common, hybrid, or system specific - will determine who is responsible for the control
+
+
+
+
+-----------------
+
+
+
+
+all the decisions made during the initial control selection, tailoring, and supplementation processes will be formally documented to provide a record of the reasons specific controls were selected, expected performance metrics, and their intended use.
+
+
+the information is essential when the system owner is reviewing the overall security and privacy considerations for systems with respect to potential mission or business case impact. without comprehensive documentation of the reasons for the selection of controls, the understandings, assumptions, and rationale supporting those important risk decisions may not be available when the state of the systems or environments of operation change, and the original risk decisions are revisited.
+
+
+attention should be paid to the inheritable controls (common or hybrid) to ensure that the system portion of the control implementation statements is complete and addresses the selection controls/control enhancements
+
+
+the security and privacy plans prepared by the system owner provide an overview of the security and privacy requirements for the system and describe the controls in place or planned for to meet the security and privacy requirements
+
+
+alternately, organizations may develop a consolidated plan that incorporates security and privacy plans. this may simplify the preparation of the plans, auditing activities, or stakeholder review of the proposed system. 
+
+
+given the complex nature of most systems, it is vital that stakeholders understand the implications of the systems controls on the part of the system that affects their interests. depending on organizational practice, stakeholder agreement with plans, while desirable, may not be necessary or even possible. however, to not engage stakeholders appropriately is inexcusable, breaching the trust that exists between the stakeholders and system owner
+
+
+an independent review of the security and privacy plans by the authorizing official may require support from many parts of the organization
+
+
+depending on the system and organizational practice, the risk executive (function), with support from the senior accountable official for risk management or risk executive (function), CIO, CISO, or chief privacy officer can help determine whether plans are complete, consistent, and satisfy the states security and privacy requirements for the system. the security and privacy plan review also helps to determine whether the proposed controls are effective for their particular purpose. this may be an iterative process as changes may be required.
+
+
+once satisfied that recommended changes to the security and privacy plans are sufficient, the authorizing official approves the plan. by approving the security and privacy plans, the authorizing official agrees to the set of security and privacy controls (system specific, hybrid, or common) proposed to meet the security and privacy requirements for the system. this approval allows the risk management process to advance to the next step in the process, which is implementation
+
+
+
+---------------------
+
+
+
+
+align the classification and categorization with baseline controls.
+
+
+this process is straightforward. the system owner must determine the system classification and document the decision before selecting the controls baseline. this aligns the system with the organizations classification schema
+
+
+the organization will set its security baseline controls to align with the classification schema requirements. selecting the appropriate security baseline controls aligns the system classification with the security baseline controls.
+
+
+the process for selecting the categorization controls follows a similar course. the system owner has determined the categorization of the system based on the organizations categorization schema, documenting the decision properly.
+
+
+the controls must be evaluated to determine how they interact with the proposed system and whether, as defined in the controls catalog, they will meet the control objectives for the system. this requires well defined system requirements.
+
+
+systems engineering and requirements development: organizational security objectives, organizational security policy, system security policy/personnel security policy, configuration: definitions that determine the appropriate behavior for system elements to achieve the authorized and intended behaviors and outcomes. procedure: definitions that determine the appropriate behavior for personnel who use and sustain the system to achieve the authorized and intended behaviors and outcomes
+
+
+systems requirements are developed within the systems life cycle. they must be clearly identified at this stage to ensure the appropriate controls can be selected. systems engineering practices are effective at identifying system objectives, requirements, and measures of success. properly selecting controls requires that systems engineering practices have been followed
+
+
+systems engineering is a structured, top down process to deconstruct the high level organizational security objectives into organizational security policies
+
+
+these, in turn, will be refined into system security policies and human security policies, ultimately deconstructing these into system security requirements and procedures that define how the system is to be operated. 
+
+
+several standards, including ISO 15288:2023 Systems and Software Engineering System life cycle processes, and NIST 800-160, rev. 1, Engineering Trustworthy Secure Systems, describe process and give structure to the activities needed to respond to security requirements and create meaningful, measurable security controls
+
+
+systems security engineering practices are designed to create trustworthy systems. trust is the belief that an entity (e.g. a system) meets certain expectations and can be relied on. trustworthiness is the demonstration of that ability, and it relies on evidence that supports the claim that an entity is deserving of trust. however, not all trusted systems are trustworthy. the lack of demonstrated ability contributes to risk. as a system is created, requirements and artifacts demonastraq5ting the system meets expectations need to be defined, verified, and validated
+
+
+when a systems security functionality is assumed but not verified, it is often referred to as "veneer security". veneer security creates a false sense of assurance and increases risk due to the uncertainty of the performance of the security functionality. "compliance is a form of veneer security. while compliance may have an important role in judgments of trustworthiness, compliance based judgments - like other forms of veneer securities - do not suffice as the sole evidentiary bases for assurance and the associated judgments of trustworthiness"
+
+
+in short, trust, but verify is best practice
+
+
+
+----------------
+
+
+
+information security continuous monitoring architecture
+
+
+data collection, storage, analysis, and reporting processes form the architectural core of ongoing communication activities
+
+
+in addition, standards, baselines, protocols, and methods for the information shared must also be addressed. once defined, systems developed within the architecture can be more easily integrated into the reporting activities
+
+
+ISCM implementation follows in accordance with the strategy, consistent with the architecture. at the system level, all security control classes and types are monitored, and the information is fed into the analytic platforms for subsequent reporting. these activities are supplemented by monitoring by the Organizational and Mission/Business tiers for controls where the efficiency of collecting telemetry is greater when performed at a higher level.
+
+
+automation of the ISCM activities is essential to reduce the impact of monitoring on system performance and to make the monitoring more efficient. automation consistently improves monitoring reliability, as automated systems do not need breaks or vacations, not do they rely on human memory to log information
+
+
+however, this does not eliminate the need for trained staff who understand the architecture and keep it operating properly. they still need to know when the automation of the ISCM processes fail so they can reestablish the automated processes as quickly as possible
+
+
+once the ISCM program begins to collect data, that information should be properly analyzed and used to inform other activities. patch, vulnerability, availability, and capacity management processes are only a few of the myriad activities that will benefit from the data being collected by the ISCM architecture
+
+
+the reporting may occur in various ways, too. automated dashboards may be useful, but recurring reports, data feeds, and ad hoc, reporting tools may all find useful places in the reporting ecosystem
+
+
+validating the information is equally important. proper correlation of data sources must take place to ensure that the correct conclusions are drawn from the available information. in many cases, this requires analysis by knowledgeable and skilled professionals who understand the systems and can better provide the data methods to verify the integrity of the data stores.
+
+
+in r4eporting the findings, however, it is difficult to strike the right balance between too much and too little information. management will need to invest time and effort to fine tune processes that capture the appropriate level of detail to aid in making decisions across different level.
+
+
+regular communication must occur between the report generators and report consumers so that the information is used accurately and properly. in too many cases, the underlying data quality, timeliness, or volume is insufficient for the decisions made regarding that data
+
+
+the information presented to decision makers needs to reflect the risks and potential responses the organization could adopt. in many cases, the changed circumstance may be concerning, but the organization could choose to accept the risk presented. in other cases, mitigation or transference to another entity would be the appropriate response. regardless, the decisions need to be documented so that these can be tracked, and the appropriate controls modified, reports updated to provide more effective information, and individuals held accountable for their decisions
+
+
+it may take time to respond to the information presented through ISCM process, particularly as the issues are raised to the Business/Mission and Organizational tiers. the response may require the development of a corrective action plan that will identify the control changes required, the responsible party for making the changes, the timeline for implementation, and the reporting processes that will signal progress at completing the work. a Plan of Action and Milestones (POA&M) is commonly used to describe this process, although it may also be referred to as a Remediation Plan, Corrective Action Plan, or by similar terms.
+
+
+however, the ISCM system will not provide all the information necessary to make decisions. when that is possible, the response can likely be automated as well, coding the managements judgment into the automated response. Security Orchestration and Automated Response systems seek to do just that, creating playbooks for changes in KRIs and KPIs, which adjust con5trols in real time. however the reason management exists is to deal with the unknowns that present themselves
+
+
+general Colin Powell, former chairman of the U.S. Joint Chiefs of Staff and Secretary of State, developed the 40/70 rule for decision making. this rule advises that a decision should be made when one has between 40% and 70% of the necessary information. deciding with less than 40% information involves excessive speculation, while waiting for more than 70% can delay the decision too long, potentially rendering it ineffective in impacting outcomes
+
+
+information security continuous monitoring is not a linear process. rather, it is best characterized as an ecosystem, with overlapping parts and responsibilities. outcomes from the process are used to improve the process. each tier must establish continuous process improvement practices to use the actual results of their work to improve future efforts. this requires comprehensive documentation of the information provided, actions taken, and results achieved so that good decisions can be made to improve the effectiveness and efficiency of future actions
+
+
+organizational culture may often inhibit honest, genuine evaluation of program results
+
+
+people often fell that being judged for their actions is a negative process - that they will be held up to ridicule, be professionally harmed for honest mistakes and judgments, or second guessed by others. the ability of the organizations leadership to use the information honestly and fairly on program effectiveness is a clear indicator of organizational health.
+
+
+key considerations and actions involved in the implementation and operation of an information security continuous monitoring (ISCM) architecture include automating ISCM activities to reduce performance im-pact, maintaining trained staff to oversee automated processes, and analyzing collected data for informed decision making
+
+
+
+----------------
+
+
+
+
+Information Security Continuous Monitoring: Metrics
+
+
+once a strategy is in place, it is broken down to improve the specific actions that will be carried out
+
+
+key performance indicators (KPIs) and key risk indicators (KRIs) must be defined, based on the organizations risk tolerance. this information is used to inform managements decisions, so a clear understanding of the organizations strategic goals and preferred decision making methods can help identify meaningful metrics
+
+
+Key Performance Indicators (KPIs): measuring metrics require that the controls purpose be defined and that its designed performance is established prior to its implementation. also, the controls effectives must be quantifiable through objective methods, such as observation, sampling, or testing. finally, there must be a method or system to capture the results of the control performance, documenting the actual results, and providing a source of data for subsequent analysis must be implemented. in many cases, the method is integrated into the system itself - for example, its logging and monitoring functions. care must be taken to ensure that the performance information is removed from the system being monitored as quickly as possible to reduce the possibility the information will be manipulated by a bad actor and make the information available for analytic purposes without affecting the performance of the production system. most organizations will do this by establishing a logging platform of varying levels of sophistication (e.g. syslog, Security Event and Information Management (SEIM) platform, or a Security Orchestration and Automated Response (SOAR) environment. typical performance metrics include the following: system uptime: this is the amount of time a system is operational and available for use. it is usually expressed as a percentage of total possible operational time. this information would inform the organizational tier in revising hardware standards, improving business continuity planning, and shaping staffing plans. the same information would be useful at the system level to identify specific hardware or software failures. incident response: the number, impact, time to detect, and time to respond to incidents are all useful measures in determining how well the organization uses the metrics. this may shape planning at the Business/Mission tier by highlighting resource shortages or process bottlenecks. at the Organizational tier, this information may be helpful in determining whether the organization is meeting its compliance obligations. patch management: metrics showing how quickly and effectively the organization applies necessary patches or updates to its systems are useful at all levels. patch management is crucial for maintaining system security and functionality. by consistently monitoring these metrics, an organization can identify trends in its patching processes, spot potential vulnerabilities, and prioritize updates based on risk assessments. furthermore, effective patch management not only protects against known security threats but also ensures compliance with industry standards and regulations, which can help prevent costly penalties and enhance the organizations reputation for reliability and safety. change management efficiency: this measures how well the organization manages changes to its systems and processes. it can include metrics like the number of successful changes, number of failed changes, rollback performance, and time taken to implement changes. compliance rate: measures that identify whether the organization is achieving compliance with its statutory and regulatory obligations are of interest at the system level when a system manages functional data or is a system of record. it can include metrics like the percentage of systems that are compliant with specific standards, or the number of noncompliance issues identified. this information will be useful to the other tiers in shaping the policies and organizational strategies of compliance. user satisfaction: this measures how satisfied users are with the system or service. it can be measured through surveys or feedback forms. specific incidents of low user satisfaction will be useful at the system level to identify specific problems to be fixed, but changes to user satisfaction change over time can indicate to the Organization tier that there is a lack of resources or training, or poor leadership in the implementation of technology services. cost efficiency: measuring the financial efficiency of supporting the infrastructure might include metrics like the cost per incident, or the cost of maintaining the monitoring program compared with the cost of potential issues it prevents
+
+
+
+Key Risk Indicators (KRIs): while KPIs evaluate the actual performance of a system against expected performance, KRIs are predictive measures that would signal changes to the threat or vulnerabilities associated with its systems, business, or organization. like KPIs, KRIs should be specific, measurable risks relevant to organizational decision making. however, there should be key risks that signal the organization that action must be taken to address the change. this also suggests that fewer KRIs should be monitored, as too many indicators will compete with management for attention. a well established KRI should have an action plan associated with changes in the level of risk. and established response can be integrated into an organizations automation framework, trained as part of the organizations awareness activities, and resourced in advance. for example, most organizations have well established BC/DR plans. trigger events for the BC/DR invocation are typically identified for organizations 5to begin preparing for the pending disaster. an organization located in an area prone to hurricanes or cyclones might have KRIs for when the weather reports first indicate that a particular hurricane may strike the city where the organizations operations are located. this might trigger the relocation of a small group of key employees to staff up the organizations emergency operations center in a location out of the path of the weather event as part of the business continuity plan. additional KRIs would be established so that as the likelihood of the event increases or decreases, changes to the organizational repones would occur. KRIs are often based on events outside the organizations control. zero day threats, earthquakes, political unrest, or vendor failure are example of circumstances typically outside of organizational controls. while proper site location, supply chain management, and robust patch management are good practices, KRIs focus on those circumstances that suggest the increased likelihood of a risk materializing
+
+
+
+a key performance indicator (KPI) identifies how a system has worked, while a key risk indicator (KRI) evaluates changes in the environment. KRIs review environmental changes and, together with KPIs, are used by management to identify areas of change that might require controls adjustment. key management indicators, key history indicators, and key environment indicators are not recognized terms in the body of knowledge
+
+
+
+
+---------------
+
+
+
+
+
+Controls Tailoring and Scoping Guidance
+
+
+
+once clear security and privacy objectives are defined, the controls baseline can be applied to the requirements
+
+
+many common controls are likely to exist that address specific objectives. in other cases, the controls baseline may specify system specific controls that must be implemented to meet security or privacy requirements. regardless, the controls baseline is unlikely to perfectly align with the business needs of the system, and adjustments to the controls suite is necessary. this process is known as controls tailoring.
+
+
+using system specific controls may provide more granularity of control
+
+
+many organizations explicitly leave systems out of common controls in favor of system specific capabilities that may exceed the capabilities of the common controls. these decisions must be made on a case by case basis, but in general, organizations have found more value in using a common control architecture where possible. the decision to use system specific or common controls is often one of the major areas of friction in systems design, implementation, and operation
+
+
+scoping guidance should be developed for each control baseline to allow flexibility in the degree to which individual controls are implemented. this flexibility may be necessary to address specific risk, technology, infrastructure, and other considerations. in some cases, the control may be modified to change how it is implemented; in other cases, the control in the baseline may be completely inappropriate for the system, and another control must be identified to achieve the control objective. the tailoring activities conducted within the scoping guidance must be fully documented in the system security plan so that traceability between the selected controls, control objectives, and applicable control measures demonstrate the need for tailoring, and that the tailoring has the desired effect on the resulting system. the application of scoping guidance must be reviewed and approved by the authorizing official, and the tailored controls must be properly implemented and verified in the same manner as the unmodified controls from the controls baseline
+
+the distinction between scoping guidance and systems tailoring is often confusing. scoping guidance sets the range within which change can be made and still be compliant withy the system baseline. tailoring is the process of applying scoping guidance to a system and deriving a set of applicable control modifications. NIST 800-18 Guide for Developing Security Plans for Federal Information Systems identifies several specific considerations that would result in changes to the scoping guidance.
+
+
+Technology Related Considerations: security controls that refer to specific technologies (e.g. wireless, cryptography, public key infrastructure) will only be applicable if those technologies are employed or are required to be employed within the information system. security controls will only be applicable to those components of the information system that typically provide the security capability addressed by the minimum security requirements. security controls that can be either explicitly or implicitly supported by automated mechanisms will not require the development of such mechanisms if they do not already exist or are not readily available in commercial or government off the shelf products. in situations where automated mechanisms are not readily available or technically feasible, compensating security controls, implemented through nonautomated mechanisms or procedures, will be used to satisfy minimum security requirements. 
+
+
+Public Access Information Systems Related Considerations: security controls associated with public access information systems must be carefully considered and applied with discretion since some of the security controls from the specified security control baselines (e.g. personnel security controls, identification, and authentication controls) may not be applicable to users accessing information systems through public interfaces.
+
+
+Common Security Control Related Conditions: security controls designated by the agency, as common controls will, in most cases, be managed by an organizational entity other than the information system owner. every control in a security control baseline must be addressed either by the agency through common security controls or by the information system owner. decisions on common control designations must not , however, affect the agency's responsibility to provide the necessary security controls required to meet the minimum security requirements for the information system.
+
+
+Scalability Related Considerations: security controls will be scalable by the size and complexity of the agency implementing the controls and the impact level of the information system. scalability addresses the breadth and depth of security control implementation. discretion is needed to scale the security controls to the environment of use to ensure a cost effective, risk based security controls implementation approach
+
+
+Risk Related Considerations: security controls that uniquely support the confidentiality, integrity, or availability of security objectives can be downgraded to the corresponding control in a lower baseline (or appropriately modified or eliminated if not defined in a lower baseline) if, and only if, the downgrading action is consistent with the FIPS 199 security categorization for the corresponding security objectives of confidentiality, integrity, or availability before making to the high watermark; is supported by an agency's assessment of risk; and does not affect the security relevant information within the information system
+
+
+common controls often do not provide the functions that a system specific control might, allowing for more tailored and precise security measures. ease of implementation is generally an advantage of common controls as they have already been implemented and authorized. while common controls are already authorized when declared as such by the organization, system specific controls must go through the RMF process for each specific system, making simplified authorization less applicable to them. additionally, the shared nature of common controls generally makes them less expensive to operate and maintain comparted to system specific controls, but this is not the primary advantage of using system specific controls
